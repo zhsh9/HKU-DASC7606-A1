@@ -36,8 +36,35 @@ def calc_iou(a, b):
     return IoU
 
 class FocalLoss(nn.Module):
+    """
+    Focal Loss implementation for object detection.
+
+    Args:
+        None
+
+    Returns:
+        tuple: A tuple containing the mean classification loss and mean regression loss.
+
+    """
 
     def forward(self, classifications, regressions, anchors, annotations):
+        """
+        Forward pass of the RetinaNet loss function.
+
+        Args:
+            classifications (torch.Tensor): Tensor of shape (batch_size, num_anchors, num_classes)
+                containing the predicted class probabilities for each anchor.
+            regressions (torch.Tensor): Tensor of shape (batch_size, num_anchors, 4) containing
+                the predicted bounding box regressions for each anchor.
+            anchors (torch.Tensor): Tensor of shape (batch_size, num_anchors, 4) containing
+                the anchor boxes.
+            annotations (torch.Tensor): Tensor of shape (batch_size, num_annotations, 5) containing
+                the ground truth bounding box annotations.
+
+        Returns:
+            torch.Tensor: Mean classification loss over the batch, of shape (1,)
+            torch.Tensor: Mean regression loss over the batch, of shape (1,)
+        """
         alpha = 0.25
         gamma = 2.0
         batch_size = classifications.shape[0]
