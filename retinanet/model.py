@@ -204,8 +204,24 @@ class ResNet(nn.Module):
 
 # resnet18: [2, 2, 2, 2]
 # resnet34: [3, 4, 6, 3]
+# resnet50: [3, 4, 6, 3]
+# resnet101: [3, 4, 23, 3]
 # resnet152: [3, 8, 36, 3]
 ############################################
+    
+def resnet18(num_classes, pretrained=False, **kwargs):
+    model = ResNet(num_classes, BasicBlock, [2, 2, 2, 2], **kwargs)
+    if pretrained:
+        model.load_state_dict(model_zoo.load_url(model_urls['resnet18'], model_dir='.'), strict=False)
+    return model
+
+
+def resnet34(num_classes, pretrained=False, **kwargs):
+    model = ResNet(num_classes, BasicBlock, [3, 4, 6, 3], **kwargs)
+    if pretrained:
+        model.load_state_dict(model_zoo.load_url(model_urls['resnet34'], model_dir='.'), strict=False)
+    return model
+
 
 def resnet50(num_classes, pretrained=False, **kwargs):
     model = ResNet(num_classes, Bottleneck, [3, 4, 6, 3], **kwargs)
@@ -221,4 +237,9 @@ def resnet101(num_classes, pretrained=False, **kwargs):
     return model
 
 
+def resnet152(num_classes, pretrained=False, **kwargs):
+    model = ResNet(num_classes, Bottleneck, [3, 8, 36, 3], **kwargs)
+    if pretrained:
+        model.load_state_dict(model_zoo.load_url(model_urls['resnet152'], model_dir='.'), strict=False)
+    return model
 

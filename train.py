@@ -40,10 +40,16 @@ def main(args=None):
     dataloader_train = DataLoader(dataset_train, num_workers=2, collate_fn=collater, batch_sampler=sampler)
 
     # Create the model
-    if parser.depth == 50:
+    if parser.depth == 18:
+        retinanet = model.resnet18(num_classes=dataset_train.num_classes(), pretrained=True)
+    elif parser.depth == 34:
+        retinanet = model.resnet34(num_classes=dataset_train.num_classes(), pretrained=True)
+    elif parser.depth == 50:
         retinanet = model.resnet50(num_classes=dataset_train.num_classes(), pretrained=True)
     elif parser.depth == 101:
         retinanet = model.resnet101(num_classes=dataset_train.num_classes(), pretrained=True)
+    elif parser.depth == 152:
+        retinanet = model.resnet152(num_classes=dataset_train.num_classes(), pretrained=True)
     else:
         raise ValueError('Unsupported model depth')
 
