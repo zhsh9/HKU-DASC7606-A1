@@ -55,7 +55,7 @@ class ResNet(nn.Module):
         # TODO: Please substitute the "?" to declare Focal Loss
         ##################################################################
 
-        self.focalLoss = "?"
+        self.focalLoss = losses.FocalLoss()
 
         ##################################################################
 
@@ -65,13 +65,31 @@ class ResNet(nn.Module):
 
 
     def _make_layer(self, block, planes, blocks, stride=1):
+        """
+        Creates a layer of residual blocks.
+
+        Args:
+            block (nn.Module): The residual block to be used in the layer.
+            planes (int): The number of output channels for each block.
+            blocks (int): The number of blocks in the layer.
+            stride (int, optional): The stride value for the first block. Defaults to 1.
+
+        Returns:
+            nn.Sequential: The layer of residual blocks.
+        """
         ####################################################################
         # TODO: Please complete the downsample module
         # Hint: Use a "kernel_size=1"'s convolution layer to align the dimension
         #####################################################################
         downsample = nn.Sequential()
         if stride != 1 or self.inplanes != planes * block.expansion:
-            pass
+            # defines a downsample here, that first applies a 2D convolution with kernel size 1,
+            # a specific number of output planes, and then normalizes the output of the convolution.
+            downsample = nn.Sequential(
+                nn.Conv2d(self.inplanes, planes * block.expansion,
+                            kernel_size=1, stride=stride, bias=False),
+                nn.BatchNorm2d(planes * block.expansion),
+            )
 
         ##################################################################
 

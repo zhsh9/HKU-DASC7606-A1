@@ -3,12 +3,29 @@ import torch
 import torch.nn as nn
 
 def calc_iou(a, b):
+    """
+    Calculate the Intersection over Union (IoU) of two bounding boxes.
+
+    Parameters:
+    a (torch.Tensor): Tensor representing the coordinates of box a in the format [x1, y1, x2, y2].
+    b (torch.Tensor): Tensor representing the coordinates of box b in the format [x1, y1, x2, y2].
+
+    Returns:
+    torch.Tensor: Tensor representing the IoU between box a and box b.
+    """
     ###################################################################
     # TODO: Please modify and fill the codes below to calculate the iou of the two boxes a and b
     ###################################################################
     
-    intersection = 0.0
-    ua = 1.0
+    iw = torch.min(torch.unsqueeze(a[:, 2], dim=1), b[:, 2]) - torch.max(torch.unsqueeze(a[:, 0], 1), b[:, 0])
+    ih = torch.min(torch.unsqueeze(a[:, 3], dim=1), b[:, 3]) - torch.max(torch.unsqueeze(a[:, 1], 1), b[:, 1])
+    iw = torch.clamp(iw, min=0)
+    ih = torch.clamp(ih, min=0)
+
+    intersection = iw * ih
+    
+    area = (b[:, 2] - b[:, 0]) * (b[:, 3] - b[:, 1])
+    ua = torch.unsqueeze((a[:, 2] - a[:, 0]) * (a[:, 3] - a[:, 1]), dim=1) + area - iw * ih
 
     ##################################################################
 
@@ -108,9 +125,9 @@ class FocalLoss(nn.Module):
             # TODO: Please substitute the "?" to calculate Focal Loss
             ##################################################################
             
-            focal_weight = "?"
+            focal_weight = alpha_factor * torch.pow(focal_weight, gamma)
 
-            bce = "?"
+            bce = -(targets * torch.log(classification) + (1.0 - targets) * torch.log(1.0 - classification))
 
             cls_loss = focal_weight * bce
 

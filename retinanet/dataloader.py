@@ -107,8 +107,8 @@ class CocoDataset(Dataset):
         #       from [x, y, w, h] to [x1, y1, x2, y2]
         ##################################################################
             
-        annotations[:, 2] = "?"
-        annotations[:, 3] = "?"
+        annotations[:, 2] = annotation[:, 0] + annotation[:, 2]
+        annotations[:, 3] = annotation[:, 1] + annotation[:, 3]
 
         ##################################################################
         
@@ -243,7 +243,7 @@ class Normalizer(object):
         # TODO: Please modify and fill the codes here to complete the image normalization
         ##################################################################
         image = image.astype(np.float32)
-        pass
+        image = (image - self.mean) / self.std
 
         ##################################################################
 
