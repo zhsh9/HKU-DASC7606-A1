@@ -131,6 +131,9 @@ def main(args=None):
         epoch_loss_list.append(np.mean(epoch_loss))
 
         if (epoch_num + 1) % 10 == 0 or epoch_num + 1 == parser.epochs:
+            print('epoch_loss_list:')
+            print(epoch_loss_list)
+            
             print('Evaluating dataset')
             retinanet.eval()
             retinanet.training = False
@@ -139,6 +142,7 @@ def main(args=None):
 
             torch.save(retinanet, os.path.join(parser.output_path, 'retinanet_epoch{}.pt'.format(epoch_num + 1)))
 
+    print('epoch_loss_list:')
     print(epoch_loss_list)
     torch.save(retinanet, os.path.join(parser.output_path, 'model_final.pt'))
 
