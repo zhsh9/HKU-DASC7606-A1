@@ -62,12 +62,12 @@ python test_submission.py --coco_path ./data # check output format
 
 ### training
 
-keep all params same but train it with more epochs: 100 -> try to find the convergence point of model training -> which epochs to set for the furthermore models.
+keep all params same but train it with more epochs: 50 -> try to find the convergence point of model training -> which epochs to set for the furthermore models.
 
 ```console
-$ python train.py --coco_path ./data --output_path ./output --depth 50 --epochs 100 | tee log/train_depth50_epochs100_no2_feb29_2107.log
+$ python train.py --coco_path ./data --output_path ./output --depth 50 --epochs 50 | tee log/train_depth50_epochs50_no2_mar01_1200.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epochs100_no2_feb29_2034.log
+$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epochs50_no2_mar01_1200.log
 
 $ python vis.py
 ```
@@ -166,9 +166,9 @@ class FocalLoss(nn.Module):
 - model3
 
 ```console
-$ python train.py --coco_path ./data --output_path ./output --depth 18 --epochs 50 | tee log/train_depth18_epochs50_no3_mar01_1200.log
+$ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 50 | tee log/train_depth18_epochs50_no3_mar01_1200.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no3_mar01_1200.log
+$ python test.py --coco_path ./data --checkpoint_path ./model3/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no3_mar01_1200.log
 
 $ python vis.py
 ```
@@ -176,9 +176,9 @@ $ python vis.py
 - model4
 
 ```console
-$ python train.py --coco_path ./data --output_path ./output --depth 34 --epochs 50 | tee log/train_depth34_epochs50_no3_mar01_1200.log
+$ python train.py --coco_path ./data --output_path ./model4 --depth 34 --epochs 50 | tee log/train_depth34_epochs50_no3_mar01_1200.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth34_epochs50_no4_mar01_1200.log
+$ python test.py --coco_path ./data --checkpoint_path ./model4/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth34_epochs50_no4_mar01_1200.log
 
 $ python vis.py
 ```
@@ -186,9 +186,9 @@ $ python vis.py
 - model5
 
 ```console
-$ python train.py --coco_path ./data --output_path ./output --depth 101 --epochs 50 | tee log/train_depth101_epochs50_no4_mar01_1200.log
+$ python train.py --coco_path ./data --output_path ./model5 --depth 101 --epochs 50 | tee log/train_depth101_epochs50_no4_mar01_1200.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 101 --set_name 'val' | tee log/valid_depth101_epochs50_no4_mar01_1200.log
+$ python test.py --coco_path ./data --checkpoint_path ./model5/model_final.pt --depth 101 --set_name 'val' | tee log/valid_depth101_epochs50_no4_mar01_1200.log
 
 $ python vis.py
 ```
