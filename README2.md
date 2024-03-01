@@ -270,6 +270,10 @@ $ python vis.py
 
 `torch.manual_seed(3407)` is a function used in PyTorch to set the seed for the random number generator, ensuring the repeatability of experimental results. When you set a fixed seed in your code, the random numbers generated subsequently will be predictable. This means that each time you run the same code, operations involving random number generation will yield the same results. This is very useful for debugging and for comparing the performance of different models, as it removes the variability introduced by randomness.
 
+To ensure the reproducibility of model training, you can set a fixed random seed in your training script. This will help ensure that you get the same results each time you run the script because the initialization of weights, dataset splitting, data augmentation, and so forth will all be based on this random seed, thus maintaining consistency. You can set the random seed by adding some code at the beginning of the `main` function. This includes setting the seed for `numpy`, `torch`, `random`, and any other dependent libraries that may be used.
+
+Note that even with a random seed set, non-deterministic operations on the GPU may still introduce some randomness. If you need to ensure as much reproducibility as possible, you might consider setting `torch.backends.cudnn.deterministic` to `True`, but this could sacrifice some performance. Additionally, multithreading (such as multiple worker threads in data loaders) may also cause some variability, and setting a random seed may not completely eliminate it.
+
 | model  | seed   | depth | optimizer | learning rate | prior | α    | γ    |
 | ------ | ------ | ----- | --------- | ------------- | ----- | ---- | ---- |
 | model3 | random | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  |
@@ -307,29 +311,39 @@ $ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 34
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
 epoch_loss_list:
 [1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298, 0.165510683034466, 0.15923313401991457, 0.15422511396298963, 0.1545121184381561, 0.1499576267069499, 0.1500308696761742, 0.14161486355917835, 0.14124411388894353, 0.10012661421664176, 0.08003740497923449]
+```
 
-$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no6.log
-
-$ python vis.py
+```console
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50.log
 ```
 
 ## model7
 
+In GPU farm
+
 ```console
 $ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
-
-$ python test.py --coco_path ./data --checkpoint_path ./model7/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no7.log
-
-$ python vis.py
 ```
 
 ## model8
 
+In Windows
+
 ```console
 $ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
-
-$ python test.py --coco_path ./data --checkpoint_path ./model8/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no8.log
-
-$ python vis.py
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.315
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.583
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.154
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.392
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.414
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.050
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.246
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.501
+epoch_loss_list:
+[1.3485985781381449, 1.0428863803115416, 0.9080038053372245, 0.8198696776755213, 0.7462012804457991, 0.6849284630972804, 0.6314117278258397, 0.5838938797640754, 0.5408082131853723, 0.5003792778772163, 0.47037841241044087, 0.4360208642837687, 0.4126990730324247, 0.3900142498974373, 0.3647483795749273, 0.34710889965603786, 0.3285140351531661, 0.3097159046291073, 0.300746954141522, 0.28417240203116234, 0.2706226208320577, 0.25768760743543623, 0.24772578569891768, 0.24061031865073354, 0.23440500140908782, 0.22438549321680146, 0.21360355310369372, 0.20982268031715878, 0.20265136179184234, 0.19518770426731763, 0.1902201386538928, 0.18584581637043712, 0.1828563255001241, 0.17607332579974877, 0.17221467088225964, 0.1696188291883111, 0.16682294164564254, 0.16123330928421925, 0.15749495586941356, 0.1559871606928421, 0.15146176567792483, 0.15084946997955032, 0.14413518245390608, 0.14543778893141823, 0.14053164449095082, 0.1371312429926791, 0.13400624088547008, 0.13404743663057334, 0.10965902876387548, 0.09319095793326833]
 ```
 
