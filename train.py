@@ -26,6 +26,9 @@ def set_seed(seed_value):
         torch.cuda.manual_seed_all(seed_value)  # if use multi-GPU
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
+        print('[*] (GPU Available) seed is successfully set to {}'.format(seed_value))
+    else:
+        print('[*] seed is successfully set to {}'.format(seed_value))
 
 def main(args=None):
     parser = argparse.ArgumentParser(description='Simple training script for training a RetinaNet network.')
