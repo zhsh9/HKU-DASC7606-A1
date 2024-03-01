@@ -53,6 +53,9 @@ def main(args=None):
     else:
         raise ValueError('Unsupported model depth')
 
+    # set torch's seed
+    torch.manual_seed(3407)
+
     use_gpu = True
 
     if use_gpu:
