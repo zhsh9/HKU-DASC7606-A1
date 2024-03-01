@@ -34,6 +34,7 @@ def main(args=None):
     parser.add_argument('--depth', help='ResNet depth, must be one of 18, 34, 50, 101, 152', type=int, default=50)
     parser.add_argument('--epochs', help='Number of epochs', type=int, default=72)
     parser.add_argument('--seed', help='Set the random seed for reproducibility', type=int, default=3407)
+    parser.add_argument('--learning_rate', help='Set the learning rate for the optimizer', type=float, default=1e-4)
 
     parser = parser.parse_args(args)
 
@@ -75,7 +76,7 @@ def main(args=None):
             retinanet = retinanet.cuda()
 
     retinanet.training = True
-    optimizer = optim.Adam(retinanet.parameters(), lr=1e-4)
+    optimizer = optim.Adam(retinanet.parameters(), lr=parser.learning_rate)
 
     scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[48, 64])
 
