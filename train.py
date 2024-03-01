@@ -3,6 +3,7 @@ import collections
 import os
 import numpy as np
 from tqdm import tqdm
+import random
 
 import torch
 import torch.optim as optim
@@ -15,15 +16,29 @@ from retinanet.eval import Evaluation
     
 from torch.utils.data import DataLoader
 
+def set_seed(seed_value):
+    """Set seed for reproducibility."""
+    np.random.seed(seed_value)
+    torch.manual_seed(seed_value)
+    random.seed(seed_value)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed(seed_value)
+        torch.cuda.manual_seed_all(seed_value)  # if use multi-GPU
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
+
 def main(args=None):
     parser = argparse.ArgumentParser(description='Simple training script for training a RetinaNet network.')
     parser.add_argument('--coco_path', help='Path to COCO directory', default='./data')
     parser.add_argument('--output_path', help='Path to output directory to save checkpoints', default='./output')
     parser.add_argument('--depth', help='ResNet depth, must be one of 18, 34, 50, 101, 152', type=int, default=50)
     parser.add_argument('--epochs', help='Number of epochs', type=int, default=72)
+    parser.add_argument('--seed', help='Set the random seed for reproducibility', type=int, default=3407)
 
     parser = parser.parse_args(args)
 
+    # Set the random seed for reproducibility
+    set_seed(parser.seed)
 
     if not os.path.exists(parser.output_path):
         os.mkdir(parser.output_path)
@@ -52,9 +67,6 @@ def main(args=None):
         retinanet = model.resnet152(num_classes=dataset_train.num_classes(), pretrained=True)
     else:
         raise ValueError('Unsupported model depth')
-
-    # set torch's seed
-    torch.manual_seed(3407)
 
     use_gpu = True
 
