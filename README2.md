@@ -294,7 +294,7 @@ $ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 
 epoch_loss_list:
 [1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298, 0.165510683034466, 0.15923313401991457, 0.15422511396298963, 0.1545121184381561, 0.1499576267069499, 0.1500308696761742, 0.14161486355917835, 0.14124411388894353, 0.10012661421664176, 0.08003740497923449]
 
-$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
+$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no6.log
 
 $ python vis.py
 ```
@@ -302,9 +302,9 @@ $ python vis.py
 ## model7
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_epochs50_no6.log
+$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
+$ python test.py --coco_path ./data --checkpoint_path ./model7/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no7.log
 
 $ python vis.py
 ```
@@ -312,9 +312,9 @@ $ python vis.py
 ## model8
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_epochs50_no6.log
+$ python train.py --coco_path ./data --output_path ./model8 --depth 18 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
 
-$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
+$ python test.py --coco_path ./data --checkpoint_path ./model8/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no8.log
 
 $ python vis.py
 ```
