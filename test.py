@@ -40,10 +40,16 @@ def main(args=None):
                                 transform=transforms.Compose([Normalizer(), Resizer()]))
 
     # Create the model
-    if parser.depth == 50:
-        retinanet = model.resnet50(num_classes=dataset_test.num_classes(), pretrained=False)
+    if parser.depth == 18:
+        retinanet = model.resnet18(num_classes=dataset_test.num_classes(), pretrained=True)
+    elif parser.depth == 34:
+        retinanet = model.resnet34(num_classes=dataset_test.num_classes(), pretrained=True)
+    elif parser.depth == 50:
+        retinanet = model.resnet50(num_classes=dataset_test.num_classes(), pretrained=True)
     elif parser.depth == 101:
-        retinanet = model.resnet101(num_classes=dataset_test.num_classes(), pretrained=False)
+        retinanet = model.resnet101(num_classes=dataset_test.num_classes(), pretrained=True)
+    elif parser.depth == 152:
+        retinanet = model.resnet152(num_classes=dataset_test.num_classes(), pretrained=True)
     else:
         raise ValueError('Unsupported model depth in source code, must be one of 18, 34, 50, 101, 152')
 
