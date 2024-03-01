@@ -4,6 +4,7 @@ Code is [here](https://github.com/zhsh9/HKU-DASC7606-A1).
 
 - [x] finish task1-5, ready to train the model with training & validation dataset
 - [x] fulfill resnet depth option: 18,34,50,101,152
+- [x] set the manual seed of torch: 3407
 
 # definition of logname
 
@@ -62,10 +63,10 @@ python test_submission.py --coco_path ./data # check output format
 
 ### training
 
-keep all params same but train it with more epochs: 50 -> try to find the convergence point of model training -> which epochs to set for the furthermore models.
+keep all params same but train it with more epochs: 40 -> try to find the convergence point of model training -> which epochs to set for the furthermore models.
 
 ```console
-$ python train.py --coco_path ./data --output_path ./output --depth 50 --epochs 50 | tee log/train_depth50_epochs50_no2.log
+$ python train.py --coco_path ./data --output_path ./output --depth 50 --epochs 40 | tee log/train_depth50_epochs40_no2.log
 ...
 epoch_loss_list:
 [1.5916821927888187, 1.3292744846383886, 1.1823020935879918, 1.0957840012577105, 1.01449471257451, 0.9309584555898126, 0.8588897227126313, 0.7991556330459324, 0.7447545866327961, 0.6923033849402206, 0.6518430723625375, 0.6
@@ -86,7 +87,7 @@ epoch_loss_list:
  Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.180
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.457
 
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epochs50_no2.log
+$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epoch40_no2.log
 
 $ python vis.py
 ```
@@ -185,7 +186,6 @@ class FocalLoss(nn.Module):
 - model3
   - Based on the loss_list, we are informed that 50 epochs is not enough for network depth 18
 
-
 ```console
 $ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 50 | tee log/train_depth18_epochs50_no3.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.304
@@ -202,11 +202,14 @@ $ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.522
 epoch_loss_list:
 [1.4996897089551753, 1.2040403247114242, 1.0653194290563817, 0.9758257034902028, 0.8809408868743679, 0.8240104862818802, 0.7586331694555564, 0.6976388244061019, 0.649624379909062, 0.6160755318362178, 0.5736206129897298, 0.541688928717938, 0.4977719859682082, 0.46565801993481754, 0.43757234697824154, 0.41245430582532966, 0.3843969932617986, 0.36113498351485357, 0.34414086817199085, 0.3250861821960159, 0.31000295087079127, 0.2989282929081851, 0.28059000799828393, 0.26884444194706525, 0.2534607782387945, 0.25112210249704287, 0.23778080031290416, 0.229856338058635, 0.22842503081655174, 0.21782112319396413, 0.2100386019836466, 0.2062964416200691, 0.20871497282032364, 0.19068553230329233, 0.1907811889536752, 0.1849663094892423, 0.17380056378988945, 0.17445705697585748, 0.16780385347981533, 0.15981957240132835, 0.1593968208483237, 0.1579678018172235, 0.1518478942063351, 0.15177865247388816, 0.14330497362438266, 0.14385676012909787, 0.13573541866540248, 0.13415937287380963, 0.10076992388303194, 0.08006209629041502]
+
+$ python test.py --coco_path ./data --checkpoint_path ./model3/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no3.log
+
+$ python vis.py
 ```
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 80 | tee log/train_depth18_epochs80_no3.log
-
 
 $ python test.py --coco_path ./data --checkpoint_path ./model3/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no3.log
 
@@ -217,18 +220,87 @@ $ python vis.py
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model4 --depth 34 --epochs 50 | tee log/train_depth34_epochs50_no4.log
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.287
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.455
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.309
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.015
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.117
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.363
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.340
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.025
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.214
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
+epoch_loss_list:
+[1.6027211780388524, 1.3493213718097041, 1.2005559017104426, 1.0817573109832335, 0.9989016679680254, 0.9243821980739673, 0.8597765068604252, 0.806570817283758, 0.7509586330004564, 0.7024351666703468, 0.6507156748603297, 0.6194083641217215, 0.583154296531804, 0.5428892699414938, 0.5085167201001226, 0.4828783282056803, 0.45397009768002616, 0.43339138117244863, 0.4030665038006864, 0.3867030331102295, 0.3644278600819292, 0.34267387191552345, 0.32291754081984614, 0.3062023756746936, 0.29318198249088673, 0.2797942441965153, 0.2705999839882271, 0.25520450626243285, 0.24268527382500762, 0.23772001985871183, 0.2299480134764261, 0.2207381194934073, 0.21444946402082526, 0.2018105147413792, 0.1983299547142723, 0.19787831321050683, 0.19110252841111772, 0.18569881874539956, 0.17913870857368538, 0.17234412436355198, 0.16710634597239826, 0.1669551119021338, 0.1568848570830768, 0.15872284962509678, 0.15080245019314356, 0.14963583615113518, 0.14378988040761478, 0.14532693679899153, 0.1016612858323593, 0.08186726589819167]
 
 $ python test.py --coco_path ./data --checkpoint_path ./model4/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth34_epochs50_no4.log
 
 $ python vis.py
 ```
 
-- model5
+- model5 [x]
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model5 --depth 101 --epochs 50 | tee log/train_depth101_epochs50_no5.log
 
 $ python test.py --coco_path ./data --checkpoint_path ./model5/model_final.pt --depth 101 --set_name 'val' | tee log/valid_depth101_epochs50_no5.log
+
+$ python vis.py
+```
+
+# Manipulate Seed & Learning Rate
+
+**Reference**: [[2109.08203\] Torch.manual_seed(3407) is all you need: On the influence of random seeds in deep learning architectures for computer vision (arxiv.org)](https://arxiv.org/abs/2109.08203)
+
+`torch.manual_seed(3407)` is a function used in PyTorch to set the seed for the random number generator, ensuring the repeatability of experimental results. When you set a fixed seed in your code, the random numbers generated subsequently will be predictable. This means that each time you run the same code, operations involving random number generation will yield the same results. This is very useful for debugging and for comparing the performance of different models, as it removes the variability introduced by randomness.
+
+| model  | seed   | depth | optimizer | learning rate | prior | α    | γ    |
+| ------ | ------ | ----- | --------- | ------------- | ----- | ---- | ---- |
+| model3 | random | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  |
+| model6 | 3407   | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  |
+| model7 | 3407   | 18    | Adam      | 1e-3          | 0.01  | 0.25 | 2.0  |
+| model8 | 3407   | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  |
+
+Setting the `learning rate` is a crucial decision in machine learning and deep learning as it significantly affects the efficiency and outcome of model training. The learning rate determines the magnitude of model weight updates during each iteration. If the learning rate is too high, it may cause the model to overshoot the optimum point while minimizing the loss function, thus preventing convergence; if the learning rate is too low, model training can be very slow and may get stuck at local minima.
+
+1. Setting the initial learning rate:
+
+   - **Empirical value**: Start with commonly recommended values (for example, 3e-4 is a typical initial learning rate for the Adam optimizer, while SGD often requires higher values, such as 1e-2 or 1e-1).
+   - **Learning rate scheduling**: Set a higher initial learning rate and gradually decrease it during training (for instance, using strategies like learning rate decay, step decay, or cosine annealing).
+
+2. Testing and adjusting:
+
+   - **Learning rate range test**: Begin with a small learning rate, gradually increase it, and record the loss values to find the range where the loss decreases most rapidly.
+   - **Cross-validation**: Train multiple times using different learning rate values and verify which one performs the best.
+
+## model6
+
+```console
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_epochs50_no6.log
+
+$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
+
+$ python vis.py
+```
+
+## model7
+
+```console
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_epochs50_no6.log
+
+$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
+
+$ python vis.py
+```
+
+## model8
+
+```console
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_epochs50_no6.log
+
+$ python test.py --coco_path ./data --checkpoint_path ./model6/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no6.log
 
 $ python vis.py
 ```
