@@ -292,7 +292,7 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 ## model6
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50_no6.log
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50_no6.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.292
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.459
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.314
@@ -316,7 +316,7 @@ $ python vis.py
 ## model7
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
+$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
 
 $ python test.py --coco_path ./data --checkpoint_path ./model7/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no7.log
 
@@ -326,7 +326,7 @@ $ python vis.py
 ## model8
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model8 --depth 18 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
+$ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
 
 $ python test.py --coco_path ./data --checkpoint_path ./model8/model_final.pt --depth 18 --set_name 'val' | tee log/valid_no8.log
 
