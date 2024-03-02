@@ -7,675 +7,675 @@ Done (t=0.01s)
 creating index...
 index created!
 Num training images: 2031
-Epoch: 0 | Iteration: 0 | Classification loss: 0.75890 | Regression loss: 0.57702 | Running loss: 1.33593
-Epoch: 0 | Iteration: 100 | Classification loss: 0.44205 | Regression loss: 0.95490 | Running loss: 1.91103
-Epoch: 0 | Iteration: 200 | Classification loss: 0.70990 | Regression loss: 0.82350 | Running loss: 1.77460
-Epoch: 0 | Iteration: 300 | Classification loss: 0.57385 | Regression loss: 0.95831 | Running loss: 1.73770
-Epoch: 0 | Iteration: 400 | Classification loss: 1.24682 | Regression loss: 0.87089 | Running loss: 1.69834
-Epoch: 0 | Iteration: 500 | Classification loss: 0.50608 | Regression loss: 0.63045 | Running loss: 1.65601
-Epoch: 0 | Iteration: 600 | Classification loss: 0.53353 | Regression loss: 0.85310 | Running loss: 1.57382
-Epoch: 0 | Iteration: 700 | Classification loss: 0.44603 | Regression loss: 0.67601 | Running loss: 1.53639
-Epoch: 0 | Iteration: 800 | Classification loss: 0.32640 | Regression loss: 0.80944 | Running loss: 1.50102
-Epoch: 0 | Iteration: 900 | Classification loss: 0.38291 | Regression loss: 0.48300 | Running loss: 1.46742
-Epoch: 0 | Iteration: 1000 | Classification loss: 0.71640 | Regression loss: 1.04976 | Running loss: 1.43793
-Epoch: 1 | Iteration: 0 | Classification loss: 0.42076 | Regression loss: 0.51026 | Running loss: 1.43064
-Epoch: 1 | Iteration: 100 | Classification loss: 0.71470 | Regression loss: 0.89504 | Running loss: 1.40786
-Epoch: 1 | Iteration: 200 | Classification loss: 0.59366 | Regression loss: 0.43113 | Running loss: 1.36817
-Epoch: 1 | Iteration: 300 | Classification loss: 0.44975 | Regression loss: 0.55462 | Running loss: 1.32113
-Epoch: 1 | Iteration: 400 | Classification loss: 0.85067 | Regression loss: 0.72545 | Running loss: 1.30717
-Epoch: 1 | Iteration: 500 | Classification loss: 0.68463 | Regression loss: 0.93609 | Running loss: 1.29720
-Epoch: 1 | Iteration: 600 | Classification loss: 0.62340 | Regression loss: 0.66008 | Running loss: 1.28141
-Epoch: 1 | Iteration: 700 | Classification loss: 0.39515 | Regression loss: 0.52672 | Running loss: 1.26913
-Epoch: 1 | Iteration: 800 | Classification loss: 0.35841 | Regression loss: 0.42279 | Running loss: 1.26273
-Epoch: 1 | Iteration: 900 | Classification loss: 0.43275 | Regression loss: 0.73071 | Running loss: 1.25249
-Epoch: 1 | Iteration: 1000 | Classification loss: 0.60663 | Regression loss: 0.79477 | Running loss: 1.22331
-Epoch: 2 | Iteration: 0 | Classification loss: 0.60773 | Regression loss: 0.67536 | Running loss: 1.21978
-Epoch: 2 | Iteration: 100 | Classification loss: 0.82058 | Regression loss: 0.75355 | Running loss: 1.20241
-Epoch: 2 | Iteration: 200 | Classification loss: 0.61804 | Regression loss: 0.85195 | Running loss: 1.18430
-Epoch: 2 | Iteration: 300 | Classification loss: 1.09997 | Regression loss: 1.12274 | Running loss: 1.16478
-Epoch: 2 | Iteration: 400 | Classification loss: 0.37142 | Regression loss: 0.59374 | Running loss: 1.18379
-Epoch: 2 | Iteration: 500 | Classification loss: 0.61350 | Regression loss: 0.55880 | Running loss: 1.17214
-Epoch: 2 | Iteration: 600 | Classification loss: 0.64652 | Regression loss: 0.49161 | Running loss: 1.15919
-Epoch: 2 | Iteration: 700 | Classification loss: 0.33813 | Regression loss: 0.39154 | Running loss: 1.16083
-Epoch: 2 | Iteration: 800 | Classification loss: 0.27553 | Regression loss: 0.37813 | Running loss: 1.14417
-Epoch: 2 | Iteration: 900 | Classification loss: 0.17957 | Regression loss: 0.30967 | Running loss: 1.10212
-Epoch: 2 | Iteration: 1000 | Classification loss: 0.64829 | Regression loss: 0.95164 | Running loss: 1.07847
-Epoch: 3 | Iteration: 0 | Classification loss: 0.28635 | Regression loss: 0.50402 | Running loss: 1.08168
-Epoch: 3 | Iteration: 100 | Classification loss: 0.53670 | Regression loss: 0.55559 | Running loss: 1.07342
-Epoch: 3 | Iteration: 200 | Classification loss: 0.52817 | Regression loss: 0.52845 | Running loss: 1.05054
-Epoch: 3 | Iteration: 300 | Classification loss: 0.72020 | Regression loss: 0.66326 | Running loss: 1.03631
-Epoch: 3 | Iteration: 400 | Classification loss: 0.37788 | Regression loss: 0.64141 | Running loss: 1.03077
-Epoch: 3 | Iteration: 500 | Classification loss: 0.42718 | Regression loss: 0.46171 | Running loss: 1.03037
-Epoch: 3 | Iteration: 600 | Classification loss: 0.41700 | Regression loss: 0.83707 | Running loss: 1.01608
-Epoch: 3 | Iteration: 700 | Classification loss: 0.52390 | Regression loss: 0.73523 | Running loss: 1.01357
-Epoch: 3 | Iteration: 800 | Classification loss: 0.51670 | Regression loss: 0.38827 | Running loss: 1.00517
-Epoch: 3 | Iteration: 900 | Classification loss: 0.56129 | Regression loss: 0.72242 | Running loss: 0.99031
-Epoch: 3 | Iteration: 1000 | Classification loss: 0.57584 | Regression loss: 0.49086 | Running loss: 0.98118
-Epoch: 4 | Iteration: 0 | Classification loss: 0.56245 | Regression loss: 0.50261 | Running loss: 0.97956
-Epoch: 4 | Iteration: 100 | Classification loss: 0.25460 | Regression loss: 0.31058 | Running loss: 0.96109
-Epoch: 4 | Iteration: 200 | Classification loss: 0.68146 | Regression loss: 0.63329 | Running loss: 0.94602
-Epoch: 4 | Iteration: 300 | Classification loss: 0.77809 | Regression loss: 0.88918 | Running loss: 0.95546
-Epoch: 4 | Iteration: 400 | Classification loss: 0.36319 | Regression loss: 0.52553 | Running loss: 0.94896
-Epoch: 4 | Iteration: 500 | Classification loss: 0.40873 | Regression loss: 0.46455 | Running loss: 0.93526
-Epoch: 4 | Iteration: 600 | Classification loss: 0.48980 | Regression loss: 0.54422 | Running loss: 0.93250
-Epoch: 4 | Iteration: 700 | Classification loss: 0.36993 | Regression loss: 0.32511 | Running loss: 0.93969
-Epoch: 4 | Iteration: 800 | Classification loss: 0.34180 | Regression loss: 0.33022 | Running loss: 0.92219
-Epoch: 4 | Iteration: 900 | Classification loss: 0.35166 | Regression loss: 0.64298 | Running loss: 0.92359
-Epoch: 4 | Iteration: 1000 | Classification loss: 0.67524 | Regression loss: 0.88361 | Running loss: 0.92281
-Epoch: 5 | Iteration: 0 | Classification loss: 0.42207 | Regression loss: 0.56387 | Running loss: 0.92436
-Epoch: 5 | Iteration: 100 | Classification loss: 0.42417 | Regression loss: 0.45937 | Running loss: 0.91986
-Epoch: 5 | Iteration: 200 | Classification loss: 0.34555 | Regression loss: 0.53540 | Running loss: 0.90569
-Epoch: 5 | Iteration: 300 | Classification loss: 0.44455 | Regression loss: 0.24132 | Running loss: 0.88730
-Epoch: 5 | Iteration: 400 | Classification loss: 0.40857 | Regression loss: 0.38369 | Running loss: 0.86665
-Epoch: 5 | Iteration: 500 | Classification loss: 0.45558 | Regression loss: 0.59289 | Running loss: 0.84250
-Epoch: 5 | Iteration: 600 | Classification loss: 0.37884 | Regression loss: 0.44507 | Running loss: 0.83505
-Epoch: 5 | Iteration: 700 | Classification loss: 1.06439 | Regression loss: 0.53121 | Running loss: 0.84806
-Epoch: 5 | Iteration: 800 | Classification loss: 0.24028 | Regression loss: 0.30596 | Running loss: 0.85600
-Epoch: 5 | Iteration: 900 | Classification loss: 0.57288 | Regression loss: 0.69482 | Running loss: 0.86797
-Epoch: 5 | Iteration: 1000 | Classification loss: 0.31935 | Regression loss: 0.51589 | Running loss: 0.87155
-Epoch: 6 | Iteration: 0 | Classification loss: 0.28650 | Regression loss: 0.42179 | Running loss: 0.87296
-Epoch: 6 | Iteration: 100 | Classification loss: 0.24285 | Regression loss: 0.35770 | Running loss: 0.85475
-Epoch: 6 | Iteration: 200 | Classification loss: 0.28998 | Regression loss: 0.33899 | Running loss: 0.82256
-Epoch: 6 | Iteration: 300 | Classification loss: 0.54129 | Regression loss: 0.64262 | Running loss: 0.81080
-Epoch: 6 | Iteration: 400 | Classification loss: 0.54453 | Regression loss: 0.88291 | Running loss: 0.78492
-Epoch: 6 | Iteration: 500 | Classification loss: 0.31337 | Regression loss: 0.27551 | Running loss: 0.78261
-Epoch: 6 | Iteration: 600 | Classification loss: 0.37269 | Regression loss: 0.53410 | Running loss: 0.80231
-Epoch: 6 | Iteration: 700 | Classification loss: 0.37186 | Regression loss: 0.50768 | Running loss: 0.80711
-Epoch: 6 | Iteration: 800 | Classification loss: 2.84179 | Regression loss: 0.42065 | Running loss: 0.82027
-Epoch: 6 | Iteration: 900 | Classification loss: 0.59484 | Regression loss: 0.54573 | Running loss: 0.83043
-Epoch: 6 | Iteration: 1000 | Classification loss: 0.27377 | Regression loss: 0.46328 | Running loss: 0.82229
-Epoch: 7 | Iteration: 0 | Classification loss: 0.34391 | Regression loss: 0.38361 | Running loss: 0.82279
-Epoch: 7 | Iteration: 100 | Classification loss: 0.37986 | Regression loss: 0.45585 | Running loss: 0.79924
-Epoch: 7 | Iteration: 200 | Classification loss: 0.22064 | Regression loss: 0.43084 | Running loss: 0.78388
-Epoch: 7 | Iteration: 300 | Classification loss: 0.47881 | Regression loss: 0.40448 | Running loss: 0.76092
-Epoch: 7 | Iteration: 400 | Classification loss: 0.09895 | Regression loss: 0.12827 | Running loss: 0.75702
-Epoch: 7 | Iteration: 500 | Classification loss: 0.21561 | Regression loss: 0.44391 | Running loss: 0.73643
-Epoch: 7 | Iteration: 600 | Classification loss: 0.24922 | Regression loss: 0.36542 | Running loss: 0.74152
-Epoch: 7 | Iteration: 700 | Classification loss: 0.20331 | Regression loss: 0.19111 | Running loss: 0.74259
-Epoch: 7 | Iteration: 800 | Classification loss: 0.27555 | Regression loss: 0.28660 | Running loss: 0.75348
-Epoch: 7 | Iteration: 900 | Classification loss: 0.26786 | Regression loss: 0.20984 | Running loss: 0.74477
-Epoch: 7 | Iteration: 1000 | Classification loss: 0.13705 | Regression loss: 0.23013 | Running loss: 0.75373
-Epoch: 8 | Iteration: 0 | Classification loss: 0.41352 | Regression loss: 0.41276 | Running loss: 0.75720
-Epoch: 8 | Iteration: 100 | Classification loss: 0.25035 | Regression loss: 0.20794 | Running loss: 0.73493
-Epoch: 8 | Iteration: 200 | Classification loss: 0.18119 | Regression loss: 0.28155 | Running loss: 0.71971
-Epoch: 8 | Iteration: 300 | Classification loss: 0.28699 | Regression loss: 0.41629 | Running loss: 0.69698
-Epoch: 8 | Iteration: 400 | Classification loss: 0.12952 | Regression loss: 0.29387 | Running loss: 0.68302
-Epoch: 8 | Iteration: 500 | Classification loss: 0.42026 | Regression loss: 0.39282 | Running loss: 0.67032
-Epoch: 8 | Iteration: 600 | Classification loss: 0.26711 | Regression loss: 0.43274 | Running loss: 0.67554
-Epoch: 8 | Iteration: 700 | Classification loss: 0.32467 | Regression loss: 0.27765 | Running loss: 0.69370
-Epoch: 8 | Iteration: 800 | Classification loss: 0.11347 | Regression loss: 0.09574 | Running loss: 0.68920
-Epoch: 8 | Iteration: 900 | Classification loss: 0.19633 | Regression loss: 0.14183 | Running loss: 0.69408
-Epoch: 8 | Iteration: 1000 | Classification loss: 0.39188 | Regression loss: 0.25810 | Running loss: 0.69517
-Epoch: 9 | Iteration: 0 | Classification loss: 0.18070 | Regression loss: 0.29844 | Running loss: 0.69989
-Epoch: 9 | Iteration: 100 | Classification loss: 0.36235 | Regression loss: 0.42967 | Running loss: 0.68740
-Epoch: 9 | Iteration: 200 | Classification loss: 0.24907 | Regression loss: 0.42234 | Running loss: 0.66597
-Epoch: 9 | Iteration: 300 | Classification loss: 0.53521 | Regression loss: 0.52679 | Running loss: 0.66829
-Epoch: 9 | Iteration: 400 | Classification loss: 0.18770 | Regression loss: 0.25007 | Running loss: 0.66269
-Epoch: 9 | Iteration: 500 | Classification loss: 0.14566 | Regression loss: 0.23116 | Running loss: 0.63925
-Epoch: 9 | Iteration: 600 | Classification loss: 0.33559 | Regression loss: 0.34518 | Running loss: 0.64803
-Epoch: 9 | Iteration: 700 | Classification loss: 0.17707 | Regression loss: 0.29345 | Running loss: 0.64266
-Epoch: 9 | Iteration: 800 | Classification loss: 0.22834 | Regression loss: 0.29900 | Running loss: 0.63037
-Epoch: 9 | Iteration: 900 | Classification loss: 0.13077 | Regression loss: 0.11532 | Running loss: 0.63584
-Epoch: 9 | Iteration: 1000 | Classification loss: 0.15303 | Regression loss: 0.16353 | Running loss: 0.65690
+Epoch: 0 | Iteration: 0 | Classification loss: 1.14861 | Regression loss: 0.98367 | Running loss: 2.13228
+Epoch: 0 | Iteration: 100 | Classification loss: 0.71758 | Regression loss: 0.95442 | Running loss: 1.90017
+Epoch: 0 | Iteration: 200 | Classification loss: 1.17547 | Regression loss: 0.46739 | Running loss: 1.78285
+Epoch: 0 | Iteration: 300 | Classification loss: 1.00080 | Regression loss: 0.94792 | Running loss: 1.72439
+Epoch: 0 | Iteration: 400 | Classification loss: 0.74285 | Regression loss: 0.78200 | Running loss: 1.66736
+Epoch: 0 | Iteration: 500 | Classification loss: 1.13877 | Regression loss: 0.47315 | Running loss: 1.63386
+Epoch: 0 | Iteration: 600 | Classification loss: 0.61048 | Regression loss: 0.93918 | Running loss: 1.54354
+Epoch: 0 | Iteration: 700 | Classification loss: 0.65286 | Regression loss: 0.93971 | Running loss: 1.48641
+Epoch: 0 | Iteration: 800 | Classification loss: 0.77151 | Regression loss: 0.46096 | Running loss: 1.43623
+Epoch: 0 | Iteration: 900 | Classification loss: 0.43952 | Regression loss: 0.58468 | Running loss: 1.40685
+Epoch: 0 | Iteration: 1000 | Classification loss: 0.49957 | Regression loss: 0.44819 | Running loss: 1.38401
+Epoch: 1 | Iteration: 0 | Classification loss: 0.87643 | Regression loss: 0.28590 | Running loss: 1.37556
+Epoch: 1 | Iteration: 100 | Classification loss: 0.61528 | Regression loss: 0.59635 | Running loss: 1.35566
+Epoch: 1 | Iteration: 200 | Classification loss: 0.69549 | Regression loss: 0.92731 | Running loss: 1.32724
+Epoch: 1 | Iteration: 300 | Classification loss: 0.56486 | Regression loss: 0.68106 | Running loss: 1.31127
+Epoch: 1 | Iteration: 400 | Classification loss: 0.24718 | Regression loss: 0.51362 | Running loss: 1.29153
+Epoch: 1 | Iteration: 500 | Classification loss: 0.51459 | Regression loss: 0.67509 | Running loss: 1.26752
+Epoch: 1 | Iteration: 600 | Classification loss: 1.16484 | Regression loss: 0.17939 | Running loss: 1.24766
+Epoch: 1 | Iteration: 700 | Classification loss: 0.60510 | Regression loss: 0.71984 | Running loss: 1.24120
+Epoch: 1 | Iteration: 800 | Classification loss: 0.64124 | Regression loss: 0.68753 | Running loss: 1.22883
+Epoch: 1 | Iteration: 900 | Classification loss: 0.82787 | Regression loss: 0.68070 | Running loss: 1.23090
+Epoch: 1 | Iteration: 1000 | Classification loss: 0.55410 | Regression loss: 0.69665 | Running loss: 1.20927
+Epoch: 2 | Iteration: 0 | Classification loss: 0.53186 | Regression loss: 0.71830 | Running loss: 1.20396
+Epoch: 2 | Iteration: 100 | Classification loss: 0.60943 | Regression loss: 0.70087 | Running loss: 1.17072
+Epoch: 2 | Iteration: 200 | Classification loss: 0.61053 | Regression loss: 0.67181 | Running loss: 1.15625
+Epoch: 2 | Iteration: 300 | Classification loss: 1.34933 | Regression loss: 0.25758 | Running loss: 1.12030
+Epoch: 2 | Iteration: 400 | Classification loss: 0.43307 | Regression loss: 0.73627 | Running loss: 1.08683
+Epoch: 2 | Iteration: 500 | Classification loss: 0.26059 | Regression loss: 0.40990 | Running loss: 1.08172
+Epoch: 2 | Iteration: 600 | Classification loss: 0.47613 | Regression loss: 0.57565 | Running loss: 1.09440
+Epoch: 2 | Iteration: 700 | Classification loss: 0.89729 | Regression loss: 0.93928 | Running loss: 1.08289
+Epoch: 2 | Iteration: 800 | Classification loss: 0.70064 | Regression loss: 0.76559 | Running loss: 1.08229
+Epoch: 2 | Iteration: 900 | Classification loss: 0.30705 | Regression loss: 0.22360 | Running loss: 1.07113
+Epoch: 2 | Iteration: 1000 | Classification loss: 0.47492 | Regression loss: 0.46451 | Running loss: 1.06618
+Epoch: 3 | Iteration: 0 | Classification loss: 0.31777 | Regression loss: 0.37257 | Running loss: 1.06129
+Epoch: 3 | Iteration: 100 | Classification loss: 0.40602 | Regression loss: 0.53689 | Running loss: 1.03504
+Epoch: 3 | Iteration: 200 | Classification loss: 0.32908 | Regression loss: 0.54068 | Running loss: 1.02961
+Epoch: 3 | Iteration: 300 | Classification loss: 0.36551 | Regression loss: 0.22932 | Running loss: 1.00633
+Epoch: 3 | Iteration: 400 | Classification loss: 0.28786 | Regression loss: 0.29437 | Running loss: 1.00095
+Epoch: 3 | Iteration: 500 | Classification loss: 0.33970 | Regression loss: 0.55847 | Running loss: 0.97903
+Epoch: 3 | Iteration: 600 | Classification loss: 0.32602 | Regression loss: 0.60288 | Running loss: 0.98112
+Epoch: 3 | Iteration: 700 | Classification loss: 0.27986 | Regression loss: 0.43854 | Running loss: 0.97203
+Epoch: 3 | Iteration: 800 | Classification loss: 0.39155 | Regression loss: 0.54340 | Running loss: 0.98901
+Epoch: 3 | Iteration: 900 | Classification loss: 0.54787 | Regression loss: 0.80417 | Running loss: 0.99661
+Epoch: 3 | Iteration: 1000 | Classification loss: 0.47246 | Regression loss: 0.63214 | Running loss: 0.99776
+Epoch: 4 | Iteration: 0 | Classification loss: 0.44648 | Regression loss: 0.54414 | Running loss: 1.00060
+Epoch: 4 | Iteration: 100 | Classification loss: 0.46768 | Regression loss: 0.67113 | Running loss: 0.97720
+Epoch: 4 | Iteration: 200 | Classification loss: 0.28577 | Regression loss: 0.27354 | Running loss: 0.97550
+Epoch: 4 | Iteration: 300 | Classification loss: 0.38782 | Regression loss: 0.45210 | Running loss: 0.94738
+Epoch: 4 | Iteration: 400 | Classification loss: 0.67122 | Regression loss: 0.93224 | Running loss: 0.91890
+Epoch: 4 | Iteration: 500 | Classification loss: 0.32962 | Regression loss: 0.46328 | Running loss: 0.90870
+Epoch: 4 | Iteration: 600 | Classification loss: 0.24025 | Regression loss: 0.28414 | Running loss: 0.90121
+Epoch: 4 | Iteration: 700 | Classification loss: 0.28460 | Regression loss: 0.27287 | Running loss: 0.90994
+Epoch: 4 | Iteration: 800 | Classification loss: 0.82142 | Regression loss: 0.85652 | Running loss: 0.91236
+Epoch: 4 | Iteration: 900 | Classification loss: 0.44571 | Regression loss: 0.67080 | Running loss: 0.91769
+Epoch: 4 | Iteration: 1000 | Classification loss: 0.52875 | Regression loss: 0.70442 | Running loss: 0.90903
+Epoch: 5 | Iteration: 0 | Classification loss: 0.36641 | Regression loss: 0.58569 | Running loss: 0.90935
+Epoch: 5 | Iteration: 100 | Classification loss: 0.54638 | Regression loss: 0.86598 | Running loss: 0.91053
+Epoch: 5 | Iteration: 200 | Classification loss: 0.27715 | Regression loss: 0.30803 | Running loss: 0.87594
+Epoch: 5 | Iteration: 300 | Classification loss: 0.24689 | Regression loss: 0.27453 | Running loss: 0.86415
+Epoch: 5 | Iteration: 400 | Classification loss: 0.46834 | Regression loss: 0.19031 | Running loss: 0.85874
+Epoch: 5 | Iteration: 500 | Classification loss: 0.24085 | Regression loss: 0.48695 | Running loss: 0.85296
+Epoch: 5 | Iteration: 600 | Classification loss: 0.39745 | Regression loss: 0.48343 | Running loss: 0.85362
+Epoch: 5 | Iteration: 700 | Classification loss: 0.56141 | Regression loss: 0.72445 | Running loss: 0.85200
+Epoch: 5 | Iteration: 800 | Classification loss: 0.44103 | Regression loss: 0.38765 | Running loss: 0.84807
+Epoch: 5 | Iteration: 900 | Classification loss: 0.31035 | Regression loss: 0.65683 | Running loss: 0.83698
+Epoch: 5 | Iteration: 1000 | Classification loss: 0.44898 | Regression loss: 0.60232 | Running loss: 0.85036
+Epoch: 6 | Iteration: 0 | Classification loss: 0.24703 | Regression loss: 0.44473 | Running loss: 0.84912
+Epoch: 6 | Iteration: 100 | Classification loss: 0.41605 | Regression loss: 0.23212 | Running loss: 0.83119
+Epoch: 6 | Iteration: 200 | Classification loss: 0.33768 | Regression loss: 0.45562 | Running loss: 0.82260
+Epoch: 6 | Iteration: 300 | Classification loss: 0.26794 | Regression loss: 0.28651 | Running loss: 0.81543
+Epoch: 6 | Iteration: 400 | Classification loss: 0.50153 | Regression loss: 0.67566 | Running loss: 0.81348
+Epoch: 6 | Iteration: 500 | Classification loss: 0.25930 | Regression loss: 0.24303 | Running loss: 0.78864
+Epoch: 6 | Iteration: 600 | Classification loss: 0.35606 | Regression loss: 0.74428 | Running loss: 0.80671
+Epoch: 6 | Iteration: 700 | Classification loss: 0.26994 | Regression loss: 0.35988 | Running loss: 0.81408
+Epoch: 6 | Iteration: 800 | Classification loss: 0.52409 | Regression loss: 0.44135 | Running loss: 0.80788
+Epoch: 6 | Iteration: 900 | Classification loss: 0.42743 | Regression loss: 0.45090 | Running loss: 0.79955
+Epoch: 6 | Iteration: 1000 | Classification loss: 0.31106 | Regression loss: 0.29271 | Running loss: 0.80140
+Epoch: 7 | Iteration: 0 | Classification loss: 0.28326 | Regression loss: 0.42103 | Running loss: 0.79530
+Epoch: 7 | Iteration: 100 | Classification loss: 0.39450 | Regression loss: 0.43210 | Running loss: 0.76494
+Epoch: 7 | Iteration: 200 | Classification loss: 0.23888 | Regression loss: 0.21108 | Running loss: 0.76261
+Epoch: 7 | Iteration: 300 | Classification loss: 0.23727 | Regression loss: 0.32492 | Running loss: 0.75396
+Epoch: 7 | Iteration: 400 | Classification loss: 0.29457 | Regression loss: 0.45056 | Running loss: 0.74198
+Epoch: 7 | Iteration: 500 | Classification loss: 0.28797 | Regression loss: 0.66227 | Running loss: 0.74634
+Epoch: 7 | Iteration: 600 | Classification loss: 0.24364 | Regression loss: 0.35481 | Running loss: 0.75644
+Epoch: 7 | Iteration: 700 | Classification loss: 0.29982 | Regression loss: 0.37547 | Running loss: 0.74543
+Epoch: 7 | Iteration: 800 | Classification loss: 0.27804 | Regression loss: 0.39598 | Running loss: 0.73920
+Epoch: 7 | Iteration: 900 | Classification loss: 0.54571 | Regression loss: 0.75480 | Running loss: 0.73946
+Epoch: 7 | Iteration: 1000 | Classification loss: 0.25265 | Regression loss: 0.30130 | Running loss: 0.73357
+Epoch: 8 | Iteration: 0 | Classification loss: 0.37464 | Regression loss: 0.45852 | Running loss: 0.73720
+Epoch: 8 | Iteration: 100 | Classification loss: 0.19911 | Regression loss: 0.25019 | Running loss: 0.72629
+Epoch: 8 | Iteration: 200 | Classification loss: 0.45854 | Regression loss: 0.46372 | Running loss: 0.72280
+Epoch: 8 | Iteration: 300 | Classification loss: 0.38040 | Regression loss: 0.57392 | Running loss: 0.72597
+Epoch: 8 | Iteration: 400 | Classification loss: 0.33174 | Regression loss: 0.32677 | Running loss: 0.70856
+Epoch: 8 | Iteration: 500 | Classification loss: 0.33821 | Regression loss: 0.41396 | Running loss: 0.70324
+Epoch: 8 | Iteration: 600 | Classification loss: 0.19985 | Regression loss: 0.49480 | Running loss: 0.70793
+Epoch: 8 | Iteration: 700 | Classification loss: 0.25362 | Regression loss: 0.33123 | Running loss: 0.72366
+Epoch: 8 | Iteration: 800 | Classification loss: 0.33434 | Regression loss: 0.39166 | Running loss: 0.71538
+Epoch: 8 | Iteration: 900 | Classification loss: 0.51740 | Regression loss: 0.47901 | Running loss: 0.71945
+Epoch: 8 | Iteration: 1000 | Classification loss: 0.23701 | Regression loss: 0.73419 | Running loss: 0.70601
+Epoch: 9 | Iteration: 0 | Classification loss: 0.42991 | Regression loss: 0.51179 | Running loss: 0.70580
+Epoch: 9 | Iteration: 100 | Classification loss: 0.46016 | Regression loss: 0.48494 | Running loss: 0.68290
+Epoch: 9 | Iteration: 200 | Classification loss: 0.27049 | Regression loss: 0.24952 | Running loss: 0.65959
+Epoch: 9 | Iteration: 300 | Classification loss: 0.25774 | Regression loss: 0.30308 | Running loss: 0.65575
+Epoch: 9 | Iteration: 400 | Classification loss: 0.43372 | Regression loss: 0.64365 | Running loss: 0.64591
+Epoch: 9 | Iteration: 500 | Classification loss: 0.21291 | Regression loss: 0.20323 | Running loss: 0.63276
+Epoch: 9 | Iteration: 600 | Classification loss: 0.16617 | Regression loss: 0.25306 | Running loss: 0.63502
+Epoch: 9 | Iteration: 700 | Classification loss: 0.28934 | Regression loss: 0.29855 | Running loss: 0.63892
+Epoch: 9 | Iteration: 800 | Classification loss: 0.18120 | Regression loss: 0.29612 | Running loss: 0.64025
+Epoch: 9 | Iteration: 900 | Classification loss: 0.28232 | Regression loss: 0.40577 | Running loss: 0.63963
+Epoch: 9 | Iteration: 1000 | Classification loss: 0.08807 | Regression loss: 0.20057 | Running loss: 0.63895
 epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733]
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277]
 Evaluating dataset
 Loading and preparing results...
-DONE (t=0.77s)
+DONE (t=0.91s)
 creating index...
 index created!
 Running per image evaluation...
 Evaluate annotation type *bbox*
-DONE (t=3.34s).
+DONE (t=4.14s).
 Accumulating evaluation results...
-DONE (t=1.47s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.193
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.357
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.186
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.044
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.101
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.247
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.321
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.455
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.480
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.127
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.364
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.552
-Epoch: 10 | Iteration: 0 | Classification loss: 0.19856 | Regression loss: 0.34767 | Running loss: 0.65014
-Epoch: 10 | Iteration: 100 | Classification loss: 0.36203 | Regression loss: 0.49039 | Running loss: 0.64071
-Epoch: 10 | Iteration: 200 | Classification loss: 0.19496 | Regression loss: 0.19301 | Running loss: 0.63962
-Epoch: 10 | Iteration: 300 | Classification loss: 0.51524 | Regression loss: 0.39035 | Running loss: 0.63112
-Epoch: 10 | Iteration: 400 | Classification loss: 0.25901 | Regression loss: 0.23508 | Running loss: 0.61938
-Epoch: 10 | Iteration: 500 | Classification loss: 0.30747 | Regression loss: 0.32501 | Running loss: 0.60950
-Epoch: 10 | Iteration: 600 | Classification loss: 0.12916 | Regression loss: 0.31306 | Running loss: 0.60841
-Epoch: 10 | Iteration: 700 | Classification loss: 0.29519 | Regression loss: 0.23665 | Running loss: 0.60884
-Epoch: 10 | Iteration: 800 | Classification loss: 0.28881 | Regression loss: 0.19328 | Running loss: 0.61180
-Epoch: 10 | Iteration: 900 | Classification loss: 0.36840 | Regression loss: 0.31549 | Running loss: 0.60689
-Epoch: 10 | Iteration: 1000 | Classification loss: 0.16605 | Regression loss: 0.16070 | Running loss: 0.60341
-Epoch: 11 | Iteration: 0 | Classification loss: 0.18273 | Regression loss: 0.24009 | Running loss: 0.60141
-Epoch: 11 | Iteration: 100 | Classification loss: 0.13959 | Regression loss: 0.28313 | Running loss: 0.59299
-Epoch: 11 | Iteration: 200 | Classification loss: 0.11824 | Regression loss: 0.25266 | Running loss: 0.57635
-Epoch: 11 | Iteration: 300 | Classification loss: 0.24213 | Regression loss: 0.30768 | Running loss: 0.56955
-Epoch: 11 | Iteration: 400 | Classification loss: 0.20540 | Regression loss: 0.24309 | Running loss: 0.54895
-Epoch: 11 | Iteration: 500 | Classification loss: 0.13712 | Regression loss: 0.30879 | Running loss: 0.54455
-Epoch: 11 | Iteration: 600 | Classification loss: 0.16614 | Regression loss: 0.33210 | Running loss: 0.56341
-Epoch: 11 | Iteration: 700 | Classification loss: 0.23084 | Regression loss: 0.29786 | Running loss: 0.57289
-Epoch: 11 | Iteration: 800 | Classification loss: 0.16567 | Regression loss: 0.15390 | Running loss: 0.57487
-Epoch: 11 | Iteration: 900 | Classification loss: 0.22567 | Regression loss: 0.34380 | Running loss: 0.58270
-Epoch: 11 | Iteration: 1000 | Classification loss: 0.25291 | Regression loss: 0.40190 | Running loss: 0.59245
-Epoch: 12 | Iteration: 0 | Classification loss: 0.22010 | Regression loss: 0.13180 | Running loss: 0.59083
-Epoch: 12 | Iteration: 100 | Classification loss: 0.14711 | Regression loss: 0.17270 | Running loss: 0.57686
-Epoch: 12 | Iteration: 200 | Classification loss: 0.20401 | Regression loss: 0.21303 | Running loss: 0.56506
-Epoch: 12 | Iteration: 300 | Classification loss: 0.05453 | Regression loss: 0.12826 | Running loss: 0.54247
-Epoch: 12 | Iteration: 400 | Classification loss: 0.17856 | Regression loss: 0.26806 | Running loss: 0.54400
-Epoch: 12 | Iteration: 500 | Classification loss: 0.14530 | Regression loss: 0.29500 | Running loss: 0.52337
-Epoch: 12 | Iteration: 600 | Classification loss: 0.30912 | Regression loss: 0.23685 | Running loss: 0.52403
-Epoch: 12 | Iteration: 700 | Classification loss: 0.07367 | Regression loss: 0.20797 | Running loss: 0.52828
-Epoch: 12 | Iteration: 800 | Classification loss: 0.48618 | Regression loss: 0.61956 | Running loss: 0.53859
-Epoch: 12 | Iteration: 900 | Classification loss: 0.10603 | Regression loss: 0.23727 | Running loss: 0.53237
-Epoch: 12 | Iteration: 1000 | Classification loss: 0.12754 | Regression loss: 0.14003 | Running loss: 0.52316
-Epoch: 13 | Iteration: 0 | Classification loss: 0.16928 | Regression loss: 0.26836 | Running loss: 0.52338
-Epoch: 13 | Iteration: 100 | Classification loss: 0.27241 | Regression loss: 0.26926 | Running loss: 0.51985
-Epoch: 13 | Iteration: 200 | Classification loss: 0.20874 | Regression loss: 0.18978 | Running loss: 0.50838
-Epoch: 13 | Iteration: 300 | Classification loss: 0.08368 | Regression loss: 0.28039 | Running loss: 0.50000
-Epoch: 13 | Iteration: 400 | Classification loss: 0.07522 | Regression loss: 0.09917 | Running loss: 0.49098
-Epoch: 13 | Iteration: 500 | Classification loss: 0.20643 | Regression loss: 0.54614 | Running loss: 0.49878
-Epoch: 13 | Iteration: 600 | Classification loss: 0.05047 | Regression loss: 0.11756 | Running loss: 0.49637
-Epoch: 13 | Iteration: 700 | Classification loss: 0.11327 | Regression loss: 0.40308 | Running loss: 0.49793
-Epoch: 13 | Iteration: 800 | Classification loss: 0.18255 | Regression loss: 0.26946 | Running loss: 0.49366
-Epoch: 13 | Iteration: 900 | Classification loss: 0.21048 | Regression loss: 0.33311 | Running loss: 0.49674
-Epoch: 13 | Iteration: 1000 | Classification loss: 0.13044 | Regression loss: 0.24073 | Running loss: 0.48959
-Epoch: 14 | Iteration: 0 | Classification loss: 0.53393 | Regression loss: 0.56412 | Running loss: 0.48645
-Epoch: 14 | Iteration: 100 | Classification loss: 0.18099 | Regression loss: 0.36151 | Running loss: 0.47896
-Epoch: 14 | Iteration: 200 | Classification loss: 0.15990 | Regression loss: 0.23445 | Running loss: 0.47573
-Epoch: 14 | Iteration: 300 | Classification loss: 0.20114 | Regression loss: 0.34206 | Running loss: 0.47204
-Epoch: 14 | Iteration: 400 | Classification loss: 0.61200 | Regression loss: 0.28165 | Running loss: 0.46759
-Epoch: 14 | Iteration: 500 | Classification loss: 0.24314 | Regression loss: 0.39058 | Running loss: 0.46490
-Epoch: 14 | Iteration: 600 | Classification loss: 0.11188 | Regression loss: 0.14308 | Running loss: 0.46131
-Epoch: 14 | Iteration: 700 | Classification loss: 0.24209 | Regression loss: 0.29914 | Running loss: 0.45826
-Epoch: 14 | Iteration: 800 | Classification loss: 0.05062 | Regression loss: 0.09584 | Running loss: 0.45184
-Epoch: 14 | Iteration: 900 | Classification loss: 0.08545 | Regression loss: 0.21885 | Running loss: 0.45088
-Epoch: 14 | Iteration: 1000 | Classification loss: 0.22698 | Regression loss: 0.39585 | Running loss: 0.45260
-Epoch: 15 | Iteration: 0 | Classification loss: 0.10868 | Regression loss: 0.21559 | Running loss: 0.44838
-Epoch: 15 | Iteration: 100 | Classification loss: 0.25839 | Regression loss: 0.31267 | Running loss: 0.44901
-Epoch: 15 | Iteration: 200 | Classification loss: 0.18648 | Regression loss: 0.26060 | Running loss: 0.44248
-Epoch: 15 | Iteration: 300 | Classification loss: 0.04092 | Regression loss: 0.10337 | Running loss: 0.45026
-Epoch: 15 | Iteration: 400 | Classification loss: 0.68433 | Regression loss: 0.66903 | Running loss: 0.44376
-Epoch: 15 | Iteration: 500 | Classification loss: 0.07719 | Regression loss: 0.16820 | Running loss: 0.43421
-Epoch: 15 | Iteration: 600 | Classification loss: 0.11401 | Regression loss: 0.30900 | Running loss: 0.43364
-Epoch: 15 | Iteration: 700 | Classification loss: 0.25656 | Regression loss: 0.21249 | Running loss: 0.43976
-Epoch: 15 | Iteration: 800 | Classification loss: 0.14222 | Regression loss: 0.14661 | Running loss: 0.42931
-Epoch: 15 | Iteration: 900 | Classification loss: 0.20959 | Regression loss: 0.52225 | Running loss: 0.42400
-Epoch: 15 | Iteration: 1000 | Classification loss: 0.09065 | Regression loss: 0.14736 | Running loss: 0.42070
-Epoch: 16 | Iteration: 0 | Classification loss: 0.14885 | Regression loss: 0.33537 | Running loss: 0.42406
-Epoch: 16 | Iteration: 100 | Classification loss: 0.05099 | Regression loss: 0.15261 | Running loss: 0.41228
-Epoch: 16 | Iteration: 200 | Classification loss: 0.20746 | Regression loss: 0.16441 | Running loss: 0.40837
-Epoch: 16 | Iteration: 300 | Classification loss: 0.11722 | Regression loss: 0.14510 | Running loss: 0.40491
-Epoch: 16 | Iteration: 400 | Classification loss: 0.13352 | Regression loss: 0.19891 | Running loss: 0.40266
-Epoch: 16 | Iteration: 500 | Classification loss: 0.03856 | Regression loss: 0.10259 | Running loss: 0.40147
-Epoch: 16 | Iteration: 600 | Classification loss: 0.11580 | Regression loss: 0.10179 | Running loss: 0.39924
-Epoch: 16 | Iteration: 700 | Classification loss: 0.04070 | Regression loss: 0.11642 | Running loss: 0.40326
-Epoch: 16 | Iteration: 800 | Classification loss: 0.61121 | Regression loss: 0.50186 | Running loss: 0.39917
-Epoch: 16 | Iteration: 900 | Classification loss: 0.31373 | Regression loss: 0.32051 | Running loss: 0.40932
-Epoch: 16 | Iteration: 1000 | Classification loss: 0.29305 | Regression loss: 0.19614 | Running loss: 0.41198
-Epoch: 17 | Iteration: 0 | Classification loss: 0.06937 | Regression loss: 0.17001 | Running loss: 0.41508
-Epoch: 17 | Iteration: 100 | Classification loss: 0.11398 | Regression loss: 0.15505 | Running loss: 0.41183
-Epoch: 17 | Iteration: 200 | Classification loss: 0.46271 | Regression loss: 0.23354 | Running loss: 0.40548
-Epoch: 17 | Iteration: 300 | Classification loss: 0.21680 | Regression loss: 0.20787 | Running loss: 0.40563
-Epoch: 17 | Iteration: 400 | Classification loss: 0.04433 | Regression loss: 0.10096 | Running loss: 0.39067
-Epoch: 17 | Iteration: 500 | Classification loss: 0.20913 | Regression loss: 0.33839 | Running loss: 0.38340
-Epoch: 17 | Iteration: 600 | Classification loss: 0.07013 | Regression loss: 0.30155 | Running loss: 0.38317
-Epoch: 17 | Iteration: 700 | Classification loss: 0.02198 | Regression loss: 0.07150 | Running loss: 0.38145
-Epoch: 17 | Iteration: 800 | Classification loss: 0.03225 | Regression loss: 0.14197 | Running loss: 0.37943
-Epoch: 17 | Iteration: 900 | Classification loss: 0.10563 | Regression loss: 0.19774 | Running loss: 0.38231
-Epoch: 17 | Iteration: 1000 | Classification loss: 0.65459 | Regression loss: 0.52068 | Running loss: 0.37885
-Epoch: 18 | Iteration: 0 | Classification loss: 0.03497 | Regression loss: 0.10189 | Running loss: 0.37622
-Epoch: 18 | Iteration: 100 | Classification loss: 0.14232 | Regression loss: 0.49690 | Running loss: 0.38038
-Epoch: 18 | Iteration: 200 | Classification loss: 0.09726 | Regression loss: 0.35082 | Running loss: 0.37767
-Epoch: 18 | Iteration: 300 | Classification loss: 0.06508 | Regression loss: 0.13538 | Running loss: 0.36359
-Epoch: 18 | Iteration: 400 | Classification loss: 0.43602 | Regression loss: 0.37886 | Running loss: 0.36227
-Epoch: 18 | Iteration: 500 | Classification loss: 0.04303 | Regression loss: 0.15763 | Running loss: 0.36296
-Epoch: 18 | Iteration: 600 | Classification loss: 0.14220 | Regression loss: 0.27189 | Running loss: 0.36584
-Epoch: 18 | Iteration: 700 | Classification loss: 0.05477 | Regression loss: 0.21942 | Running loss: 0.36689
-Epoch: 18 | Iteration: 800 | Classification loss: 0.05941 | Regression loss: 0.24239 | Running loss: 0.37339
-Epoch: 18 | Iteration: 900 | Classification loss: 0.02191 | Regression loss: 0.04097 | Running loss: 0.37416
-Epoch: 18 | Iteration: 1000 | Classification loss: 0.32348 | Regression loss: 0.26397 | Running loss: 0.37139
-Epoch: 19 | Iteration: 0 | Classification loss: 0.06683 | Regression loss: 0.16339 | Running loss: 0.37015
-Epoch: 19 | Iteration: 100 | Classification loss: 0.23588 | Regression loss: 0.23781 | Running loss: 0.35893
-Epoch: 19 | Iteration: 200 | Classification loss: 0.13810 | Regression loss: 0.21343 | Running loss: 0.35763
-Epoch: 19 | Iteration: 300 | Classification loss: 0.03894 | Regression loss: 0.09251 | Running loss: 0.35815
-Epoch: 19 | Iteration: 400 | Classification loss: 0.15805 | Regression loss: 0.17330 | Running loss: 0.35403
-Epoch: 19 | Iteration: 500 | Classification loss: 0.31953 | Regression loss: 0.46940 | Running loss: 0.34717
-Epoch: 19 | Iteration: 600 | Classification loss: 0.05957 | Regression loss: 0.24047 | Running loss: 0.34607
-Epoch: 19 | Iteration: 700 | Classification loss: 0.03193 | Regression loss: 0.16189 | Running loss: 0.33852
-Epoch: 19 | Iteration: 800 | Classification loss: 0.06864 | Regression loss: 0.21518 | Running loss: 0.33898
-Epoch: 19 | Iteration: 900 | Classification loss: 0.21175 | Regression loss: 0.30292 | Running loss: 0.33574
-Epoch: 19 | Iteration: 1000 | Classification loss: 0.02888 | Regression loss: 0.12768 | Running loss: 0.33796
+DONE (t=1.70s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.212
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.397
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.072
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.103
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.144
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.553
+Epoch: 10 | Iteration: 0 | Classification loss: 0.20950 | Regression loss: 0.27090 | Running loss: 0.63980
+Epoch: 10 | Iteration: 100 | Classification loss: 0.40097 | Regression loss: 0.28356 | Running loss: 0.63341
+Epoch: 10 | Iteration: 200 | Classification loss: 0.19397 | Regression loss: 0.25818 | Running loss: 0.61874
+Epoch: 10 | Iteration: 300 | Classification loss: 0.45906 | Regression loss: 0.18412 | Running loss: 0.60405
+Epoch: 10 | Iteration: 400 | Classification loss: 0.59487 | Regression loss: 0.48207 | Running loss: 0.59703
+Epoch: 10 | Iteration: 500 | Classification loss: 0.23382 | Regression loss: 0.29598 | Running loss: 0.59621
+Epoch: 10 | Iteration: 600 | Classification loss: 0.87954 | Regression loss: 0.88425 | Running loss: 0.59742
+Epoch: 10 | Iteration: 700 | Classification loss: 0.35204 | Regression loss: 0.42035 | Running loss: 0.59979
+Epoch: 10 | Iteration: 800 | Classification loss: 0.19152 | Regression loss: 0.16339 | Running loss: 0.59745
+Epoch: 10 | Iteration: 900 | Classification loss: 0.21465 | Regression loss: 0.22331 | Running loss: 0.60285
+Epoch: 10 | Iteration: 1000 | Classification loss: 0.20906 | Regression loss: 0.44920 | Running loss: 0.60421
+Epoch: 11 | Iteration: 0 | Classification loss: 0.30180 | Regression loss: 0.41468 | Running loss: 0.60974
+Epoch: 11 | Iteration: 100 | Classification loss: 0.24411 | Regression loss: 0.26526 | Running loss: 0.60093
+Epoch: 11 | Iteration: 200 | Classification loss: 0.34428 | Regression loss: 0.20692 | Running loss: 0.59269
+Epoch: 11 | Iteration: 300 | Classification loss: 0.21360 | Regression loss: 0.17019 | Running loss: 0.58917
+Epoch: 11 | Iteration: 400 | Classification loss: 0.25916 | Regression loss: 0.34382 | Running loss: 0.57640
+Epoch: 11 | Iteration: 500 | Classification loss: 0.35601 | Regression loss: 0.50650 | Running loss: 0.56409
+Epoch: 11 | Iteration: 600 | Classification loss: 0.23819 | Regression loss: 0.18719 | Running loss: 0.55762
+Epoch: 11 | Iteration: 700 | Classification loss: 0.16134 | Regression loss: 0.33856 | Running loss: 0.55388
+Epoch: 11 | Iteration: 800 | Classification loss: 0.18117 | Regression loss: 0.17831 | Running loss: 0.56086
+Epoch: 11 | Iteration: 900 | Classification loss: 0.67382 | Regression loss: 0.65720 | Running loss: 0.56023
+Epoch: 11 | Iteration: 1000 | Classification loss: 0.23241 | Regression loss: 0.18422 | Running loss: 0.56258
+Epoch: 12 | Iteration: 0 | Classification loss: 0.27758 | Regression loss: 0.28455 | Running loss: 0.56307
+Epoch: 12 | Iteration: 100 | Classification loss: 0.14497 | Regression loss: 0.19408 | Running loss: 0.55887
+Epoch: 12 | Iteration: 200 | Classification loss: 0.07193 | Regression loss: 0.23965 | Running loss: 0.54924
+Epoch: 12 | Iteration: 300 | Classification loss: 0.15099 | Regression loss: 0.25997 | Running loss: 0.54074
+Epoch: 12 | Iteration: 400 | Classification loss: 0.19413 | Regression loss: 0.46065 | Running loss: 0.52744
+Epoch: 12 | Iteration: 500 | Classification loss: 0.20279 | Regression loss: 0.13605 | Running loss: 0.51866
+Epoch: 12 | Iteration: 600 | Classification loss: 0.37125 | Regression loss: 0.30040 | Running loss: 0.51852
+Epoch: 12 | Iteration: 700 | Classification loss: 1.08935 | Regression loss: 0.41975 | Running loss: 0.51835
+Epoch: 12 | Iteration: 800 | Classification loss: 0.13825 | Regression loss: 0.20926 | Running loss: 0.51570
+Epoch: 12 | Iteration: 900 | Classification loss: 0.25141 | Regression loss: 0.31842 | Running loss: 0.52588
+Epoch: 12 | Iteration: 1000 | Classification loss: 0.13483 | Regression loss: 0.31170 | Running loss: 0.52444
+Epoch: 13 | Iteration: 0 | Classification loss: 0.14861 | Regression loss: 0.18430 | Running loss: 0.52544
+Epoch: 13 | Iteration: 100 | Classification loss: 0.14215 | Regression loss: 0.15199 | Running loss: 0.51103
+Epoch: 13 | Iteration: 200 | Classification loss: 0.10822 | Regression loss: 0.25858 | Running loss: 0.51301
+Epoch: 13 | Iteration: 300 | Classification loss: 0.12256 | Regression loss: 0.24469 | Running loss: 0.50106
+Epoch: 13 | Iteration: 400 | Classification loss: 0.18920 | Regression loss: 0.25821 | Running loss: 0.50763
+Epoch: 13 | Iteration: 500 | Classification loss: 0.06667 | Regression loss: 0.11684 | Running loss: 0.49645
+Epoch: 13 | Iteration: 600 | Classification loss: 0.42906 | Regression loss: 0.39547 | Running loss: 0.49914
+Epoch: 13 | Iteration: 700 | Classification loss: 0.32794 | Regression loss: 0.53014 | Running loss: 0.49586
+Epoch: 13 | Iteration: 800 | Classification loss: 0.43800 | Regression loss: 0.18827 | Running loss: 0.50741
+Epoch: 13 | Iteration: 900 | Classification loss: 0.16479 | Regression loss: 0.41759 | Running loss: 0.49465
+Epoch: 13 | Iteration: 1000 | Classification loss: 0.30309 | Regression loss: 0.34843 | Running loss: 0.49207
+Epoch: 14 | Iteration: 0 | Classification loss: 0.25611 | Regression loss: 0.44649 | Running loss: 0.49296
+Epoch: 14 | Iteration: 100 | Classification loss: 0.07501 | Regression loss: 0.07555 | Running loss: 0.49057
+Epoch: 14 | Iteration: 200 | Classification loss: 0.39618 | Regression loss: 0.68045 | Running loss: 0.47696
+Epoch: 14 | Iteration: 300 | Classification loss: 0.22010 | Regression loss: 0.19506 | Running loss: 0.46067
+Epoch: 14 | Iteration: 400 | Classification loss: 0.24106 | Regression loss: 0.30815 | Running loss: 0.45674
+Epoch: 14 | Iteration: 500 | Classification loss: 0.18847 | Regression loss: 0.17832 | Running loss: 0.46146
+Epoch: 14 | Iteration: 600 | Classification loss: 0.17991 | Regression loss: 0.37443 | Running loss: 0.45999
+Epoch: 14 | Iteration: 700 | Classification loss: 0.15546 | Regression loss: 0.22743 | Running loss: 0.47036
+Epoch: 14 | Iteration: 800 | Classification loss: 0.35180 | Regression loss: 0.36343 | Running loss: 0.46636
+Epoch: 14 | Iteration: 900 | Classification loss: 0.07775 | Regression loss: 0.30555 | Running loss: 0.46955
+Epoch: 14 | Iteration: 1000 | Classification loss: 0.11824 | Regression loss: 0.11692 | Running loss: 0.45877
+Epoch: 15 | Iteration: 0 | Classification loss: 0.14526 | Regression loss: 0.08457 | Running loss: 0.45786
+Epoch: 15 | Iteration: 100 | Classification loss: 0.15577 | Regression loss: 0.32926 | Running loss: 0.45166
+Epoch: 15 | Iteration: 200 | Classification loss: 0.07942 | Regression loss: 0.11184 | Running loss: 0.44005
+Epoch: 15 | Iteration: 300 | Classification loss: 0.17270 | Regression loss: 0.28666 | Running loss: 0.43776
+Epoch: 15 | Iteration: 400 | Classification loss: 0.15554 | Regression loss: 0.26704 | Running loss: 0.43438
+Epoch: 15 | Iteration: 500 | Classification loss: 0.18920 | Regression loss: 0.37732 | Running loss: 0.42629
+Epoch: 15 | Iteration: 600 | Classification loss: 0.03550 | Regression loss: 0.14653 | Running loss: 0.42527
+Epoch: 15 | Iteration: 700 | Classification loss: 0.04169 | Regression loss: 0.16934 | Running loss: 0.42589
+Epoch: 15 | Iteration: 800 | Classification loss: 0.27957 | Regression loss: 0.43387 | Running loss: 0.43011
+Epoch: 15 | Iteration: 900 | Classification loss: 0.27194 | Regression loss: 0.38194 | Running loss: 0.42859
+Epoch: 15 | Iteration: 1000 | Classification loss: 0.11466 | Regression loss: 0.30791 | Running loss: 0.43586
+Epoch: 16 | Iteration: 0 | Classification loss: 0.05153 | Regression loss: 0.15113 | Running loss: 0.43208
+Epoch: 16 | Iteration: 100 | Classification loss: 0.34422 | Regression loss: 0.47213 | Running loss: 0.42540
+Epoch: 16 | Iteration: 200 | Classification loss: 0.42414 | Regression loss: 0.52209 | Running loss: 0.42290
+Epoch: 16 | Iteration: 300 | Classification loss: 0.22795 | Regression loss: 0.14394 | Running loss: 0.40756
+Epoch: 16 | Iteration: 400 | Classification loss: 0.12025 | Regression loss: 0.14577 | Running loss: 0.40717
+Epoch: 16 | Iteration: 500 | Classification loss: 0.28763 | Regression loss: 0.23351 | Running loss: 0.40386
+Epoch: 16 | Iteration: 600 | Classification loss: 0.06564 | Regression loss: 0.12158 | Running loss: 0.40802
+Epoch: 16 | Iteration: 700 | Classification loss: 0.20477 | Regression loss: 0.39073 | Running loss: 0.41396
+Epoch: 16 | Iteration: 800 | Classification loss: 0.27048 | Regression loss: 0.19763 | Running loss: 0.42015
+Epoch: 16 | Iteration: 900 | Classification loss: 0.14818 | Regression loss: 0.35804 | Running loss: 0.42072
+Epoch: 16 | Iteration: 1000 | Classification loss: 0.06034 | Regression loss: 0.13972 | Running loss: 0.41394
+Epoch: 17 | Iteration: 0 | Classification loss: 0.11027 | Regression loss: 0.12509 | Running loss: 0.41221
+Epoch: 17 | Iteration: 100 | Classification loss: 0.04132 | Regression loss: 0.14924 | Running loss: 0.40486
+Epoch: 17 | Iteration: 200 | Classification loss: 0.33892 | Regression loss: 0.27284 | Running loss: 0.40242
+Epoch: 17 | Iteration: 300 | Classification loss: 0.19945 | Regression loss: 0.44539 | Running loss: 0.40359
+Epoch: 17 | Iteration: 400 | Classification loss: 0.19194 | Regression loss: 0.37382 | Running loss: 0.39377
+Epoch: 17 | Iteration: 500 | Classification loss: 0.09659 | Regression loss: 0.16200 | Running loss: 0.38502
+Epoch: 17 | Iteration: 600 | Classification loss: 0.03031 | Regression loss: 0.19954 | Running loss: 0.38316
+Epoch: 17 | Iteration: 700 | Classification loss: 0.77229 | Regression loss: 0.31104 | Running loss: 0.37649
+Epoch: 17 | Iteration: 800 | Classification loss: 0.08555 | Regression loss: 0.32147 | Running loss: 0.37468
+Epoch: 17 | Iteration: 900 | Classification loss: 0.10005 | Regression loss: 0.31612 | Running loss: 0.37552
+Epoch: 17 | Iteration: 1000 | Classification loss: 0.32062 | Regression loss: 0.13876 | Running loss: 0.38643
+Epoch: 18 | Iteration: 0 | Classification loss: 0.37060 | Regression loss: 0.43219 | Running loss: 0.39046
+Epoch: 18 | Iteration: 100 | Classification loss: 0.26737 | Regression loss: 0.33911 | Running loss: 0.38110
+Epoch: 18 | Iteration: 200 | Classification loss: 0.06881 | Regression loss: 0.11702 | Running loss: 0.37822
+Epoch: 18 | Iteration: 300 | Classification loss: 0.08771 | Regression loss: 0.10694 | Running loss: 0.37532
+Epoch: 18 | Iteration: 400 | Classification loss: 0.12892 | Regression loss: 0.27650 | Running loss: 0.36487
+Epoch: 18 | Iteration: 500 | Classification loss: 0.29619 | Regression loss: 0.26934 | Running loss: 0.36287
+Epoch: 18 | Iteration: 600 | Classification loss: 0.15749 | Regression loss: 0.22585 | Running loss: 0.36057
+Epoch: 18 | Iteration: 700 | Classification loss: 0.02548 | Regression loss: 0.18788 | Running loss: 0.36545
+Epoch: 18 | Iteration: 800 | Classification loss: 0.19697 | Regression loss: 0.44877 | Running loss: 0.36020
+Epoch: 18 | Iteration: 900 | Classification loss: 0.05749 | Regression loss: 0.11803 | Running loss: 0.36115
+Epoch: 18 | Iteration: 1000 | Classification loss: 0.12186 | Regression loss: 0.11545 | Running loss: 0.35618
+Epoch: 19 | Iteration: 0 | Classification loss: 0.04817 | Regression loss: 0.20837 | Running loss: 0.35729
+Epoch: 19 | Iteration: 100 | Classification loss: 0.11073 | Regression loss: 0.30458 | Running loss: 0.35828
+Epoch: 19 | Iteration: 200 | Classification loss: 0.10418 | Regression loss: 0.18712 | Running loss: 0.34761
+Epoch: 19 | Iteration: 300 | Classification loss: 0.04476 | Regression loss: 0.10996 | Running loss: 0.34083
+Epoch: 19 | Iteration: 400 | Classification loss: 0.20948 | Regression loss: 0.34836 | Running loss: 0.33824
+Epoch: 19 | Iteration: 500 | Classification loss: 0.13388 | Regression loss: 0.27513 | Running loss: 0.33491
+Epoch: 19 | Iteration: 600 | Classification loss: 0.07163 | Regression loss: 0.12603 | Running loss: 0.33513
+Epoch: 19 | Iteration: 700 | Classification loss: 0.07884 | Regression loss: 0.21040 | Running loss: 0.33555
+Epoch: 19 | Iteration: 800 | Classification loss: 0.08819 | Regression loss: 0.08691 | Running loss: 0.34033
+Epoch: 19 | Iteration: 900 | Classification loss: 0.05849 | Regression loss: 0.15994 | Running loss: 0.34457
+Epoch: 19 | Iteration: 1000 | Classification loss: 0.01405 | Regression loss: 0.09162 | Running loss: 0.34142
 epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155]
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933]
 Evaluating dataset
 Loading and preparing results...
-DONE (t=0.27s)
+DONE (t=0.37s)
 creating index...
 index created!
 Running per image evaluation...
 Evaluate annotation type *bbox*
-DONE (t=1.96s).
+DONE (t=2.23s).
 Accumulating evaluation results...
-DONE (t=0.86s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.265
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.462
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.274
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
+DONE (t=0.93s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.458
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.255
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.039
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.122
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.331
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.324
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.425
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.069
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.245
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.522
-Epoch: 20 | Iteration: 0 | Classification loss: 0.06011 | Regression loss: 0.16307 | Running loss: 0.33653
-Epoch: 20 | Iteration: 100 | Classification loss: 0.09552 | Regression loss: 0.35887 | Running loss: 0.33769
-Epoch: 20 | Iteration: 200 | Classification loss: 0.06415 | Regression loss: 0.14959 | Running loss: 0.33663
-Epoch: 20 | Iteration: 300 | Classification loss: 0.23303 | Regression loss: 0.25518 | Running loss: 0.32937
-Epoch: 20 | Iteration: 400 | Classification loss: 0.11349 | Regression loss: 0.29028 | Running loss: 0.32489
-Epoch: 20 | Iteration: 500 | Classification loss: 0.00493 | Regression loss: 0.06078 | Running loss: 0.31838
-Epoch: 20 | Iteration: 600 | Classification loss: 0.05536 | Regression loss: 0.20475 | Running loss: 0.31732
-Epoch: 20 | Iteration: 700 | Classification loss: 0.21523 | Regression loss: 0.33099 | Running loss: 0.31985
-Epoch: 20 | Iteration: 800 | Classification loss: 0.09568 | Regression loss: 0.20899 | Running loss: 0.32256
-Epoch: 20 | Iteration: 900 | Classification loss: 0.11199 | Regression loss: 0.14395 | Running loss: 0.32967
-Epoch: 20 | Iteration: 1000 | Classification loss: 0.04685 | Regression loss: 0.17619 | Running loss: 0.33980
-Epoch: 21 | Iteration: 0 | Classification loss: 0.22737 | Regression loss: 0.33927 | Running loss: 0.33957
-Epoch: 21 | Iteration: 100 | Classification loss: 0.02023 | Regression loss: 0.10580 | Running loss: 0.33405
-Epoch: 21 | Iteration: 200 | Classification loss: 0.01760 | Regression loss: 0.10608 | Running loss: 0.32396
-Epoch: 21 | Iteration: 300 | Classification loss: 0.08470 | Regression loss: 0.14105 | Running loss: 0.31937
-Epoch: 21 | Iteration: 400 | Classification loss: 0.07850 | Regression loss: 0.13373 | Running loss: 0.31089
-Epoch: 21 | Iteration: 500 | Classification loss: 0.03946 | Regression loss: 0.21380 | Running loss: 0.30598
-Epoch: 21 | Iteration: 600 | Classification loss: 0.58504 | Regression loss: 0.13424 | Running loss: 0.30577
-Epoch: 21 | Iteration: 700 | Classification loss: 0.04034 | Regression loss: 0.08037 | Running loss: 0.30921
-Epoch: 21 | Iteration: 800 | Classification loss: 0.05640 | Regression loss: 0.15084 | Running loss: 0.30788
-Epoch: 21 | Iteration: 900 | Classification loss: 0.19850 | Regression loss: 0.11335 | Running loss: 0.30777
-Epoch: 21 | Iteration: 1000 | Classification loss: 0.01623 | Regression loss: 0.07764 | Running loss: 0.30546
-Epoch: 22 | Iteration: 0 | Classification loss: 0.01837 | Regression loss: 0.14177 | Running loss: 0.30694
-Epoch: 22 | Iteration: 100 | Classification loss: 0.13215 | Regression loss: 0.30219 | Running loss: 0.30464
-Epoch: 22 | Iteration: 200 | Classification loss: 0.03902 | Regression loss: 0.11494 | Running loss: 0.30605
-Epoch: 22 | Iteration: 300 | Classification loss: 0.02301 | Regression loss: 0.16910 | Running loss: 0.30006
-Epoch: 22 | Iteration: 400 | Classification loss: 0.09052 | Regression loss: 0.27784 | Running loss: 0.29493
-Epoch: 22 | Iteration: 500 | Classification loss: 0.06191 | Regression loss: 0.11647 | Running loss: 0.29089
-Epoch: 22 | Iteration: 600 | Classification loss: 0.01976 | Regression loss: 0.14531 | Running loss: 0.28781
-Epoch: 22 | Iteration: 700 | Classification loss: 0.30104 | Regression loss: 0.23805 | Running loss: 0.28793
-Epoch: 22 | Iteration: 800 | Classification loss: 0.07371 | Regression loss: 0.17191 | Running loss: 0.28633
-Epoch: 22 | Iteration: 900 | Classification loss: 0.11528 | Regression loss: 0.15555 | Running loss: 0.29136
-Epoch: 22 | Iteration: 1000 | Classification loss: 0.09101 | Regression loss: 0.15306 | Running loss: 0.29705
-Epoch: 23 | Iteration: 0 | Classification loss: 0.04038 | Regression loss: 0.21891 | Running loss: 0.29851
-Epoch: 23 | Iteration: 100 | Classification loss: 0.23383 | Regression loss: 0.46028 | Running loss: 0.29545
-Epoch: 23 | Iteration: 200 | Classification loss: 0.01044 | Regression loss: 0.14087 | Running loss: 0.28941
-Epoch: 23 | Iteration: 300 | Classification loss: 0.05003 | Regression loss: 0.17523 | Running loss: 0.29520
-Epoch: 23 | Iteration: 400 | Classification loss: 0.03290 | Regression loss: 0.07126 | Running loss: 0.29268
-Epoch: 23 | Iteration: 500 | Classification loss: 0.01503 | Regression loss: 0.09607 | Running loss: 0.28044
-Epoch: 23 | Iteration: 600 | Classification loss: 0.15517 | Regression loss: 0.21950 | Running loss: 0.28498
-Epoch: 23 | Iteration: 700 | Classification loss: 0.16531 | Regression loss: 0.05247 | Running loss: 0.28005
-Epoch: 23 | Iteration: 800 | Classification loss: 0.00916 | Regression loss: 0.13263 | Running loss: 0.28201
-Epoch: 23 | Iteration: 900 | Classification loss: 0.01381 | Regression loss: 0.16885 | Running loss: 0.28151
-Epoch: 23 | Iteration: 1000 | Classification loss: 0.01174 | Regression loss: 0.07946 | Running loss: 0.28710
-Epoch: 24 | Iteration: 0 | Classification loss: 0.01026 | Regression loss: 0.06438 | Running loss: 0.28434
-Epoch: 24 | Iteration: 100 | Classification loss: 0.27836 | Regression loss: 0.35608 | Running loss: 0.28816
-Epoch: 24 | Iteration: 200 | Classification loss: 0.03429 | Regression loss: 0.07154 | Running loss: 0.28334
-Epoch: 24 | Iteration: 300 | Classification loss: 0.10167 | Regression loss: 0.19931 | Running loss: 0.27381
-Epoch: 24 | Iteration: 400 | Classification loss: 0.02132 | Regression loss: 0.13728 | Running loss: 0.27624
-Epoch: 24 | Iteration: 500 | Classification loss: 0.01462 | Regression loss: 0.08915 | Running loss: 0.26872
-Epoch: 24 | Iteration: 600 | Classification loss: 0.05543 | Regression loss: 0.13181 | Running loss: 0.26716
-Epoch: 24 | Iteration: 700 | Classification loss: 0.05043 | Regression loss: 0.12424 | Running loss: 0.27599
-Epoch: 24 | Iteration: 800 | Classification loss: 0.00864 | Regression loss: 0.06553 | Running loss: 0.27144
-Epoch: 24 | Iteration: 900 | Classification loss: 0.06140 | Regression loss: 0.14678 | Running loss: 0.26571
-Epoch: 24 | Iteration: 1000 | Classification loss: 0.01136 | Regression loss: 0.21252 | Running loss: 0.26877
-Epoch: 25 | Iteration: 0 | Classification loss: 0.04365 | Regression loss: 0.06608 | Running loss: 0.26712
-Epoch: 25 | Iteration: 100 | Classification loss: 0.01711 | Regression loss: 0.08998 | Running loss: 0.26707
-Epoch: 25 | Iteration: 200 | Classification loss: 0.03196 | Regression loss: 0.16459 | Running loss: 0.25583
-Epoch: 25 | Iteration: 300 | Classification loss: 0.01006 | Regression loss: 0.08281 | Running loss: 0.25643
-Epoch: 25 | Iteration: 400 | Classification loss: 0.00570 | Regression loss: 0.05656 | Running loss: 0.24629
-Epoch: 25 | Iteration: 500 | Classification loss: 0.00805 | Regression loss: 0.08484 | Running loss: 0.24717
-Epoch: 25 | Iteration: 600 | Classification loss: 0.04203 | Regression loss: 0.19336 | Running loss: 0.25424
-Epoch: 25 | Iteration: 700 | Classification loss: 0.01807 | Regression loss: 0.10277 | Running loss: 0.25862
-Epoch: 25 | Iteration: 800 | Classification loss: 0.11027 | Regression loss: 0.12129 | Running loss: 0.26643
-Epoch: 25 | Iteration: 900 | Classification loss: 0.19484 | Regression loss: 0.15387 | Running loss: 0.27047
-Epoch: 25 | Iteration: 1000 | Classification loss: 0.02772 | Regression loss: 0.18378 | Running loss: 0.26848
-Epoch: 26 | Iteration: 0 | Classification loss: 0.01866 | Regression loss: 0.08567 | Running loss: 0.26780
-Epoch: 26 | Iteration: 100 | Classification loss: 0.00671 | Regression loss: 0.10068 | Running loss: 0.25819
-Epoch: 26 | Iteration: 200 | Classification loss: 0.09882 | Regression loss: 0.18364 | Running loss: 0.25366
-Epoch: 26 | Iteration: 300 | Classification loss: 0.05294 | Regression loss: 0.22387 | Running loss: 0.24912
-Epoch: 26 | Iteration: 400 | Classification loss: 0.06868 | Regression loss: 0.34628 | Running loss: 0.25098
-Epoch: 26 | Iteration: 500 | Classification loss: 0.06627 | Regression loss: 0.17515 | Running loss: 0.24668
-Epoch: 26 | Iteration: 600 | Classification loss: 0.01120 | Regression loss: 0.05529 | Running loss: 0.25064
-Epoch: 26 | Iteration: 700 | Classification loss: 0.05440 | Regression loss: 0.15620 | Running loss: 0.25749
-Epoch: 26 | Iteration: 800 | Classification loss: 0.10353 | Regression loss: 0.11838 | Running loss: 0.24954
-Epoch: 26 | Iteration: 900 | Classification loss: 0.21802 | Regression loss: 0.24249 | Running loss: 0.25027
-Epoch: 26 | Iteration: 1000 | Classification loss: 0.00893 | Regression loss: 0.06931 | Running loss: 0.25367
-Epoch: 27 | Iteration: 0 | Classification loss: 0.04580 | Regression loss: 0.18855 | Running loss: 0.25269
-Epoch: 27 | Iteration: 100 | Classification loss: 0.00982 | Regression loss: 0.07729 | Running loss: 0.24647
-Epoch: 27 | Iteration: 200 | Classification loss: 0.04603 | Regression loss: 0.16601 | Running loss: 0.24496
-Epoch: 27 | Iteration: 300 | Classification loss: 0.57759 | Regression loss: 0.30858 | Running loss: 0.24443
-Epoch: 27 | Iteration: 400 | Classification loss: 0.00321 | Regression loss: 0.06617 | Running loss: 0.23902
-Epoch: 27 | Iteration: 500 | Classification loss: 0.01173 | Regression loss: 0.09836 | Running loss: 0.23516
-Epoch: 27 | Iteration: 600 | Classification loss: 0.02463 | Regression loss: 0.11763 | Running loss: 0.23701
-Epoch: 27 | Iteration: 700 | Classification loss: 0.09162 | Regression loss: 0.22541 | Running loss: 0.24067
-Epoch: 27 | Iteration: 800 | Classification loss: 0.01651 | Regression loss: 0.12393 | Running loss: 0.23751
-Epoch: 27 | Iteration: 900 | Classification loss: 0.16787 | Regression loss: 0.29498 | Running loss: 0.24506
-Epoch: 27 | Iteration: 1000 | Classification loss: 0.00478 | Regression loss: 0.15914 | Running loss: 0.24753
-Epoch: 28 | Iteration: 0 | Classification loss: 0.16623 | Regression loss: 0.43410 | Running loss: 0.24865
-Epoch: 28 | Iteration: 100 | Classification loss: 0.01660 | Regression loss: 0.11571 | Running loss: 0.24275
-Epoch: 28 | Iteration: 200 | Classification loss: 0.02050 | Regression loss: 0.10865 | Running loss: 0.24179
-Epoch: 28 | Iteration: 300 | Classification loss: 0.01893 | Regression loss: 0.17384 | Running loss: 0.24480
-Epoch: 28 | Iteration: 400 | Classification loss: 0.05449 | Regression loss: 0.24156 | Running loss: 0.23655
-Epoch: 28 | Iteration: 500 | Classification loss: 0.01212 | Regression loss: 0.06978 | Running loss: 0.23097
-Epoch: 28 | Iteration: 600 | Classification loss: 0.01607 | Regression loss: 0.09721 | Running loss: 0.22997
-Epoch: 28 | Iteration: 700 | Classification loss: 0.10911 | Regression loss: 0.12596 | Running loss: 0.22779
-Epoch: 28 | Iteration: 800 | Classification loss: 0.01414 | Regression loss: 0.06161 | Running loss: 0.22371
-Epoch: 28 | Iteration: 900 | Classification loss: 0.06524 | Regression loss: 0.32698 | Running loss: 0.22262
-Epoch: 28 | Iteration: 1000 | Classification loss: 0.08997 | Regression loss: 0.16825 | Running loss: 0.22271
-Epoch: 29 | Iteration: 0 | Classification loss: 0.01947 | Regression loss: 0.10378 | Running loss: 0.22407
-Epoch: 29 | Iteration: 100 | Classification loss: 0.00073 | Regression loss: 0.03571 | Running loss: 0.22214
-Epoch: 29 | Iteration: 200 | Classification loss: 0.01423 | Regression loss: 0.08539 | Running loss: 0.22179
-Epoch: 29 | Iteration: 300 | Classification loss: 0.10533 | Regression loss: 0.26202 | Running loss: 0.22384
-Epoch: 29 | Iteration: 400 | Classification loss: 0.04226 | Regression loss: 0.08685 | Running loss: 0.22232
-Epoch: 29 | Iteration: 500 | Classification loss: 0.01553 | Regression loss: 0.23492 | Running loss: 0.21857
-Epoch: 29 | Iteration: 600 | Classification loss: 0.00725 | Regression loss: 0.18049 | Running loss: 0.22170
-Epoch: 29 | Iteration: 700 | Classification loss: 0.04484 | Regression loss: 0.16098 | Running loss: 0.22136
-Epoch: 29 | Iteration: 800 | Classification loss: 0.02311 | Regression loss: 0.04411 | Running loss: 0.21528
-Epoch: 29 | Iteration: 900 | Classification loss: 0.07029 | Regression loss: 0.24166 | Running loss: 0.23074
-Epoch: 29 | Iteration: 1000 | Classification loss: 0.20418 | Regression loss: 0.40020 | Running loss: 0.23897
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.321
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.319
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.439
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.449
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.087
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.303
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.529
+Epoch: 20 | Iteration: 0 | Classification loss: 0.12042 | Regression loss: 0.23296 | Running loss: 0.33970
+Epoch: 20 | Iteration: 100 | Classification loss: 0.18957 | Regression loss: 0.41356 | Running loss: 0.33538
+Epoch: 20 | Iteration: 200 | Classification loss: 0.10035 | Regression loss: 0.15927 | Running loss: 0.34411
+Epoch: 20 | Iteration: 300 | Classification loss: 0.08025 | Regression loss: 0.09695 | Running loss: 0.33555
+Epoch: 20 | Iteration: 400 | Classification loss: 0.01935 | Regression loss: 0.13657 | Running loss: 0.31952
+Epoch: 20 | Iteration: 500 | Classification loss: 0.07767 | Regression loss: 0.17594 | Running loss: 0.31305
+Epoch: 20 | Iteration: 600 | Classification loss: 0.29083 | Regression loss: 0.38880 | Running loss: 0.31953
+Epoch: 20 | Iteration: 700 | Classification loss: 0.03181 | Regression loss: 0.21524 | Running loss: 0.31020
+Epoch: 20 | Iteration: 800 | Classification loss: 0.07366 | Regression loss: 0.16901 | Running loss: 0.31447
+Epoch: 20 | Iteration: 900 | Classification loss: 0.07216 | Regression loss: 0.20903 | Running loss: 0.32623
+Epoch: 20 | Iteration: 1000 | Classification loss: 0.13605 | Regression loss: 0.12056 | Running loss: 0.32615
+Epoch: 21 | Iteration: 0 | Classification loss: 0.04457 | Regression loss: 0.18645 | Running loss: 0.32367
+Epoch: 21 | Iteration: 100 | Classification loss: 0.09248 | Regression loss: 0.16779 | Running loss: 0.32536
+Epoch: 21 | Iteration: 200 | Classification loss: 0.09732 | Regression loss: 0.12745 | Running loss: 0.32372
+Epoch: 21 | Iteration: 300 | Classification loss: 0.24002 | Regression loss: 0.40043 | Running loss: 0.31854
+Epoch: 21 | Iteration: 400 | Classification loss: 0.04710 | Regression loss: 0.12207 | Running loss: 0.31298
+Epoch: 21 | Iteration: 500 | Classification loss: 0.03038 | Regression loss: 0.09003 | Running loss: 0.31014
+Epoch: 21 | Iteration: 600 | Classification loss: 0.02605 | Regression loss: 0.10033 | Running loss: 0.30654
+Epoch: 21 | Iteration: 700 | Classification loss: 0.01459 | Regression loss: 0.11607 | Running loss: 0.30054
+Epoch: 21 | Iteration: 800 | Classification loss: 0.05796 | Regression loss: 0.30420 | Running loss: 0.30207
+Epoch: 21 | Iteration: 900 | Classification loss: 0.49669 | Regression loss: 0.18533 | Running loss: 0.30437
+Epoch: 21 | Iteration: 1000 | Classification loss: 0.03296 | Regression loss: 0.16477 | Running loss: 0.30532
+Epoch: 22 | Iteration: 0 | Classification loss: 0.12836 | Regression loss: 0.13493 | Running loss: 0.30133
+Epoch: 22 | Iteration: 100 | Classification loss: 0.04049 | Regression loss: 0.21965 | Running loss: 0.29537
+Epoch: 22 | Iteration: 200 | Classification loss: 0.04647 | Regression loss: 0.23971 | Running loss: 0.29577
+Epoch: 22 | Iteration: 300 | Classification loss: 0.04005 | Regression loss: 0.12678 | Running loss: 0.29003
+Epoch: 22 | Iteration: 400 | Classification loss: 0.06353 | Regression loss: 0.09867 | Running loss: 0.28107
+Epoch: 22 | Iteration: 500 | Classification loss: 0.01160 | Regression loss: 0.13678 | Running loss: 0.28466
+Epoch: 22 | Iteration: 600 | Classification loss: 0.23130 | Regression loss: 0.31930 | Running loss: 0.29086
+Epoch: 22 | Iteration: 700 | Classification loss: 0.06706 | Regression loss: 0.28363 | Running loss: 0.29291
+Epoch: 22 | Iteration: 800 | Classification loss: 0.18098 | Regression loss: 0.23745 | Running loss: 0.29580
+Epoch: 22 | Iteration: 900 | Classification loss: 0.10621 | Regression loss: 0.33551 | Running loss: 0.30415
+Epoch: 22 | Iteration: 1000 | Classification loss: 0.03167 | Regression loss: 0.22046 | Running loss: 0.30340
+Epoch: 23 | Iteration: 0 | Classification loss: 0.03481 | Regression loss: 0.11597 | Running loss: 0.30067
+Epoch: 23 | Iteration: 100 | Classification loss: 0.06748 | Regression loss: 0.20004 | Running loss: 0.30058
+Epoch: 23 | Iteration: 200 | Classification loss: 0.02318 | Regression loss: 0.20954 | Running loss: 0.29698
+Epoch: 23 | Iteration: 300 | Classification loss: 0.30236 | Regression loss: 0.15294 | Running loss: 0.29006
+Epoch: 23 | Iteration: 400 | Classification loss: 0.27524 | Regression loss: 0.08858 | Running loss: 0.28573
+Epoch: 23 | Iteration: 500 | Classification loss: 0.16602 | Regression loss: 0.19425 | Running loss: 0.27791
+Epoch: 23 | Iteration: 600 | Classification loss: 0.02429 | Regression loss: 0.11874 | Running loss: 0.28299
+Epoch: 23 | Iteration: 700 | Classification loss: 0.03616 | Regression loss: 0.17469 | Running loss: 0.28277
+Epoch: 23 | Iteration: 800 | Classification loss: 0.04152 | Regression loss: 0.07857 | Running loss: 0.28138
+Epoch: 23 | Iteration: 900 | Classification loss: 0.14798 | Regression loss: 0.28839 | Running loss: 0.27759
+Epoch: 23 | Iteration: 1000 | Classification loss: 0.06182 | Regression loss: 0.26584 | Running loss: 0.27684
+Epoch: 24 | Iteration: 0 | Classification loss: 0.02348 | Regression loss: 0.26683 | Running loss: 0.27619
+Epoch: 24 | Iteration: 100 | Classification loss: 0.01234 | Regression loss: 0.19267 | Running loss: 0.26622
+Epoch: 24 | Iteration: 200 | Classification loss: 0.03529 | Regression loss: 0.19399 | Running loss: 0.26615
+Epoch: 24 | Iteration: 300 | Classification loss: 0.19413 | Regression loss: 0.17472 | Running loss: 0.26388
+Epoch: 24 | Iteration: 400 | Classification loss: 0.05009 | Regression loss: 0.19217 | Running loss: 0.27235
+Epoch: 24 | Iteration: 500 | Classification loss: 0.00825 | Regression loss: 0.08443 | Running loss: 0.26871
+Epoch: 24 | Iteration: 600 | Classification loss: 0.12722 | Regression loss: 0.09894 | Running loss: 0.26767
+Epoch: 24 | Iteration: 700 | Classification loss: 0.33707 | Regression loss: 0.28323 | Running loss: 0.26463
+Epoch: 24 | Iteration: 800 | Classification loss: 0.01084 | Regression loss: 0.27788 | Running loss: 0.26310
+Epoch: 24 | Iteration: 900 | Classification loss: 0.03984 | Regression loss: 0.23635 | Running loss: 0.26089
+Epoch: 24 | Iteration: 1000 | Classification loss: 0.10031 | Regression loss: 0.17597 | Running loss: 0.26551
+Epoch: 25 | Iteration: 0 | Classification loss: 0.19088 | Regression loss: 0.13540 | Running loss: 0.26448
+Epoch: 25 | Iteration: 100 | Classification loss: 0.02745 | Regression loss: 0.09082 | Running loss: 0.25733
+Epoch: 25 | Iteration: 200 | Classification loss: 0.18391 | Regression loss: 0.29669 | Running loss: 0.26062
+Epoch: 25 | Iteration: 300 | Classification loss: 0.18608 | Regression loss: 0.21262 | Running loss: 0.26750
+Epoch: 25 | Iteration: 400 | Classification loss: 0.01412 | Regression loss: 0.09794 | Running loss: 0.26538
+Epoch: 25 | Iteration: 500 | Classification loss: 0.11850 | Regression loss: 0.09177 | Running loss: 0.25528
+Epoch: 25 | Iteration: 600 | Classification loss: 0.01009 | Regression loss: 0.21449 | Running loss: 0.26041
+Epoch: 25 | Iteration: 700 | Classification loss: 0.07263 | Regression loss: 0.21870 | Running loss: 0.26443
+Epoch: 25 | Iteration: 800 | Classification loss: 0.01864 | Regression loss: 0.11538 | Running loss: 0.26527
+Epoch: 25 | Iteration: 900 | Classification loss: 0.01486 | Regression loss: 0.12236 | Running loss: 0.25780
+Epoch: 25 | Iteration: 1000 | Classification loss: 0.04314 | Regression loss: 0.18367 | Running loss: 0.26039
+Epoch: 26 | Iteration: 0 | Classification loss: 0.04985 | Regression loss: 0.26858 | Running loss: 0.26151
+Epoch: 26 | Iteration: 100 | Classification loss: 0.05992 | Regression loss: 0.17764 | Running loss: 0.25899
+Epoch: 26 | Iteration: 200 | Classification loss: 0.01689 | Regression loss: 0.05186 | Running loss: 0.24895
+Epoch: 26 | Iteration: 300 | Classification loss: 0.04939 | Regression loss: 0.12536 | Running loss: 0.24526
+Epoch: 26 | Iteration: 400 | Classification loss: 0.02936 | Regression loss: 0.07884 | Running loss: 0.24593
+Epoch: 26 | Iteration: 500 | Classification loss: 0.02696 | Regression loss: 0.16066 | Running loss: 0.24183
+Epoch: 26 | Iteration: 600 | Classification loss: 0.14691 | Regression loss: 0.10163 | Running loss: 0.24284
+Epoch: 26 | Iteration: 700 | Classification loss: 0.01879 | Regression loss: 0.08569 | Running loss: 0.24223
+Epoch: 26 | Iteration: 800 | Classification loss: 0.18840 | Regression loss: 0.24382 | Running loss: 0.23924
+Epoch: 26 | Iteration: 900 | Classification loss: 0.01618 | Regression loss: 0.15988 | Running loss: 0.23901
+Epoch: 26 | Iteration: 1000 | Classification loss: 0.00583 | Regression loss: 0.12077 | Running loss: 0.23789
+Epoch: 27 | Iteration: 0 | Classification loss: 0.25492 | Regression loss: 0.15678 | Running loss: 0.24005
+Epoch: 27 | Iteration: 100 | Classification loss: 0.16317 | Regression loss: 0.20937 | Running loss: 0.23748
+Epoch: 27 | Iteration: 200 | Classification loss: 0.01647 | Regression loss: 0.13391 | Running loss: 0.22808
+Epoch: 27 | Iteration: 300 | Classification loss: 0.02084 | Regression loss: 0.12026 | Running loss: 0.22672
+Epoch: 27 | Iteration: 400 | Classification loss: 0.12418 | Regression loss: 0.30289 | Running loss: 0.22899
+Epoch: 27 | Iteration: 500 | Classification loss: 0.04907 | Regression loss: 0.13272 | Running loss: 0.23536
+Epoch: 27 | Iteration: 600 | Classification loss: 0.14987 | Regression loss: 0.30107 | Running loss: 0.23650
+Epoch: 27 | Iteration: 700 | Classification loss: 0.02446 | Regression loss: 0.18754 | Running loss: 0.23713
+Epoch: 27 | Iteration: 800 | Classification loss: 0.03754 | Regression loss: 0.17336 | Running loss: 0.23595
+Epoch: 27 | Iteration: 900 | Classification loss: 0.02303 | Regression loss: 0.10817 | Running loss: 0.23569
+Epoch: 27 | Iteration: 1000 | Classification loss: 0.03815 | Regression loss: 0.18854 | Running loss: 0.22780
+Epoch: 28 | Iteration: 0 | Classification loss: 0.01562 | Regression loss: 0.19862 | Running loss: 0.23005
+Epoch: 28 | Iteration: 100 | Classification loss: 0.02214 | Regression loss: 0.15266 | Running loss: 0.22837
+Epoch: 28 | Iteration: 200 | Classification loss: 0.06143 | Regression loss: 0.16166 | Running loss: 0.22794
+Epoch: 28 | Iteration: 300 | Classification loss: 0.10413 | Regression loss: 0.42135 | Running loss: 0.22590
+Epoch: 28 | Iteration: 400 | Classification loss: 0.01311 | Regression loss: 0.10206 | Running loss: 0.22432
+Epoch: 28 | Iteration: 500 | Classification loss: 0.10426 | Regression loss: 0.06863 | Running loss: 0.22081
+Epoch: 28 | Iteration: 600 | Classification loss: 0.00402 | Regression loss: 0.02506 | Running loss: 0.22508
+Epoch: 28 | Iteration: 700 | Classification loss: 0.34208 | Regression loss: 0.37788 | Running loss: 0.23013
+Epoch: 28 | Iteration: 800 | Classification loss: 0.02043 | Regression loss: 0.08470 | Running loss: 0.22867
+Epoch: 28 | Iteration: 900 | Classification loss: 0.01210 | Regression loss: 0.06143 | Running loss: 0.22735
+Epoch: 28 | Iteration: 1000 | Classification loss: 0.01355 | Regression loss: 0.11231 | Running loss: 0.23072
+Epoch: 29 | Iteration: 0 | Classification loss: 0.10919 | Regression loss: 0.11235 | Running loss: 0.23073
+Epoch: 29 | Iteration: 100 | Classification loss: 0.03244 | Regression loss: 0.18500 | Running loss: 0.22659
+Epoch: 29 | Iteration: 200 | Classification loss: 0.00095 | Regression loss: 0.04182 | Running loss: 0.21936
+Epoch: 29 | Iteration: 300 | Classification loss: 0.00623 | Regression loss: 0.06724 | Running loss: 0.21833
+Epoch: 29 | Iteration: 400 | Classification loss: 0.01400 | Regression loss: 0.11813 | Running loss: 0.21281
+Epoch: 29 | Iteration: 500 | Classification loss: 0.00195 | Regression loss: 0.06126 | Running loss: 0.21270
+Epoch: 29 | Iteration: 600 | Classification loss: 0.21541 | Regression loss: 0.21593 | Running loss: 0.21004
+Epoch: 29 | Iteration: 700 | Classification loss: 0.02789 | Regression loss: 0.08443 | Running loss: 0.21716
+Epoch: 29 | Iteration: 800 | Classification loss: 0.06413 | Regression loss: 0.06348 | Running loss: 0.21630
+Epoch: 29 | Iteration: 900 | Classification loss: 0.08888 | Regression loss: 0.14139 | Running loss: 0.21670
+Epoch: 29 | Iteration: 1000 | Classification loss: 0.00698 | Regression loss: 0.11033 | Running loss: 0.21806
 epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875]
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355]
 Evaluating dataset
 Loading and preparing results...
-DONE (t=0.20s)
+DONE (t=0.17s)
 creating index...
 index created!
 Running per image evaluation...
 Evaluate annotation type *bbox*
-DONE (t=1.66s).
+DONE (t=1.54s).
 Accumulating evaluation results...
-DONE (t=0.72s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.271
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.453
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.287
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.015
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.121
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.341
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.331
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.417
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.420
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.039
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.208
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.518
-Epoch: 30 | Iteration: 0 | Classification loss: 0.02688 | Regression loss: 0.12517 | Running loss: 0.23563
-Epoch: 30 | Iteration: 100 | Classification loss: 0.54740 | Regression loss: 0.15749 | Running loss: 0.23882
-Epoch: 30 | Iteration: 200 | Classification loss: 0.16635 | Regression loss: 0.38773 | Running loss: 0.23935
-Epoch: 30 | Iteration: 300 | Classification loss: 0.01174 | Regression loss: 0.11575 | Running loss: 0.23444
-Epoch: 30 | Iteration: 400 | Classification loss: 0.08887 | Regression loss: 0.18511 | Running loss: 0.22247
-Epoch: 30 | Iteration: 500 | Classification loss: 0.05741 | Regression loss: 0.42920 | Running loss: 0.22073
-Epoch: 30 | Iteration: 600 | Classification loss: 0.17421 | Regression loss: 0.29001 | Running loss: 0.21144
-Epoch: 30 | Iteration: 700 | Classification loss: 0.01782 | Regression loss: 0.09591 | Running loss: 0.21596
-Epoch: 30 | Iteration: 800 | Classification loss: 0.13520 | Regression loss: 0.28166 | Running loss: 0.22046
-Epoch: 30 | Iteration: 900 | Classification loss: 0.01988 | Regression loss: 0.06531 | Running loss: 0.22240
-Epoch: 30 | Iteration: 1000 | Classification loss: 0.01800 | Regression loss: 0.11916 | Running loss: 0.21653
-Epoch: 31 | Iteration: 0 | Classification loss: 0.00420 | Regression loss: 0.06936 | Running loss: 0.21977
-Epoch: 31 | Iteration: 100 | Classification loss: 0.02539 | Regression loss: 0.07851 | Running loss: 0.22057
-Epoch: 31 | Iteration: 200 | Classification loss: 0.15430 | Regression loss: 0.10844 | Running loss: 0.21826
-Epoch: 31 | Iteration: 300 | Classification loss: 0.01634 | Regression loss: 0.06550 | Running loss: 0.22298
-Epoch: 31 | Iteration: 400 | Classification loss: 0.02884 | Regression loss: 0.09432 | Running loss: 0.22269
-Epoch: 31 | Iteration: 500 | Classification loss: 0.00457 | Regression loss: 0.10664 | Running loss: 0.22051
-Epoch: 31 | Iteration: 600 | Classification loss: 0.02880 | Regression loss: 0.19349 | Running loss: 0.22386
-Epoch: 31 | Iteration: 700 | Classification loss: 0.22659 | Regression loss: 0.12584 | Running loss: 0.21377
-Epoch: 31 | Iteration: 800 | Classification loss: 0.23786 | Regression loss: 0.30892 | Running loss: 0.21039
-Epoch: 31 | Iteration: 900 | Classification loss: 0.00294 | Regression loss: 0.05713 | Running loss: 0.20387
-Epoch: 31 | Iteration: 1000 | Classification loss: 0.14487 | Regression loss: 0.23582 | Running loss: 0.20585
-Epoch: 32 | Iteration: 0 | Classification loss: 0.04365 | Regression loss: 0.11701 | Running loss: 0.20342
-Epoch: 32 | Iteration: 100 | Classification loss: 0.08932 | Regression loss: 0.26304 | Running loss: 0.20577
-Epoch: 32 | Iteration: 200 | Classification loss: 0.00769 | Regression loss: 0.08415 | Running loss: 0.20539
-Epoch: 32 | Iteration: 300 | Classification loss: 0.08197 | Regression loss: 0.28264 | Running loss: 0.20711
-Epoch: 32 | Iteration: 400 | Classification loss: 0.22893 | Regression loss: 0.26733 | Running loss: 0.20706
-Epoch: 32 | Iteration: 500 | Classification loss: 0.17105 | Regression loss: 0.24397 | Running loss: 0.20369
-Epoch: 32 | Iteration: 600 | Classification loss: 0.00300 | Regression loss: 0.08414 | Running loss: 0.19935
-Epoch: 32 | Iteration: 700 | Classification loss: 0.05695 | Regression loss: 0.10370 | Running loss: 0.20035
-Epoch: 32 | Iteration: 800 | Classification loss: 0.10621 | Regression loss: 0.21231 | Running loss: 0.19846
-Epoch: 32 | Iteration: 900 | Classification loss: 0.03104 | Regression loss: 0.20215 | Running loss: 0.19913
-Epoch: 32 | Iteration: 1000 | Classification loss: 0.00560 | Regression loss: 0.14033 | Running loss: 0.20082
-Epoch: 33 | Iteration: 0 | Classification loss: 0.14222 | Regression loss: 0.12284 | Running loss: 0.20022
-Epoch: 33 | Iteration: 100 | Classification loss: 0.10610 | Regression loss: 0.25485 | Running loss: 0.20654
-Epoch: 33 | Iteration: 200 | Classification loss: 0.01076 | Regression loss: 0.07390 | Running loss: 0.19887
-Epoch: 33 | Iteration: 300 | Classification loss: 0.02673 | Regression loss: 0.18864 | Running loss: 0.20368
-Epoch: 33 | Iteration: 400 | Classification loss: 0.00434 | Regression loss: 0.02248 | Running loss: 0.20600
-Epoch: 33 | Iteration: 500 | Classification loss: 0.00433 | Regression loss: 0.10907 | Running loss: 0.20186
-Epoch: 33 | Iteration: 600 | Classification loss: 0.12393 | Regression loss: 0.17267 | Running loss: 0.19533
-Epoch: 33 | Iteration: 700 | Classification loss: 0.03106 | Regression loss: 0.08053 | Running loss: 0.20073
-Epoch: 33 | Iteration: 800 | Classification loss: 0.02118 | Regression loss: 0.05041 | Running loss: 0.19006
-Epoch: 33 | Iteration: 900 | Classification loss: 0.00109 | Regression loss: 0.05062 | Running loss: 0.19008
-Epoch: 33 | Iteration: 1000 | Classification loss: 0.02869 | Regression loss: 0.15119 | Running loss: 0.19036
-Epoch: 34 | Iteration: 0 | Classification loss: 0.03648 | Regression loss: 0.09782 | Running loss: 0.18967
-Epoch: 34 | Iteration: 100 | Classification loss: 0.03067 | Regression loss: 0.21482 | Running loss: 0.19042
-Epoch: 34 | Iteration: 200 | Classification loss: 0.12143 | Regression loss: 0.19457 | Running loss: 0.19269
-Epoch: 34 | Iteration: 300 | Classification loss: 0.00582 | Regression loss: 0.06740 | Running loss: 0.19249
-Epoch: 34 | Iteration: 400 | Classification loss: 0.00600 | Regression loss: 0.06870 | Running loss: 0.19228
-Epoch: 34 | Iteration: 500 | Classification loss: 0.00631 | Regression loss: 0.06740 | Running loss: 0.18910
-Epoch: 34 | Iteration: 600 | Classification loss: 0.00579 | Regression loss: 0.09904 | Running loss: 0.19033
-Epoch: 34 | Iteration: 700 | Classification loss: 0.01307 | Regression loss: 0.12631 | Running loss: 0.18540
-Epoch: 34 | Iteration: 800 | Classification loss: 0.05763 | Regression loss: 0.15378 | Running loss: 0.18300
-Epoch: 34 | Iteration: 900 | Classification loss: 0.13942 | Regression loss: 0.46704 | Running loss: 0.18500
-Epoch: 34 | Iteration: 1000 | Classification loss: 0.05635 | Regression loss: 0.22077 | Running loss: 0.18573
-Epoch: 35 | Iteration: 0 | Classification loss: 0.04050 | Regression loss: 0.19433 | Running loss: 0.18515
-Epoch: 35 | Iteration: 100 | Classification loss: 0.00929 | Regression loss: 0.10843 | Running loss: 0.18278
-Epoch: 35 | Iteration: 200 | Classification loss: 0.00128 | Regression loss: 0.07148 | Running loss: 0.17871
-Epoch: 35 | Iteration: 300 | Classification loss: 0.01429 | Regression loss: 0.05545 | Running loss: 0.17934
-Epoch: 35 | Iteration: 400 | Classification loss: 0.12407 | Regression loss: 0.21630 | Running loss: 0.18039
-Epoch: 35 | Iteration: 500 | Classification loss: 0.00217 | Regression loss: 0.09678 | Running loss: 0.17922
-Epoch: 35 | Iteration: 600 | Classification loss: 0.09845 | Regression loss: 0.13010 | Running loss: 0.18042
-Epoch: 35 | Iteration: 700 | Classification loss: 0.07437 | Regression loss: 0.23948 | Running loss: 0.19668
-Epoch: 35 | Iteration: 800 | Classification loss: 0.08937 | Regression loss: 0.17268 | Running loss: 0.20000
-Epoch: 35 | Iteration: 900 | Classification loss: 0.00875 | Regression loss: 0.10050 | Running loss: 0.19123
-Epoch: 35 | Iteration: 1000 | Classification loss: 0.02641 | Regression loss: 0.26275 | Running loss: 0.19924
-Epoch: 36 | Iteration: 0 | Classification loss: 0.00366 | Regression loss: 0.05342 | Running loss: 0.19993
-Epoch: 36 | Iteration: 100 | Classification loss: 0.00428 | Regression loss: 0.08519 | Running loss: 0.19302
-Epoch: 36 | Iteration: 200 | Classification loss: 0.00471 | Regression loss: 0.08043 | Running loss: 0.18314
-Epoch: 36 | Iteration: 300 | Classification loss: 0.17170 | Regression loss: 0.30294 | Running loss: 0.18221
-Epoch: 36 | Iteration: 400 | Classification loss: 0.00279 | Regression loss: 0.10834 | Running loss: 0.18243
-Epoch: 36 | Iteration: 500 | Classification loss: 0.57791 | Regression loss: 0.08805 | Running loss: 0.18196
-Epoch: 36 | Iteration: 600 | Classification loss: 0.01195 | Regression loss: 0.15524 | Running loss: 0.18271
-Epoch: 36 | Iteration: 700 | Classification loss: 0.00526 | Regression loss: 0.08702 | Running loss: 0.18842
-Epoch: 36 | Iteration: 800 | Classification loss: 0.03292 | Regression loss: 0.07451 | Running loss: 0.18896
-Epoch: 36 | Iteration: 900 | Classification loss: 0.00505 | Regression loss: 0.04493 | Running loss: 0.18699
-Epoch: 36 | Iteration: 1000 | Classification loss: 0.00590 | Regression loss: 0.06697 | Running loss: 0.18148
-Epoch: 37 | Iteration: 0 | Classification loss: 0.02646 | Regression loss: 0.10436 | Running loss: 0.18272
-Epoch: 37 | Iteration: 100 | Classification loss: 0.02124 | Regression loss: 0.10132 | Running loss: 0.17888
-Epoch: 37 | Iteration: 200 | Classification loss: 0.17936 | Regression loss: 0.12560 | Running loss: 0.17734
-Epoch: 37 | Iteration: 300 | Classification loss: 0.00101 | Regression loss: 0.04141 | Running loss: 0.18146
-Epoch: 37 | Iteration: 400 | Classification loss: 0.07420 | Regression loss: 0.13360 | Running loss: 0.18107
-Epoch: 37 | Iteration: 500 | Classification loss: 0.07333 | Regression loss: 0.25813 | Running loss: 0.18434
-Epoch: 37 | Iteration: 600 | Classification loss: 0.02037 | Regression loss: 0.15448 | Running loss: 0.18399
-Epoch: 37 | Iteration: 700 | Classification loss: 0.03428 | Regression loss: 0.24640 | Running loss: 0.17781
-Epoch: 37 | Iteration: 800 | Classification loss: 0.04991 | Regression loss: 0.30219 | Running loss: 0.17245
-Epoch: 37 | Iteration: 900 | Classification loss: 0.00854 | Regression loss: 0.08597 | Running loss: 0.17233
-Epoch: 37 | Iteration: 1000 | Classification loss: 0.00184 | Regression loss: 0.08271 | Running loss: 0.16652
-Epoch: 38 | Iteration: 0 | Classification loss: 0.01820 | Regression loss: 0.27308 | Running loss: 0.16695
-Epoch: 38 | Iteration: 100 | Classification loss: 0.06261 | Regression loss: 0.35404 | Running loss: 0.16896
-Epoch: 38 | Iteration: 200 | Classification loss: 0.00927 | Regression loss: 0.07818 | Running loss: 0.17158
-Epoch: 38 | Iteration: 300 | Classification loss: 0.21116 | Regression loss: 0.35648 | Running loss: 0.16979
-Epoch: 38 | Iteration: 400 | Classification loss: 0.05409 | Regression loss: 0.19125 | Running loss: 0.17202
-Epoch: 38 | Iteration: 500 | Classification loss: 0.05468 | Regression loss: 0.16322 | Running loss: 0.18315
-Epoch: 38 | Iteration: 600 | Classification loss: 0.00335 | Regression loss: 0.06036 | Running loss: 0.18143
-Epoch: 38 | Iteration: 700 | Classification loss: 0.00138 | Regression loss: 0.09664 | Running loss: 0.17697
-Epoch: 38 | Iteration: 800 | Classification loss: 0.01117 | Regression loss: 0.06358 | Running loss: 0.16950
-Epoch: 38 | Iteration: 900 | Classification loss: 0.00344 | Regression loss: 0.13719 | Running loss: 0.16802
-Epoch: 38 | Iteration: 1000 | Classification loss: 0.02588 | Regression loss: 0.16118 | Running loss: 0.16047
-Epoch: 39 | Iteration: 0 | Classification loss: 0.14836 | Regression loss: 0.22129 | Running loss: 0.15868
-Epoch: 39 | Iteration: 100 | Classification loss: 0.12559 | Regression loss: 0.21024 | Running loss: 0.16032
-Epoch: 39 | Iteration: 200 | Classification loss: 0.01241 | Regression loss: 0.09394 | Running loss: 0.16371
-Epoch: 39 | Iteration: 300 | Classification loss: 0.02450 | Regression loss: 0.09158 | Running loss: 0.16368
-Epoch: 39 | Iteration: 400 | Classification loss: 0.00487 | Regression loss: 0.07878 | Running loss: 0.16452
-Epoch: 39 | Iteration: 500 | Classification loss: 0.02645 | Regression loss: 0.07573 | Running loss: 0.16501
-Epoch: 39 | Iteration: 600 | Classification loss: 0.00590 | Regression loss: 0.07166 | Running loss: 0.16232
-Epoch: 39 | Iteration: 700 | Classification loss: 0.02634 | Regression loss: 0.07866 | Running loss: 0.16032
-Epoch: 39 | Iteration: 800 | Classification loss: 0.03154 | Regression loss: 0.10583 | Running loss: 0.17166
-Epoch: 39 | Iteration: 900 | Classification loss: 0.01639 | Regression loss: 0.14154 | Running loss: 0.17360
-Epoch: 39 | Iteration: 1000 | Classification loss: 0.08593 | Regression loss: 0.18492 | Running loss: 0.17118
-epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298]
-Evaluating dataset
-Loading and preparing results...
-DONE (t=0.13s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=1.30s).
-Accumulating evaluation results...
-DONE (t=0.46s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.264
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.445
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.269
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.136
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.324
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.324
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.406
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.407
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.046
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.234
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.488
-Epoch: 40 | Iteration: 0 | Classification loss: 0.01563 | Regression loss: 0.23250 | Running loss: 0.17258
-Epoch: 40 | Iteration: 100 | Classification loss: 0.03813 | Regression loss: 0.13749 | Running loss: 0.17258
-Epoch: 40 | Iteration: 200 | Classification loss: 0.01629 | Regression loss: 0.10220 | Running loss: 0.17455
-Epoch: 40 | Iteration: 300 | Classification loss: 0.07219 | Regression loss: 0.25723 | Running loss: 0.16985
-Epoch: 40 | Iteration: 400 | Classification loss: 0.01691 | Regression loss: 0.05521 | Running loss: 0.16534
-Epoch: 40 | Iteration: 500 | Classification loss: 0.00839 | Regression loss: 0.03576 | Running loss: 0.17180
-Epoch: 40 | Iteration: 600 | Classification loss: 0.00494 | Regression loss: 0.09812 | Running loss: 0.17304
-Epoch: 40 | Iteration: 700 | Classification loss: 0.00048 | Regression loss: 0.01118 | Running loss: 0.16679
-Epoch: 40 | Iteration: 800 | Classification loss: 0.00151 | Regression loss: 0.04148 | Running loss: 0.16674
-Epoch: 40 | Iteration: 900 | Classification loss: 0.01276 | Regression loss: 0.07942 | Running loss: 0.16222
-Epoch: 40 | Iteration: 1000 | Classification loss: 0.02622 | Regression loss: 0.11278 | Running loss: 0.15882
-Epoch: 41 | Iteration: 0 | Classification loss: 0.05379 | Regression loss: 0.20841 | Running loss: 0.15909
-Epoch: 41 | Iteration: 100 | Classification loss: 0.01937 | Regression loss: 0.14990 | Running loss: 0.16138
-Epoch: 41 | Iteration: 200 | Classification loss: 0.06697 | Regression loss: 0.20258 | Running loss: 0.16782
-Epoch: 41 | Iteration: 300 | Classification loss: 0.04414 | Regression loss: 0.20392 | Running loss: 0.16917
-Epoch: 41 | Iteration: 400 | Classification loss: 0.09790 | Regression loss: 0.19388 | Running loss: 0.16877
-Epoch: 41 | Iteration: 500 | Classification loss: 0.00476 | Regression loss: 0.06519 | Running loss: 0.16542
-Epoch: 41 | Iteration: 600 | Classification loss: 0.01325 | Regression loss: 0.09815 | Running loss: 0.15977
-Epoch: 41 | Iteration: 700 | Classification loss: 0.02523 | Regression loss: 0.11256 | Running loss: 0.15167
-Epoch: 41 | Iteration: 800 | Classification loss: 0.04051 | Regression loss: 0.05728 | Running loss: 0.15019
-Epoch: 41 | Iteration: 900 | Classification loss: 0.44438 | Regression loss: 0.15636 | Running loss: 0.15538
-Epoch: 41 | Iteration: 1000 | Classification loss: 0.00098 | Regression loss: 0.07321 | Running loss: 0.15369
-Epoch: 42 | Iteration: 0 | Classification loss: 0.00044 | Regression loss: 0.08937 | Running loss: 0.15404
-Epoch: 42 | Iteration: 100 | Classification loss: 0.16790 | Regression loss: 0.16164 | Running loss: 0.15613
-Epoch: 42 | Iteration: 200 | Classification loss: 0.00346 | Regression loss: 0.05608 | Running loss: 0.16221
-Epoch: 42 | Iteration: 300 | Classification loss: 0.00631 | Regression loss: 0.07594 | Running loss: 0.16000
-Epoch: 42 | Iteration: 400 | Classification loss: 0.00506 | Regression loss: 0.05231 | Running loss: 0.15720
-Epoch: 42 | Iteration: 500 | Classification loss: 0.00450 | Regression loss: 0.07035 | Running loss: 0.15789
-Epoch: 42 | Iteration: 600 | Classification loss: 0.00522 | Regression loss: 0.07623 | Running loss: 0.15784
-Epoch: 42 | Iteration: 700 | Classification loss: 0.00298 | Regression loss: 0.05073 | Running loss: 0.15395
-Epoch: 42 | Iteration: 800 | Classification loss: 0.00135 | Regression loss: 0.08240 | Running loss: 0.15218
-Epoch: 42 | Iteration: 900 | Classification loss: 0.00541 | Regression loss: 0.10814 | Running loss: 0.15561
-Epoch: 42 | Iteration: 1000 | Classification loss: 0.00308 | Regression loss: 0.13547 | Running loss: 0.15167
-Epoch: 43 | Iteration: 0 | Classification loss: 0.00150 | Regression loss: 0.04366 | Running loss: 0.15086
-Epoch: 43 | Iteration: 100 | Classification loss: 0.01144 | Regression loss: 0.09388 | Running loss: 0.15013
-Epoch: 43 | Iteration: 200 | Classification loss: 0.00788 | Regression loss: 0.05280 | Running loss: 0.14900
-Epoch: 43 | Iteration: 300 | Classification loss: 0.04495 | Regression loss: 0.17230 | Running loss: 0.15192
-Epoch: 43 | Iteration: 400 | Classification loss: 0.01361 | Regression loss: 0.23380 | Running loss: 0.15018
-Epoch: 43 | Iteration: 500 | Classification loss: 0.01175 | Regression loss: 0.12992 | Running loss: 0.15050
-Epoch: 43 | Iteration: 600 | Classification loss: 0.00843 | Regression loss: 0.07016 | Running loss: 0.14822
-Epoch: 43 | Iteration: 700 | Classification loss: 0.00606 | Regression loss: 0.07069 | Running loss: 0.15156
-Epoch: 43 | Iteration: 800 | Classification loss: 0.00073 | Regression loss: 0.08823 | Running loss: 0.15288
-Epoch: 43 | Iteration: 900 | Classification loss: 0.02374 | Regression loss: 0.02494 | Running loss: 0.15343
-Epoch: 43 | Iteration: 1000 | Classification loss: 0.00896 | Regression loss: 0.07944 | Running loss: 0.15982
-Epoch: 44 | Iteration: 0 | Classification loss: 0.28039 | Regression loss: 0.32982 | Running loss: 0.16014
-Epoch: 44 | Iteration: 100 | Classification loss: 0.00146 | Regression loss: 0.08905 | Running loss: 0.15845
-Epoch: 44 | Iteration: 200 | Classification loss: 0.00337 | Regression loss: 0.09230 | Running loss: 0.15791
-Epoch: 44 | Iteration: 300 | Classification loss: 0.00150 | Regression loss: 0.09227 | Running loss: 0.15880
-Epoch: 44 | Iteration: 400 | Classification loss: 0.06010 | Regression loss: 0.07531 | Running loss: 0.15717
-Epoch: 44 | Iteration: 500 | Classification loss: 0.00385 | Regression loss: 0.11987 | Running loss: 0.15521
-Epoch: 44 | Iteration: 600 | Classification loss: 0.00402 | Regression loss: 0.08486 | Running loss: 0.15545
-Epoch: 44 | Iteration: 700 | Classification loss: 0.02781 | Regression loss: 0.23117 | Running loss: 0.15022
-Epoch: 44 | Iteration: 800 | Classification loss: 0.01731 | Regression loss: 0.03904 | Running loss: 0.14433
-Epoch: 44 | Iteration: 900 | Classification loss: 0.01147 | Regression loss: 0.14359 | Running loss: 0.14596
-Epoch: 44 | Iteration: 1000 | Classification loss: 0.00206 | Regression loss: 0.08244 | Running loss: 0.14410
-Epoch: 45 | Iteration: 0 | Classification loss: 0.00180 | Regression loss: 0.08582 | Running loss: 0.14451
-Epoch: 45 | Iteration: 100 | Classification loss: 0.01007 | Regression loss: 0.12173 | Running loss: 0.14494
-Epoch: 45 | Iteration: 200 | Classification loss: 0.00522 | Regression loss: 0.04907 | Running loss: 0.15088
-Epoch: 45 | Iteration: 300 | Classification loss: 0.00376 | Regression loss: 0.06426 | Running loss: 0.15171
-Epoch: 45 | Iteration: 400 | Classification loss: 0.00467 | Regression loss: 0.03942 | Running loss: 0.15011
-Epoch: 45 | Iteration: 500 | Classification loss: 0.00649 | Regression loss: 0.07826 | Running loss: 0.15430
-Epoch: 45 | Iteration: 600 | Classification loss: 0.00754 | Regression loss: 0.06694 | Running loss: 0.15182
-Epoch: 45 | Iteration: 700 | Classification loss: 0.04363 | Regression loss: 0.05165 | Running loss: 0.15256
-Epoch: 45 | Iteration: 800 | Classification loss: 0.01865 | Regression loss: 0.22903 | Running loss: 0.15193
-Epoch: 45 | Iteration: 900 | Classification loss: 0.00695 | Regression loss: 0.08162 | Running loss: 0.15088
-Epoch: 45 | Iteration: 1000 | Classification loss: 0.00548 | Regression loss: 0.06574 | Running loss: 0.14758
-Epoch: 46 | Iteration: 0 | Classification loss: 0.00464 | Regression loss: 0.15912 | Running loss: 0.14650
-Epoch: 46 | Iteration: 100 | Classification loss: 0.00273 | Regression loss: 0.10278 | Running loss: 0.14504
-Epoch: 46 | Iteration: 200 | Classification loss: 0.01017 | Regression loss: 0.08664 | Running loss: 0.14345
-Epoch: 46 | Iteration: 300 | Classification loss: 0.28672 | Regression loss: 0.36344 | Running loss: 0.14620
-Epoch: 46 | Iteration: 400 | Classification loss: 0.12795 | Regression loss: 0.08262 | Running loss: 0.14409
-Epoch: 46 | Iteration: 500 | Classification loss: 0.06485 | Regression loss: 0.12411 | Running loss: 0.14346
-Epoch: 46 | Iteration: 600 | Classification loss: 0.00795 | Regression loss: 0.03746 | Running loss: 0.14248
-Epoch: 46 | Iteration: 700 | Classification loss: 0.06916 | Regression loss: 0.21522 | Running loss: 0.14336
-Epoch: 46 | Iteration: 800 | Classification loss: 0.00194 | Regression loss: 0.05966 | Running loss: 0.14064
-Epoch: 46 | Iteration: 900 | Classification loss: 0.29385 | Regression loss: 0.16079 | Running loss: 0.14100
-Epoch: 46 | Iteration: 1000 | Classification loss: 0.45076 | Regression loss: 0.03963 | Running loss: 0.13994
-Epoch: 47 | Iteration: 0 | Classification loss: 0.01823 | Regression loss: 0.03907 | Running loss: 0.13978
-Epoch: 47 | Iteration: 100 | Classification loss: 0.00071 | Regression loss: 0.03568 | Running loss: 0.14478
-Epoch: 47 | Iteration: 200 | Classification loss: 0.00300 | Regression loss: 0.11172 | Running loss: 0.14046
-Epoch: 47 | Iteration: 300 | Classification loss: 0.00898 | Regression loss: 0.06491 | Running loss: 0.14081
-Epoch: 47 | Iteration: 400 | Classification loss: 0.01654 | Regression loss: 0.08727 | Running loss: 0.14437
-Epoch: 47 | Iteration: 500 | Classification loss: 0.00936 | Regression loss: 0.10170 | Running loss: 0.14279
-Epoch: 47 | Iteration: 600 | Classification loss: 0.00500 | Regression loss: 0.09966 | Running loss: 0.13696
-Epoch: 47 | Iteration: 700 | Classification loss: 0.00313 | Regression loss: 0.05583 | Running loss: 0.13886
-Epoch: 47 | Iteration: 800 | Classification loss: 0.00547 | Regression loss: 0.07477 | Running loss: 0.13798
-Epoch: 47 | Iteration: 900 | Classification loss: 0.02262 | Regression loss: 0.13871 | Running loss: 0.13823
-Epoch: 47 | Iteration: 1000 | Classification loss: 0.00074 | Regression loss: 0.11028 | Running loss: 0.14059
-Epoch: 48 | Iteration: 0 | Classification loss: 0.00053 | Regression loss: 0.02285 | Running loss: 0.14072
-Epoch: 48 | Iteration: 100 | Classification loss: 0.00147 | Regression loss: 0.15751 | Running loss: 0.13507
-Epoch: 48 | Iteration: 200 | Classification loss: 0.00236 | Regression loss: 0.13809 | Running loss: 0.13010
-Epoch: 48 | Iteration: 300 | Classification loss: 0.00129 | Regression loss: 0.02534 | Running loss: 0.11965
-Epoch: 48 | Iteration: 400 | Classification loss: 0.00118 | Regression loss: 0.06134 | Running loss: 0.11108
-Epoch: 48 | Iteration: 500 | Classification loss: 0.00107 | Regression loss: 0.06172 | Running loss: 0.10661
-Epoch: 48 | Iteration: 600 | Classification loss: 0.00159 | Regression loss: 0.02890 | Running loss: 0.10336
-Epoch: 48 | Iteration: 700 | Classification loss: 0.00169 | Regression loss: 0.04447 | Running loss: 0.10003
-Epoch: 48 | Iteration: 800 | Classification loss: 0.00261 | Regression loss: 0.13962 | Running loss: 0.09859
-Epoch: 48 | Iteration: 900 | Classification loss: 0.01650 | Regression loss: 0.15872 | Running loss: 0.09642
-Epoch: 48 | Iteration: 1000 | Classification loss: 0.00007 | Regression loss: 0.05589 | Running loss: 0.09432
-Epoch: 49 | Iteration: 0 | Classification loss: 0.01029 | Regression loss: 0.10523 | Running loss: 0.09406
-Epoch: 49 | Iteration: 100 | Classification loss: 0.00084 | Regression loss: 0.04753 | Running loss: 0.09372
-Epoch: 49 | Iteration: 200 | Classification loss: 0.00116 | Regression loss: 0.09630 | Running loss: 0.08858
-Epoch: 49 | Iteration: 300 | Classification loss: 0.00118 | Regression loss: 0.06022 | Running loss: 0.08600
-Epoch: 49 | Iteration: 400 | Classification loss: 0.00147 | Regression loss: 0.06134 | Running loss: 0.08214
-Epoch: 49 | Iteration: 500 | Classification loss: 0.00466 | Regression loss: 0.07603 | Running loss: 0.07867
-Epoch: 49 | Iteration: 600 | Classification loss: 0.00137 | Regression loss: 0.05864 | Running loss: 0.07802
-Epoch: 49 | Iteration: 700 | Classification loss: 0.00618 | Regression loss: 0.11993 | Running loss: 0.08008
-Epoch: 49 | Iteration: 800 | Classification loss: 0.00062 | Regression loss: 0.04283 | Running loss: 0.07878
-Epoch: 49 | Iteration: 900 | Classification loss: 0.00006 | Regression loss: 0.01417 | Running loss: 0.08015
-Epoch: 49 | Iteration: 1000 | Classification loss: 0.01333 | Regression loss: 0.12926 | Running loss: 0.08126
-epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298, 0.165510683034466, 0.15923313401991457, 0.15422511396298963, 0.1545121184381561, 0.1499576267069499, 0.1500308696761742, 0.14161486355917835, 0.14124411388894353, 0.10012661421664176, 0.08003740497923449]
-Evaluating dataset
-Loading and preparing results...
-DONE (t=0.10s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=1.12s).
-Accumulating evaluation results...
-DONE (t=0.34s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.292
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.459
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.314
+DONE (t=0.56s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.279
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.471
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.284
  Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.014
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.129
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.372
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.350
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.406
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.406
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.022
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.173
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.132
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.328
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.422
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.236
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.510
+Epoch: 30 | Iteration: 0 | Classification loss: 0.04480 | Regression loss: 0.29692 | Running loss: 0.22072
+Epoch: 30 | Iteration: 100 | Classification loss: 0.02464 | Regression loss: 0.06267 | Running loss: 0.22032
+Epoch: 30 | Iteration: 200 | Classification loss: 0.02497 | Regression loss: 0.08566 | Running loss: 0.21119
+Epoch: 30 | Iteration: 300 | Classification loss: 0.00571 | Regression loss: 0.04791 | Running loss: 0.21338
+Epoch: 30 | Iteration: 400 | Classification loss: 0.06485 | Regression loss: 0.43397 | Running loss: 0.20832
+Epoch: 30 | Iteration: 500 | Classification loss: 0.02917 | Regression loss: 0.29092 | Running loss: 0.20409
+Epoch: 30 | Iteration: 600 | Classification loss: 0.02200 | Regression loss: 0.17143 | Running loss: 0.20408
+Epoch: 30 | Iteration: 700 | Classification loss: 0.02358 | Regression loss: 0.08427 | Running loss: 0.21507
+Epoch: 30 | Iteration: 800 | Classification loss: 0.11534 | Regression loss: 0.08212 | Running loss: 0.21349
+Epoch: 30 | Iteration: 900 | Classification loss: 0.05189 | Regression loss: 0.21054 | Running loss: 0.21692
+Epoch: 30 | Iteration: 1000 | Classification loss: 0.01470 | Regression loss: 0.07239 | Running loss: 0.22078
+Epoch: 31 | Iteration: 0 | Classification loss: 0.00669 | Regression loss: 0.10359 | Running loss: 0.22067
+Epoch: 31 | Iteration: 100 | Classification loss: 0.01104 | Regression loss: 0.06732 | Running loss: 0.21572
+Epoch: 31 | Iteration: 200 | Classification loss: 0.05501 | Regression loss: 0.20641 | Running loss: 0.21123
+Epoch: 31 | Iteration: 300 | Classification loss: 0.01821 | Regression loss: 0.08782 | Running loss: 0.20981
+Epoch: 31 | Iteration: 400 | Classification loss: 0.01335 | Regression loss: 0.08152 | Running loss: 0.21077
+Epoch: 31 | Iteration: 500 | Classification loss: 0.00857 | Regression loss: 0.14678 | Running loss: 0.20048
+Epoch: 31 | Iteration: 600 | Classification loss: 0.26145 | Regression loss: 0.22572 | Running loss: 0.20332
+Epoch: 31 | Iteration: 700 | Classification loss: 0.17850 | Regression loss: 0.30713 | Running loss: 0.20285
+Epoch: 31 | Iteration: 800 | Classification loss: 0.01092 | Regression loss: 0.07945 | Running loss: 0.20969
+Epoch: 31 | Iteration: 900 | Classification loss: 0.08446 | Regression loss: 0.20912 | Running loss: 0.20555
+Epoch: 31 | Iteration: 1000 | Classification loss: 0.06561 | Regression loss: 0.04038 | Running loss: 0.20906
+Epoch: 32 | Iteration: 0 | Classification loss: 0.02214 | Regression loss: 0.13000 | Running loss: 0.20889
+Epoch: 32 | Iteration: 100 | Classification loss: 0.07358 | Regression loss: 0.23502 | Running loss: 0.20515
+Epoch: 32 | Iteration: 200 | Classification loss: 0.08420 | Regression loss: 0.14778 | Running loss: 0.20414
+Epoch: 32 | Iteration: 300 | Classification loss: 0.02420 | Regression loss: 0.17861 | Running loss: 0.20070
+Epoch: 32 | Iteration: 400 | Classification loss: 0.02089 | Regression loss: 0.09820 | Running loss: 0.20471
+Epoch: 32 | Iteration: 500 | Classification loss: 0.00315 | Regression loss: 0.09103 | Running loss: 0.19783
+Epoch: 32 | Iteration: 600 | Classification loss: 0.16043 | Regression loss: 0.12019 | Running loss: 0.20743
+Epoch: 32 | Iteration: 700 | Classification loss: 0.00992 | Regression loss: 0.08605 | Running loss: 0.20508
+Epoch: 32 | Iteration: 800 | Classification loss: 0.01798 | Regression loss: 0.06219 | Running loss: 0.20285
+Epoch: 32 | Iteration: 900 | Classification loss: 0.00450 | Regression loss: 0.06751 | Running loss: 0.19989
+Epoch: 32 | Iteration: 1000 | Classification loss: 0.06624 | Regression loss: 0.09480 | Running loss: 0.20667
+Epoch: 33 | Iteration: 0 | Classification loss: 0.02005 | Regression loss: 0.21093 | Running loss: 0.20538
+Epoch: 33 | Iteration: 100 | Classification loss: 0.00161 | Regression loss: 0.12658 | Running loss: 0.19442
+Epoch: 33 | Iteration: 200 | Classification loss: 0.00661 | Regression loss: 0.08636 | Running loss: 0.19359
+Epoch: 33 | Iteration: 300 | Classification loss: 0.04094 | Regression loss: 0.23009 | Running loss: 0.19291
+Epoch: 33 | Iteration: 400 | Classification loss: 0.13367 | Regression loss: 0.17988 | Running loss: 0.20013
+Epoch: 33 | Iteration: 500 | Classification loss: 0.01702 | Regression loss: 0.17545 | Running loss: 0.20003
+Epoch: 33 | Iteration: 600 | Classification loss: 0.14798 | Regression loss: 0.21551 | Running loss: 0.20112
+Epoch: 33 | Iteration: 700 | Classification loss: 0.01695 | Regression loss: 0.11302 | Running loss: 0.20038
+Epoch: 33 | Iteration: 800 | Classification loss: 0.01594 | Regression loss: 0.11194 | Running loss: 0.20506
+Epoch: 33 | Iteration: 900 | Classification loss: 0.01306 | Regression loss: 0.12224 | Running loss: 0.19330
+Epoch: 33 | Iteration: 1000 | Classification loss: 0.04390 | Regression loss: 0.17798 | Running loss: 0.19466
+Epoch: 34 | Iteration: 0 | Classification loss: 0.00824 | Regression loss: 0.09364 | Running loss: 0.19486
+Epoch: 34 | Iteration: 100 | Classification loss: 0.10189 | Regression loss: 0.26306 | Running loss: 0.19205
+Epoch: 34 | Iteration: 200 | Classification loss: 0.00217 | Regression loss: 0.08647 | Running loss: 0.19211
+Epoch: 34 | Iteration: 300 | Classification loss: 0.02135 | Regression loss: 0.09112 | Running loss: 0.18613
+Epoch: 34 | Iteration: 400 | Classification loss: 0.05061 | Regression loss: 0.26896 | Running loss: 0.18978
+Epoch: 34 | Iteration: 500 | Classification loss: 0.04228 | Regression loss: 0.18257 | Running loss: 0.18462
+Epoch: 34 | Iteration: 600 | Classification loss: 0.00857 | Regression loss: 0.12596 | Running loss: 0.18557
+Epoch: 34 | Iteration: 700 | Classification loss: 0.02796 | Regression loss: 0.14601 | Running loss: 0.18853
+Epoch: 34 | Iteration: 800 | Classification loss: 0.00875 | Regression loss: 0.04352 | Running loss: 0.18838
+Epoch: 34 | Iteration: 900 | Classification loss: 0.01540 | Regression loss: 0.14486 | Running loss: 0.18048
+Epoch: 34 | Iteration: 1000 | Classification loss: 0.00313 | Regression loss: 0.09026 | Running loss: 0.18398
+Epoch: 35 | Iteration: 0 | Classification loss: 0.01999 | Regression loss: 0.22608 | Running loss: 0.18631
+Epoch: 35 | Iteration: 100 | Classification loss: 0.01424 | Regression loss: 0.05648 | Running loss: 0.18577
+Epoch: 35 | Iteration: 200 | Classification loss: 0.07926 | Regression loss: 0.23687 | Running loss: 0.17846
+Epoch: 35 | Iteration: 300 | Classification loss: 0.04812 | Regression loss: 0.09525 | Running loss: 0.18078
+Epoch: 35 | Iteration: 400 | Classification loss: 0.01523 | Regression loss: 0.05336 | Running loss: 0.18781
+Epoch: 35 | Iteration: 500 | Classification loss: 0.00599 | Regression loss: 0.18337 | Running loss: 0.18390
+Epoch: 35 | Iteration: 600 | Classification loss: 0.01960 | Regression loss: 0.25091 | Running loss: 0.18390
+Epoch: 35 | Iteration: 700 | Classification loss: 0.19666 | Regression loss: 0.23217 | Running loss: 0.18284
+Epoch: 35 | Iteration: 800 | Classification loss: 0.00865 | Regression loss: 0.11431 | Running loss: 0.18480
+Epoch: 35 | Iteration: 900 | Classification loss: 0.01775 | Regression loss: 0.19677 | Running loss: 0.18643
+Epoch: 35 | Iteration: 1000 | Classification loss: 0.13226 | Regression loss: 0.38472 | Running loss: 0.18474
+Epoch: 36 | Iteration: 0 | Classification loss: 0.06377 | Regression loss: 0.13549 | Running loss: 0.18346
+Epoch: 36 | Iteration: 100 | Classification loss: 0.10676 | Regression loss: 0.18445 | Running loss: 0.18187
+Epoch: 36 | Iteration: 200 | Classification loss: 0.01346 | Regression loss: 0.16007 | Running loss: 0.18616
+Epoch: 36 | Iteration: 300 | Classification loss: 0.00424 | Regression loss: 0.06099 | Running loss: 0.18180
+Epoch: 36 | Iteration: 400 | Classification loss: 0.03221 | Regression loss: 0.16796 | Running loss: 0.17617
+Epoch: 36 | Iteration: 500 | Classification loss: 0.02406 | Regression loss: 0.24233 | Running loss: 0.17684
+Epoch: 36 | Iteration: 600 | Classification loss: 0.00332 | Regression loss: 0.06530 | Running loss: 0.17492
+Epoch: 36 | Iteration: 700 | Classification loss: 0.10141 | Regression loss: 0.14120 | Running loss: 0.17122
+Epoch: 36 | Iteration: 800 | Classification loss: 0.01846 | Regression loss: 0.04705 | Running loss: 0.17818
+Epoch: 36 | Iteration: 900 | Classification loss: 0.04436 | Regression loss: 0.25069 | Running loss: 0.18035
+Epoch: 36 | Iteration: 1000 | Classification loss: 0.00500 | Regression loss: 0.07068 | Running loss: 0.18191
+Epoch: 37 | Iteration: 0 | Classification loss: 0.00834 | Regression loss: 0.09990 | Running loss: 0.18231
+Epoch: 37 | Iteration: 100 | Classification loss: 0.00533 | Regression loss: 0.07305 | Running loss: 0.18772
+Epoch: 37 | Iteration: 200 | Classification loss: 0.00206 | Regression loss: 0.08553 | Running loss: 0.18360
+Epoch: 37 | Iteration: 300 | Classification loss: 0.05783 | Regression loss: 0.17088 | Running loss: 0.18247
+Epoch: 37 | Iteration: 400 | Classification loss: 0.01989 | Regression loss: 0.12240 | Running loss: 0.17793
+Epoch: 37 | Iteration: 500 | Classification loss: 0.02761 | Regression loss: 0.21360 | Running loss: 0.17511
+Epoch: 37 | Iteration: 600 | Classification loss: 0.00264 | Regression loss: 0.07527 | Running loss: 0.16756
+Epoch: 37 | Iteration: 700 | Classification loss: 0.03737 | Regression loss: 0.17054 | Running loss: 0.16897
+Epoch: 37 | Iteration: 800 | Classification loss: 0.00598 | Regression loss: 0.07321 | Running loss: 0.16506
+Epoch: 37 | Iteration: 900 | Classification loss: 0.02981 | Regression loss: 0.12869 | Running loss: 0.16157
+Epoch: 37 | Iteration: 1000 | Classification loss: 0.01889 | Regression loss: 0.19482 | Running loss: 0.16344
+Epoch: 38 | Iteration: 0 | Classification loss: 0.10017 | Regression loss: 0.26924 | Running loss: 0.16493
+Epoch: 38 | Iteration: 100 | Classification loss: 0.02500 | Regression loss: 0.06655 | Running loss: 0.16863
+Epoch: 38 | Iteration: 200 | Classification loss: 0.05126 | Regression loss: 0.15555 | Running loss: 0.16654
+Epoch: 38 | Iteration: 300 | Classification loss: 0.01481 | Regression loss: 0.11278 | Running loss: 0.16958
+Epoch: 38 | Iteration: 400 | Classification loss: 0.00630 | Regression loss: 0.08341 | Running loss: 0.17268
+Epoch: 38 | Iteration: 500 | Classification loss: 0.00472 | Regression loss: 0.11050 | Running loss: 0.16821
+Epoch: 38 | Iteration: 600 | Classification loss: 0.01729 | Regression loss: 0.06542 | Running loss: 0.16348
+Epoch: 38 | Iteration: 700 | Classification loss: 0.00052 | Regression loss: 0.01952 | Running loss: 0.16790
+Epoch: 38 | Iteration: 800 | Classification loss: 0.06541 | Regression loss: 0.18919 | Running loss: 0.17012
+Epoch: 38 | Iteration: 900 | Classification loss: 0.01067 | Regression loss: 0.23808 | Running loss: 0.16601
+Epoch: 38 | Iteration: 1000 | Classification loss: 0.00644 | Regression loss: 0.11843 | Running loss: 0.16554
+Epoch: 39 | Iteration: 0 | Classification loss: 0.06994 | Regression loss: 0.09604 | Running loss: 0.16640
+Epoch: 39 | Iteration: 100 | Classification loss: 0.00627 | Regression loss: 0.12062 | Running loss: 0.16613
+Epoch: 39 | Iteration: 200 | Classification loss: 0.11490 | Regression loss: 0.08164 | Running loss: 0.16331
+Epoch: 39 | Iteration: 300 | Classification loss: 0.04630 | Regression loss: 0.10691 | Running loss: 0.16362
+Epoch: 39 | Iteration: 400 | Classification loss: 0.01829 | Regression loss: 0.11188 | Running loss: 0.16872
+Epoch: 39 | Iteration: 500 | Classification loss: 0.00332 | Regression loss: 0.10181 | Running loss: 0.17072
+Epoch: 39 | Iteration: 600 | Classification loss: 0.07047 | Regression loss: 0.22433 | Running loss: 0.17009
+Epoch: 39 | Iteration: 700 | Classification loss: 0.06692 | Regression loss: 0.11201 | Running loss: 0.16953
+Epoch: 39 | Iteration: 800 | Classification loss: 0.01112 | Regression loss: 0.06917 | Running loss: 0.16682
+Epoch: 39 | Iteration: 900 | Classification loss: 0.00084 | Regression loss: 0.10713 | Running loss: 0.16467
+Epoch: 39 | Iteration: 1000 | Classification loss: 0.03862 | Regression loss: 0.15798 | Running loss: 0.16102
 epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298, 0.165510683034466, 0.15923313401991457, 0.15422511396298963, 0.1545121184381561, 0.1499576267069499, 0.1500308696761742, 0.14161486355917835, 0.14124411388894353, 0.10012661421664176, 0.08003740497923449]
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355, 0.21301808039929102, 0.2040086076118228, 0.20186184613606123, 0.19718293041562823, 0.18562052696649953, 0.1839511906233154, 0.17953926523392066, 0.1694240303779769, 0.16724365827532148, 0.1666491238957667]
+Evaluating dataset
+Loading and preparing results...
+DONE (t=0.16s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.48s).
+Accumulating evaluation results...
+DONE (t=0.62s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.267
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.452
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.274
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.013
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.095
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.319
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.412
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.415
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.040
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.213
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.505
+Epoch: 40 | Iteration: 0 | Classification loss: 0.05975 | Regression loss: 0.22069 | Running loss: 0.16289
+Epoch: 40 | Iteration: 100 | Classification loss: 0.01575 | Regression loss: 0.15829 | Running loss: 0.16523
+Epoch: 40 | Iteration: 200 | Classification loss: 0.11048 | Regression loss: 0.25156 | Running loss: 0.17002
+Epoch: 40 | Iteration: 300 | Classification loss: 0.02724 | Regression loss: 0.09475 | Running loss: 0.17438
+Epoch: 40 | Iteration: 400 | Classification loss: 0.00135 | Regression loss: 0.11963 | Running loss: 0.17258
+Epoch: 40 | Iteration: 500 | Classification loss: 0.01032 | Regression loss: 0.07217 | Running loss: 0.17146
+Epoch: 40 | Iteration: 600 | Classification loss: 0.01340 | Regression loss: 0.06455 | Running loss: 0.16879
+Epoch: 40 | Iteration: 700 | Classification loss: 0.00584 | Regression loss: 0.13026 | Running loss: 0.16167
+Epoch: 40 | Iteration: 800 | Classification loss: 0.00392 | Regression loss: 0.12686 | Running loss: 0.15139
+Epoch: 40 | Iteration: 900 | Classification loss: 0.05271 | Regression loss: 0.20003 | Running loss: 0.14967
+Epoch: 40 | Iteration: 1000 | Classification loss: 0.00863 | Regression loss: 0.06933 | Running loss: 0.14924
+Epoch: 41 | Iteration: 0 | Classification loss: 0.02844 | Regression loss: 0.21031 | Running loss: 0.15019
+Epoch: 41 | Iteration: 100 | Classification loss: 0.01960 | Regression loss: 0.11181 | Running loss: 0.15277
+Epoch: 41 | Iteration: 200 | Classification loss: 0.00097 | Regression loss: 0.07054 | Running loss: 0.15474
+Epoch: 41 | Iteration: 300 | Classification loss: 0.00438 | Regression loss: 0.04042 | Running loss: 0.16090
+Epoch: 41 | Iteration: 400 | Classification loss: 0.01754 | Regression loss: 0.09919 | Running loss: 0.16012
+Epoch: 41 | Iteration: 500 | Classification loss: 0.01708 | Regression loss: 0.16177 | Running loss: 0.15833
+Epoch: 41 | Iteration: 600 | Classification loss: 0.00261 | Regression loss: 0.05668 | Running loss: 0.15457
+Epoch: 41 | Iteration: 700 | Classification loss: 0.07449 | Regression loss: 0.25555 | Running loss: 0.15249
+Epoch: 41 | Iteration: 800 | Classification loss: 0.00391 | Regression loss: 0.10011 | Running loss: 0.15455
+Epoch: 41 | Iteration: 900 | Classification loss: 0.00323 | Regression loss: 0.07986 | Running loss: 0.15609
+Epoch: 41 | Iteration: 1000 | Classification loss: 0.00524 | Regression loss: 0.05006 | Running loss: 0.15302
+Epoch: 42 | Iteration: 0 | Classification loss: 0.02675 | Regression loss: 0.12204 | Running loss: 0.15414
+Epoch: 42 | Iteration: 100 | Classification loss: 0.00468 | Regression loss: 0.06998 | Running loss: 0.15519
+Epoch: 42 | Iteration: 200 | Classification loss: 0.04264 | Regression loss: 0.12974 | Running loss: 0.15365
+Epoch: 42 | Iteration: 300 | Classification loss: 0.00215 | Regression loss: 0.12505 | Running loss: 0.15285
+Epoch: 42 | Iteration: 400 | Classification loss: 0.00587 | Regression loss: 0.06381 | Running loss: 0.15519
+Epoch: 42 | Iteration: 500 | Classification loss: 0.08243 | Regression loss: 0.25320 | Running loss: 0.15710
+Epoch: 42 | Iteration: 600 | Classification loss: 0.00274 | Regression loss: 0.08893 | Running loss: 0.15514
+Epoch: 42 | Iteration: 700 | Classification loss: 0.01336 | Regression loss: 0.04960 | Running loss: 0.15456
+Epoch: 42 | Iteration: 800 | Classification loss: 0.00352 | Regression loss: 0.08715 | Running loss: 0.15301
+Epoch: 42 | Iteration: 900 | Classification loss: 0.01804 | Regression loss: 0.17557 | Running loss: 0.14519
+Epoch: 42 | Iteration: 1000 | Classification loss: 0.14838 | Regression loss: 0.17880 | Running loss: 0.14477
+Epoch: 43 | Iteration: 0 | Classification loss: 0.01050 | Regression loss: 0.11668 | Running loss: 0.14660
+Epoch: 43 | Iteration: 100 | Classification loss: 0.00017 | Regression loss: 0.03843 | Running loss: 0.14283
+Epoch: 43 | Iteration: 200 | Classification loss: 0.00266 | Regression loss: 0.04083 | Running loss: 0.14524
+Epoch: 43 | Iteration: 300 | Classification loss: 0.00806 | Regression loss: 0.12226 | Running loss: 0.14510
+Epoch: 43 | Iteration: 400 | Classification loss: 0.00632 | Regression loss: 0.09476 | Running loss: 0.14760
+Epoch: 43 | Iteration: 500 | Classification loss: 0.13104 | Regression loss: 0.30764 | Running loss: 0.14741
+Epoch: 43 | Iteration: 600 | Classification loss: 0.00579 | Regression loss: 0.15213 | Running loss: 0.15496
+Epoch: 43 | Iteration: 700 | Classification loss: 0.01549 | Regression loss: 0.08677 | Running loss: 0.14941
+Epoch: 43 | Iteration: 800 | Classification loss: 0.04446 | Regression loss: 0.17743 | Running loss: 0.14812
+Epoch: 43 | Iteration: 900 | Classification loss: 0.00104 | Regression loss: 0.02966 | Running loss: 0.15279
+Epoch: 43 | Iteration: 1000 | Classification loss: 0.00458 | Regression loss: 0.06976 | Running loss: 0.15028
+Epoch: 44 | Iteration: 0 | Classification loss: 0.00707 | Regression loss: 0.06984 | Running loss: 0.14974
+Epoch: 44 | Iteration: 100 | Classification loss: 0.00878 | Regression loss: 0.21205 | Running loss: 0.14455
+Epoch: 44 | Iteration: 200 | Classification loss: 0.00581 | Regression loss: 0.20257 | Running loss: 0.14998
+Epoch: 44 | Iteration: 300 | Classification loss: 0.01339 | Regression loss: 0.17568 | Running loss: 0.14762
+Epoch: 44 | Iteration: 400 | Classification loss: 0.05854 | Regression loss: 0.05195 | Running loss: 0.14429
+Epoch: 44 | Iteration: 500 | Classification loss: 0.00224 | Regression loss: 0.05458 | Running loss: 0.14317
+Epoch: 44 | Iteration: 600 | Classification loss: 0.00286 | Regression loss: 0.06956 | Running loss: 0.14200
+Epoch: 44 | Iteration: 700 | Classification loss: 0.14421 | Regression loss: 0.22837 | Running loss: 0.13953
+Epoch: 44 | Iteration: 800 | Classification loss: 0.00945 | Regression loss: 0.09937 | Running loss: 0.14594
+Epoch: 44 | Iteration: 900 | Classification loss: 0.04684 | Regression loss: 0.06363 | Running loss: 0.14739
+Epoch: 44 | Iteration: 1000 | Classification loss: 0.00804 | Regression loss: 0.06972 | Running loss: 0.14204
+Epoch: 45 | Iteration: 0 | Classification loss: 0.00389 | Regression loss: 0.04123 | Running loss: 0.14050
+Epoch: 45 | Iteration: 100 | Classification loss: 0.00338 | Regression loss: 0.08416 | Running loss: 0.14532
+Epoch: 45 | Iteration: 200 | Classification loss: 0.23564 | Regression loss: 0.25624 | Running loss: 0.14677
+Epoch: 45 | Iteration: 300 | Classification loss: 0.00744 | Regression loss: 0.06664 | Running loss: 0.14180
+Epoch: 45 | Iteration: 400 | Classification loss: 0.00064 | Regression loss: 0.05499 | Running loss: 0.14166
+Epoch: 45 | Iteration: 500 | Classification loss: 0.00511 | Regression loss: 0.03165 | Running loss: 0.14423
+Epoch: 45 | Iteration: 600 | Classification loss: 0.00275 | Regression loss: 0.07973 | Running loss: 0.14745
+Epoch: 45 | Iteration: 700 | Classification loss: 0.00199 | Regression loss: 0.06424 | Running loss: 0.14364
+Epoch: 45 | Iteration: 800 | Classification loss: 0.00233 | Regression loss: 0.09635 | Running loss: 0.13842
+Epoch: 45 | Iteration: 900 | Classification loss: 0.00059 | Regression loss: 0.05636 | Running loss: 0.13794
+Epoch: 45 | Iteration: 1000 | Classification loss: 0.00164 | Regression loss: 0.08797 | Running loss: 0.14102
+Epoch: 46 | Iteration: 0 | Classification loss: 0.00719 | Regression loss: 0.07395 | Running loss: 0.13922
+Epoch: 46 | Iteration: 100 | Classification loss: 0.00488 | Regression loss: 0.04857 | Running loss: 0.13385
+Epoch: 46 | Iteration: 200 | Classification loss: 0.00217 | Regression loss: 0.07641 | Running loss: 0.13364
+Epoch: 46 | Iteration: 300 | Classification loss: 0.00121 | Regression loss: 0.07994 | Running loss: 0.14122
+Epoch: 46 | Iteration: 400 | Classification loss: 0.00252 | Regression loss: 0.07589 | Running loss: 0.14323
+Epoch: 46 | Iteration: 500 | Classification loss: 0.00218 | Regression loss: 0.05703 | Running loss: 0.14028
+Epoch: 46 | Iteration: 600 | Classification loss: 0.00265 | Regression loss: 0.06597 | Running loss: 0.14041
+Epoch: 46 | Iteration: 700 | Classification loss: 0.09440 | Regression loss: 0.18150 | Running loss: 0.14423
+Epoch: 46 | Iteration: 800 | Classification loss: 0.03378 | Regression loss: 0.08180 | Running loss: 0.14035
+Epoch: 46 | Iteration: 900 | Classification loss: 0.00100 | Regression loss: 0.05456 | Running loss: 0.13543
+Epoch: 46 | Iteration: 1000 | Classification loss: 0.00437 | Regression loss: 0.08974 | Running loss: 0.13289
+Epoch: 47 | Iteration: 0 | Classification loss: 0.00191 | Regression loss: 0.08421 | Running loss: 0.13325
+Epoch: 47 | Iteration: 100 | Classification loss: 0.00566 | Regression loss: 0.14989 | Running loss: 0.12802
+Epoch: 47 | Iteration: 200 | Classification loss: 0.00653 | Regression loss: 0.06945 | Running loss: 0.12872
+Epoch: 47 | Iteration: 300 | Classification loss: 0.00150 | Regression loss: 0.03218 | Running loss: 0.12666
+Epoch: 47 | Iteration: 400 | Classification loss: 0.00406 | Regression loss: 0.08431 | Running loss: 0.13334
+Epoch: 47 | Iteration: 500 | Classification loss: 0.04197 | Regression loss: 0.20933 | Running loss: 0.13643
+Epoch: 47 | Iteration: 600 | Classification loss: 0.00265 | Regression loss: 0.12875 | Running loss: 0.13889
+Epoch: 47 | Iteration: 700 | Classification loss: 0.00055 | Regression loss: 0.05560 | Running loss: 0.13746
+Epoch: 47 | Iteration: 800 | Classification loss: 0.00131 | Regression loss: 0.05554 | Running loss: 0.14012
+Epoch: 47 | Iteration: 900 | Classification loss: 0.00337 | Regression loss: 0.11140 | Running loss: 0.13859
+Epoch: 47 | Iteration: 1000 | Classification loss: 0.00573 | Regression loss: 0.15947 | Running loss: 0.13847
+Epoch: 48 | Iteration: 0 | Classification loss: 0.12385 | Regression loss: 0.23289 | Running loss: 0.13868
+Epoch: 48 | Iteration: 100 | Classification loss: 0.00233 | Regression loss: 0.08939 | Running loss: 0.13633
+Epoch: 48 | Iteration: 200 | Classification loss: 0.01817 | Regression loss: 0.10555 | Running loss: 0.13272
+Epoch: 48 | Iteration: 300 | Classification loss: 0.00045 | Regression loss: 0.04084 | Running loss: 0.12543
+Epoch: 48 | Iteration: 400 | Classification loss: 0.00027 | Regression loss: 0.03178 | Running loss: 0.11906
+Epoch: 48 | Iteration: 500 | Classification loss: 0.01340 | Regression loss: 0.10205 | Running loss: 0.11295
+Epoch: 48 | Iteration: 600 | Classification loss: 0.00089 | Regression loss: 0.09147 | Running loss: 0.10731
+Epoch: 48 | Iteration: 700 | Classification loss: 0.01823 | Regression loss: 0.28253 | Running loss: 0.10418
+Epoch: 48 | Iteration: 800 | Classification loss: 0.00523 | Regression loss: 0.08449 | Running loss: 0.09880
+Epoch: 48 | Iteration: 900 | Classification loss: 0.00056 | Regression loss: 0.02663 | Running loss: 0.09635
+Epoch: 48 | Iteration: 1000 | Classification loss: 0.00223 | Regression loss: 0.05096 | Running loss: 0.09315
+Epoch: 49 | Iteration: 0 | Classification loss: 0.00139 | Regression loss: 0.02600 | Running loss: 0.09259
+Epoch: 49 | Iteration: 100 | Classification loss: 0.02651 | Regression loss: 0.17999 | Running loss: 0.09298
+Epoch: 49 | Iteration: 200 | Classification loss: 0.01030 | Regression loss: 0.08962 | Running loss: 0.08859
+Epoch: 49 | Iteration: 300 | Classification loss: 0.00970 | Regression loss: 0.12899 | Running loss: 0.08814
+Epoch: 49 | Iteration: 400 | Classification loss: 0.02849 | Regression loss: 0.07389 | Running loss: 0.08557
+Epoch: 49 | Iteration: 500 | Classification loss: 0.03164 | Regression loss: 0.10120 | Running loss: 0.08179
+Epoch: 49 | Iteration: 600 | Classification loss: 0.00020 | Regression loss: 0.01522 | Running loss: 0.08229
+Epoch: 49 | Iteration: 700 | Classification loss: 0.00532 | Regression loss: 0.04754 | Running loss: 0.08023
+Epoch: 49 | Iteration: 800 | Classification loss: 0.00019 | Regression loss: 0.03179 | Running loss: 0.07888
+Epoch: 49 | Iteration: 900 | Classification loss: 0.00163 | Regression loss: 0.04076 | Running loss: 0.08030
+Epoch: 49 | Iteration: 1000 | Classification loss: 0.00044 | Regression loss: 0.02087 | Running loss: 0.08293
+epoch_loss_list:
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355, 0.21301808039929102, 0.2040086076118228, 0.20186184613606123, 0.19718293041562823, 0.18562052696649953, 0.1839511906233154, 0.17953926523392066, 0.1694240303779769, 0.16724365827532148, 0.1666491238957667, 0.16078793057460544, 0.15555756054195305, 0.15137581216945042, 0.14921218024724434, 0.14209421578332723, 0.14212076386572486, 0.13625887766348446, 0.13747869416297684, 0.10357488010295916, 0.08243303156483507]
+Evaluating dataset
+Loading and preparing results...
+DONE (t=0.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.04s).
+Accumulating evaluation results...
+DONE (t=0.33s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.485
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.315
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.380
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.351
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.041
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.513
+epoch_loss_list:
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355, 0.21301808039929102, 0.2040086076118228, 0.20186184613606123, 0.19718293041562823, 0.18562052696649953, 0.1839511906233154, 0.17953926523392066, 0.1694240303779769, 0.16724365827532148, 0.1666491238957667, 0.16078793057460544, 0.15555756054195305, 0.15137581216945042, 0.14921218024724434, 0.14209421578332723, 0.14212076386572486, 0.13625887766348446, 0.13747869416297684, 0.10357488010295916, 0.08243303156483507]

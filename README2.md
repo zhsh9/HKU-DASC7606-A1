@@ -280,6 +280,7 @@ Note that even with a random seed set, non-deterministic operations on the GPU m
 | model6 | 3407   | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  |
 | model7 | 3407   | 18    | Adam      | 1e-3          | 0.01  | 0.25 | 2.0  |
 | model8 | 3407   | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  |
+| model9 | 3407   | 101   | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  |
 
 Setting the `learning rate` is a crucial decision in machine learning and deep learning as it significantly affects the efficiency and outcome of model training. The learning rate determines the magnitude of model weight updates during each iteration. If the learning rate is too high, it may cause the model to overshoot the optimum point while minimizing the loss function, thus preventing convergence; if the learning rate is too low, model training can be very slow and may get stuck at local minima.
 
@@ -296,25 +297,21 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 ## model6
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50_no6.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.292
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.459
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.314
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.014
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.129
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.372
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.350
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.406
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.406
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.022
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.173
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
-epoch_loss_list:
-[1.544404410060466, 1.2599226279756215, 1.1259764947407827, 1.0047769267845341, 0.9291923858049348, 0.8569400547233623, 0.803065608042901, 0.7468336797869346, 0.6844260717382816, 0.6468665016829733, 0.6064266781725987, 0.5702681408564406, 0.523331516085002, 0.49252147579521643, 0.45880052253354603, 0.4285416023101746, 0.40782566032717077, 0.38074309777791104, 0.36816033970300605, 0.34131854506554155, 0.32881005685849807, 0.30622663777174913, 0.2949473325229125, 0.2837106312999106, 0.2684056596815821, 0.2580264493031061, 0.24959941160879795, 0.24107120405721266, 0.22734258190442727, 0.22797379595058875, 0.2195195751833018, 0.21319070595910583, 0.20226063253541338, 0.1960531515875963, 0.18696604715476883, 0.18967384333065967, 0.18167636226899336, 0.1747279152967124, 0.17113063770702006, 0.16854593759461298, 0.165510683034466, 0.15923313401991457, 0.15422511396298963, 0.1545121184381561, 0.1499576267069499, 0.1500308696761742, 0.14161486355917835, 0.14124411388894353, 0.10012661421664176, 0.08003740497923449]
-```
-
-```console
 $ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50.log
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.485
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.315
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.380
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.351
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.041
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.513
+epoch_loss_list:
+[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355, 0.21301808039929102, 0.2040086076118228, 0.20186184613606123, 0.19718293041562823, 0.18562052696649953, 0.1839511906233154, 0.17953926523392066, 0.1694240303779769, 0.16724365827532148, 0.1666491238957667, 0.16078793057460544, 0.15555756054195305, 0.15137581216945042, 0.14921218024724434, 0.14209421578332723, 0.14212076386572486, 0.13625887766348446, 0.13747869416297684, 0.10357488010295916, 0.08243303156483507]
 ```
 
 ## model7
