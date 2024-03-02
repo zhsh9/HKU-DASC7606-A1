@@ -98,14 +98,14 @@ loss curve:
 
 ## Hyper-parameter tuning
 
-| model  | depth | optimizer | learning rate | drop_last | batch size | warm-up, prior | α    | γ    |
-| ------ | ----- | --------- | ------------- | --------- | ---------- | -------------- | ---- | ---- |
-| model1 | 50    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
-| model2 | 50    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
-| model3 | 18    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
-| model4 | 34    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
-| model5 | 101   | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
-|        |       |           |               |           |            |                |      |      |
+| model      | depth | optimizer | learning rate | drop_last | batch size | warm-up, prior | α    | γ    |
+| ---------- | ----- | --------- | ------------- | --------- | ---------- | -------------- | ---- | ---- |
+| model1     | 50    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
+| model2     | 50    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
+| **model3** | 18    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
+| model4     | 34    | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
+| model5     | 101   | Adam      | 1e-4          | False     | 2          | 0.01           | 0.25 | 2.0  |
+|            |       |           |               |           |            |                |      |      |
 
 Param position in code (if alteration is essential):
 
@@ -187,28 +187,6 @@ class FocalLoss(nn.Module):
   - Based on the loss_list, we are informed that 50 epochs is not enough for network depth 18
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 50 | tee log/train_depth18_epochs50_no3.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.304
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.478
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.319
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.035
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.382
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.352
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.425
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.425
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.205
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.522
-epoch_loss_list:
-[1.4996897089551753, 1.2040403247114242, 1.0653194290563817, 0.9758257034902028, 0.8809408868743679, 0.8240104862818802, 0.7586331694555564, 0.6976388244061019, 0.649624379909062, 0.6160755318362178, 0.5736206129897298, 0.541688928717938, 0.4977719859682082, 0.46565801993481754, 0.43757234697824154, 0.41245430582532966, 0.3843969932617986, 0.36113498351485357, 0.34414086817199085, 0.3250861821960159, 0.31000295087079127, 0.2989282929081851, 0.28059000799828393, 0.26884444194706525, 0.2534607782387945, 0.25112210249704287, 0.23778080031290416, 0.229856338058635, 0.22842503081655174, 0.21782112319396413, 0.2100386019836466, 0.2062964416200691, 0.20871497282032364, 0.19068553230329233, 0.1907811889536752, 0.1849663094892423, 0.17380056378988945, 0.17445705697585748, 0.16780385347981533, 0.15981957240132835, 0.1593968208483237, 0.1579678018172235, 0.1518478942063351, 0.15177865247388816, 0.14330497362438266, 0.14385676012909787, 0.13573541866540248, 0.13415937287380963, 0.10076992388303194, 0.08006209629041502]
-
-$ python test.py --coco_path ./data --checkpoint_path ./model3/model_final.pt --depth 18 --set_name 'val' | tee log/valid_depth18_epochs50_no3.log
-
-$ python vis.py
-```
-
-```console
 $ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 80 | tee log/train_depth18_epochs80_no3.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.287
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.463
@@ -254,10 +232,24 @@ $ python test.py --coco_path ./data --checkpoint_path ./model4/model_final.pt --
 $ python vis.py
 ```
 
-- model5 [x]
+- model5
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model5 --depth 101 --epochs 50 | tee log/train_depth101_epochs50_no5.log
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.304
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.478
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.319
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.382
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.205
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.522
+epoch_loss_list:
+[1.4996897089551753, 1.2040403247114242, 1.0653194290563817, 0.9758257034902028, 0.8809408868743679, 0.8240104862818802, 0.7586331694555564, 0.6976388244061019, 0.649624379909062, 0.6160755318362178, 0.5736206129897298, 0.541688928717938, 0.4977719859682082, 0.46565801993481754, 0.43757234697824154, 0.41245430582532966, 0.3843969932617986, 0.36113498351485357, 0.34414086817199085, 0.3250861821960159, 0.31000295087079127, 0.2989282929081851, 0.28059000799828393, 0.26884444194706525, 0.2534607782387945, 0.25112210249704287, 0.23778080031290416, 0.229856338058635, 0.22842503081655174, 0.21782112319396413, 0.2100386019836466, 0.2062964416200691, 0.20871497282032364, 0.19068553230329233, 0.1907811889536752, 0.1849663094892423, 0.17380056378988945, 0.17445705697585748, 0.16780385347981533, 0.15981957240132835, 0.1593968208483237, 0.1579678018172235, 0.1518478942063351, 0.15177865247388816, 0.14330497362438266, 0.14385676012909787, 0.13573541866540248, 0.13415937287380963, 0.10076992388303194, 0.08006209629041502]
 
 $ python test.py --coco_path ./data --checkpoint_path ./model5/model_final.pt --depth 101 --set_name 'val' | tee log/valid_depth101_epochs50_no5.log
 
@@ -297,7 +289,7 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 ## model6
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50.log
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.485
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.315
@@ -316,10 +308,8 @@ epoch_loss_list:
 
 ## model7
 
-In GPU farm
-
 ```console
-$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
+$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --learning_rate 0.001 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
 epoch_loss_list:
 [2.7840606096222644, 6.339422031063733, 1.8914284717848922, 1.8781852498063891, 23.803518626398926, 2.40679901861769, 3.7329882541744728, 1.9388662739766864, 1.9974971193028248, 1.9923223498768694, 2.3484011270164507, 660.1918529949085, 1.871794019158431, 1.8948066125469885, 1.863816191596309, 1.863240913495304, 1.9853678333947038, 1.9914566110672913, 1.9906568462689092, 1.989665851935627, 1.9953255823512717, 2.0174371571991387, 2.0142035397488303, 2.0154955671058863, 2.01445742092264, 2.014155037290468, 2.0145122831262, 2.01502141520733, 2.0138096667415515, 2.013884313228562, 2.013926536431463, 2.013402830545358, 2.0131661203198545, 2.0142444190312556, 2.013492918389989, 2.0131272388490165, 2.012519365455222, 2.0126802190316946, 2.013397226887425, 2.0129589612089744, 2.011901627258053, 2.012777053465055, 2.0130519370629094, 2.0128408451014614, 2.013073424068023, 2.012129259039098, 2.0129746714914876, 2.0125938947275865, 2.0113711131839302, 2.010876358611377]
 ```
@@ -327,7 +317,7 @@ epoch_loss_list:
 ## model8
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 3407 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
+$ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 3407 --learning_rate 0.00001 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.315
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.583
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.307
@@ -342,5 +332,49 @@ $ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 34
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.501
 epoch_loss_list:
 [1.3485985781381449, 1.0428863803115416, 0.9080038053372245, 0.8198696776755213, 0.7462012804457991, 0.6849284630972804, 0.6314117278258397, 0.5838938797640754, 0.5408082131853723, 0.5003792778772163, 0.47037841241044087, 0.4360208642837687, 0.4126990730324247, 0.3900142498974373, 0.3647483795749273, 0.34710889965603786, 0.3285140351531661, 0.3097159046291073, 0.300746954141522, 0.28417240203116234, 0.2706226208320577, 0.25768760743543623, 0.24772578569891768, 0.24061031865073354, 0.23440500140908782, 0.22438549321680146, 0.21360355310369372, 0.20982268031715878, 0.20265136179184234, 0.19518770426731763, 0.1902201386538928, 0.18584581637043712, 0.1828563255001241, 0.17607332579974877, 0.17221467088225964, 0.1696188291883111, 0.16682294164564254, 0.16123330928421925, 0.15749495586941356, 0.1559871606928421, 0.15146176567792483, 0.15084946997955032, 0.14413518245390608, 0.14543778893141823, 0.14053164449095082, 0.1371312429926791, 0.13400624088547008, 0.13404743663057334, 0.10965902876387548, 0.09319095793326833]
+```
+
+## final model
+
+depth18, epochs72, learning rate 1e-4, seed 3407:
+
+```console
+$ python train.py --coco_path ./data --output_path ./model --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 72
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.405
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.612
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.433
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.258
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.484
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.490
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.055
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.337
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.571
+[1.4318664156076477, 1.1001639135005905, 0.951171794979591, 0.8669462496136117, 0.7826694082322083, 0.7231154088664242, 0.6712237381207662, 0.6253459720513014, 0.5767641523046287, 0.5353238649490312, 0.5019147138837285, 0.46833128531969437, 0.43027442954773976, 0.4057700016836482, 0.3837973687093793, 0.3491113050070804, 0.3365979572010087, 0.31390098533703115, 0.30307657208557676, 0.28886881692144345, 0.27685422390171394, 0.2594804616688978, 0.2531161196529865, 0.24239540178563415, 0.23492269075702965, 0.22669022654249207, 0.2124996097157086, 0.20594180111340651, 0.19773296042396796, 0.19331663411374636, 0.1847791956429641, 0.177922433542865, 0.1754182980315188, 0.176792214397253, 0.16507695097564243, 0.16730668246892727, 0.16016591913030137, 0.15313682938361262, 0.15015995093276652, 0.1490433017803928, 0.13994556185092746, 0.1417805902278564, 0.1370867475001948, 0.13476632985719075, 0.12725584065233628, 0.12609577884413595, 0.12433190355590713, 0.12400001437791924, 0.09044798064654268, 0.07121378269897202, 0.0622335343409007, 0.05580204240446104, 0.049807331673287616, 0.04686529077607845, 0.042925731446704, 0.04024196644111969, 0.03772618067744151, 0.03557270235844015, 0.03374018094146727, 0.03265945929218098, 0.03141849596735354, 0.030416728041820433, 0.02952122467929336, 0.028430486348637297, 0.027613410924187325, 0.02634765021457139, 0.02603730824537663, 0.025673939840039458, 0.025331346891035774, 0.02523221916200109, 0.024656759558280374, 0.02444344596624719]
+```
+
+```console
+$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 18 --set_name 'val' | tee log/valid_model_final.log
+Accumulating evaluation results...
+DONE (t=0.38s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.405
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.612
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.433
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.258
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.484
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.489
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.490
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.055
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.337
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.571
+```
+
+```console
+$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 18 --set_name 'test' | tee log/test_model_final.log
+
 ```
 
