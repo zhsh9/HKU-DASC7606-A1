@@ -6,7 +6,7 @@
 - hyper-param tuning
 - model summary
 
-The below is the document of this assignment.
+The document & instructions of this assignment is listed below.
 
 ---
 
