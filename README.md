@@ -1,3 +1,15 @@
+# Assignment1 Notes [Here](./README2.md)
+
+- finished tasks
+- some explanations
+- training process
+- hyper-param tuning
+- model summary
+
+The below is the document of this assignment.
+
+---
+
 # HKU-DASC7606-A1
 HKU DASC 7606 Assignment 1 (Computer Vision: Object Detection), 2023-24 Spring
 
