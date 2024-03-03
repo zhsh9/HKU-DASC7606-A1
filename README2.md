@@ -5,6 +5,7 @@ Code is [here](https://github.com/zhsh9/HKU-DASC7606-A1).
 - [x] finish task1-5, ready to train the model with training & validation dataset
 - [x] fulfill resnet depth option: 18,34,50,101,152
 - [x] set the manual seed of torch: 3407
+- [x] visualiza loss curves
 
 # definition of logname
 
@@ -30,18 +31,7 @@ evaluate on validation ds:
 
 ```console
 $ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epochs20_no1.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.224
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.413
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.223
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.005
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.064
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.290
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.300
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.397
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.400
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.020
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.212
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.494
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.324
 ```
 
 visualization:
@@ -74,22 +64,7 @@ epoch_loss_list:
 029793196541, 0.28668593891390315, 0.27693140523977516, 0.2621651426265676, 0.24947327262296629, 0.24383938032767083, 0.23293846984958555, 0.2250983702664183, 0.2157967944728489, 0.21210157690298428, 0.19975327165599355, 0
 .19877907846812307, 0.19323293236634276, 0.18541328297326648, 0.17950393673303852, 0.1767823570242929, 0.1731491775497589, 0.16610762147658217]
 ...
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.229
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.408
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.223
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.016
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.089
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.290
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.289
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.369
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.371
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.032
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.180
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.457
-
-$ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 50 --set_name 'val' | tee log/valid_depth50_epoch40_no2.log
-
-$ python vis.py
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.329
 ```
 
 ### visualization
@@ -188,18 +163,8 @@ class FocalLoss(nn.Module):
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model3 --depth 18 --epochs 80 | tee log/train_depth18_epochs80_no3.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.287
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.463
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.299
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.008
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.100
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.371
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.330
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.373
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.373
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.012
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.142
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.473
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+...
 epoch_loss_list:
 [1.528632529783906, 1.246746529832365, 1.0978513049387086, 1.0141713309182425, 0.908193542658696, 0.8403387490923949, 0.7831078268088928, 0.731229337093633, 0.6776719326080065, 0.6424152135086341, 0.5919587297702399, 0.5572629134779371, 0.5228129406496296, 0.48738525512327596, 0.46106301398405175, 0.42910092300552083, 0.4036207692697644, 0.38645969763926163, 0.36142518085346914, 0.34390027860663536, 0.32629888006815994, 0.31176110758541487, 0.29622646571892336, 0.2785549231375912, 0.270975688630055, 0.25835850701564705, 0.2511534537573704, 0.23763869246687946, 0.22856825399469202, 0.2205726409946957, 0.222689586724558, 0.2101651065300886, 0.21022608962119008, 0.1954633732579326, 0.18856240966811952, 0.18861498967304416, 0.18163314815537315, 0.18002563769705446, 0.16797019798843937, 0.16953391215294658, 0.1666016248586463, 0.15891323118529274, 0.15243006697085898, 0.15006576055536178, 0.15150466023240328, 0.14260925523438087, 0.13658058772956233, 0.13579073711940065, 0.10504844202339195, 0.0831657922460045, 0.06969752579956777, 0.06280357125373355, 0.056226964000022174, 0.051520526260536305, 0.04750911243648111, 0.043586513231963095, 0.0411977958946817, 0.03965084551623656, 0.03728222996147724, 0.03641852081442109, 0.03492345321899661, 0.03340102444191126, 0.032040469704265065, 0.03145714819167308, 0.029539805936260887, 0.028259916604974573, 0.02796289171266377, 0.02773462125378859, 0.02691339467179835, 0.026762918414347293, 0.026478477183309583, 0.025982557757757374, 0.02613322120511631, 0.025509635560375162, 0.025345785843928464, 0.025471286296561008, 0.025652885035459067, 0.02472111577588394, 0.024803984546795575, 0.02472613626610035]
 
@@ -212,18 +177,7 @@ $ python vis.py
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model4 --depth 34 --epochs 50 | tee log/train_depth34_epochs50_no4.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.287
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.455
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.309
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.015
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.117
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.363
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.340
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.412
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.412
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.025
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.214
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.507
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
 epoch_loss_list:
 [1.6027211780388524, 1.3493213718097041, 1.2005559017104426, 1.0817573109832335, 0.9989016679680254, 0.9243821980739673, 0.8597765068604252, 0.806570817283758, 0.7509586330004564, 0.7024351666703468, 0.6507156748603297, 0.6194083641217215, 0.583154296531804, 0.5428892699414938, 0.5085167201001226, 0.4828783282056803, 0.45397009768002616, 0.43339138117244863, 0.4030665038006864, 0.3867030331102295, 0.3644278600819292, 0.34267387191552345, 0.32291754081984614, 0.3062023756746936, 0.29318198249088673, 0.2797942441965153, 0.2705999839882271, 0.25520450626243285, 0.24268527382500762, 0.23772001985871183, 0.2299480134764261, 0.2207381194934073, 0.21444946402082526, 0.2018105147413792, 0.1983299547142723, 0.19787831321050683, 0.19110252841111772, 0.18569881874539956, 0.17913870857368538, 0.17234412436355198, 0.16710634597239826, 0.1669551119021338, 0.1568848570830768, 0.15872284962509678, 0.15080245019314356, 0.14963583615113518, 0.14378988040761478, 0.14532693679899153, 0.1016612858323593, 0.08186726589819167]
 
@@ -237,17 +191,6 @@ $ python vis.py
 ```console
 $ python train.py --coco_path ./data --output_path ./model5 --depth 101 --epochs 50 | tee log/train_depth101_epochs50_no5.log
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.304
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.478
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.319
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.035
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.382
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.352
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.425
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.425
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.205
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.522
 epoch_loss_list:
 [1.4996897089551753, 1.2040403247114242, 1.0653194290563817, 0.9758257034902028, 0.8809408868743679, 0.8240104862818802, 0.7586331694555564, 0.6976388244061019, 0.649624379909062, 0.6160755318362178, 0.5736206129897298, 0.541688928717938, 0.4977719859682082, 0.46565801993481754, 0.43757234697824154, 0.41245430582532966, 0.3843969932617986, 0.36113498351485357, 0.34414086817199085, 0.3250861821960159, 0.31000295087079127, 0.2989282929081851, 0.28059000799828393, 0.26884444194706525, 0.2534607782387945, 0.25112210249704287, 0.23778080031290416, 0.229856338058635, 0.22842503081655174, 0.21782112319396413, 0.2100386019836466, 0.2062964416200691, 0.20871497282032364, 0.19068553230329233, 0.1907811889536752, 0.1849663094892423, 0.17380056378988945, 0.17445705697585748, 0.16780385347981533, 0.15981957240132835, 0.1593968208483237, 0.1579678018172235, 0.1518478942063351, 0.15177865247388816, 0.14330497362438266, 0.14385676012909787, 0.13573541866540248, 0.13415937287380963, 0.10076992388303194, 0.08006209629041502]
 
@@ -290,18 +233,8 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 20 | tee log/train_depth18_seed3407_lr1e-4_epochs20.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.562
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.354
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.122
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.215
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.410
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.359
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.495
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.506
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.386
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.578
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.387
+...
 epoch_loss_list:
 [1.4186146195948592, 1.0810809980227252, 0.9426405721703383, 0.8578932251869225, 0.7786534885017891, 0.7206757530482031, 0.6638822823205567, 0.6155609383915118, 0.5721351678270524, 0.5387147602544525, 0.5031234409777433, 0.4656750471001183, 0.43533992793000353, 0.4116135801254647, 0.38483528913856724, 0.3696655480697106, 0.3465075497625498, 0.32951304744049087, 0.31531340801560387, 0.2939375856942607]
 ```
@@ -352,7 +285,7 @@ epoch_loss_list:
 depth18, epochs72, learning rate 1e-4, seed 3407:
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 72
+$ python train.py --coco_path ./data --output_path ./model --depth 18 --seed 3407 --learning_rate 0.00001 --epochs 72
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.405
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.612
  Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.433
@@ -443,5 +376,16 @@ Finally, the IoU is calculated as the ratio of the intersection area to the unio
 
 In summary, this function calculates the Intersection over Union (IoU) of two bounding boxes, which is a common metric in object detection tasks.
 
+# Final Model Table
 
-
+| model  | seed   | epochs | depth | optimizer | learning rate | prior | α    | γ    | mAP   |
+| ------ | ------ | ------ | ----- | --------- | ------------- | ----- | ---- | ---- | ----- |
+| model1 | random | 20     | 50    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.324 |
+| model2 | random | 50     | 50    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.329 |
+| model3 | random | 50     | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.362 |
+| model4 | random | 50     | 34    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.341 |
+| model5 | random | 50     | 101   | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.304 |
+| model6 | 3407   | 20     | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.387 |
+| model7 | 3407   | 20     | 18    | Adam      | 1e-3          | 0.01  | 0.25 | 2.0  | 0.010 |
+| model8 | 3407   | 50     | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  | 0.315 |
+| final  | 3407   | 72     | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  | 0.405 |
