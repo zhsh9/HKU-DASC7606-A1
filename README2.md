@@ -350,7 +350,7 @@ DONE (t=0.19s).
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.268
 ```
 
-![model6](./retinanet_graph.png)
+![model6](./retinanet.png)
 
 # Report
 
