@@ -233,7 +233,7 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 20 | tee log/train_depth18_seed3407_lr1e-4_epochs20.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.387
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.367
 ...
 epoch_loss_list:
 [1.4186146195948592, 1.0810809980227252, 0.9426405721703383, 0.8578932251869225, 0.7786534885017891, 0.7206757530482031, 0.6638822823205567, 0.6155609383915118, 0.5721351678270524, 0.5387147602544525, 0.5031234409777433, 0.4656750471001183, 0.43533992793000353, 0.4116135801254647, 0.38483528913856724, 0.3696655480697106, 0.3465075497625498, 0.32951304744049087, 0.31531340801560387, 0.2939375856942607]
@@ -264,18 +264,18 @@ epoch_loss_list:
 
 ```console
 $ python train.py --coco_path ./data --output_path ./model8 --depth 18 --seed 3407 --learning_rate 0.00001 --epochs 50 > log/train_depth18_seed3407_lr1e-5_epochs50_no8.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.315
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.583
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.307
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.154
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.392
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.341
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.413
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.414
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.050
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.246
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.501
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.361
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.669
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.345
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.432
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.355
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.134
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.549
 epoch_loss_list:
 [1.3485985781381449, 1.0428863803115416, 0.9080038053372245, 0.8198696776755213, 0.7462012804457991, 0.6849284630972804, 0.6314117278258397, 0.5838938797640754, 0.5408082131853723, 0.5003792778772163, 0.47037841241044087, 0.4360208642837687, 0.4126990730324247, 0.3900142498974373, 0.3647483795749273, 0.34710889965603786, 0.3285140351531661, 0.3097159046291073, 0.300746954141522, 0.28417240203116234, 0.2706226208320577, 0.25768760743543623, 0.24772578569891768, 0.24061031865073354, 0.23440500140908782, 0.22438549321680146, 0.21360355310369372, 0.20982268031715878, 0.20265136179184234, 0.19518770426731763, 0.1902201386538928, 0.18584581637043712, 0.1828563255001241, 0.17607332579974877, 0.17221467088225964, 0.1696188291883111, 0.16682294164564254, 0.16123330928421925, 0.15749495586941356, 0.1559871606928421, 0.15146176567792483, 0.15084946997955032, 0.14413518245390608, 0.14543778893141823, 0.14053164449095082, 0.1371312429926791, 0.13400624088547008, 0.13404743663057334, 0.10965902876387548, 0.09319095793326833]
 ```
@@ -385,7 +385,7 @@ In summary, this function calculates the Intersection over Union (IoU) of two bo
 | model3 | random | 50     | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.362 |
 | model4 | random | 50     | 34    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.341 |
 | model5 | random | 50     | 101   | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.304 |
-| model6 | 3407   | 20     | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.387 |
+| model6 | 3407   | 20     | 18    | Adam      | 1e-4          | 0.01  | 0.25 | 2.0  | 0.367 |
 | model7 | 3407   | 20     | 18    | Adam      | 1e-3          | 0.01  | 0.25 | 2.0  | 0.010 |
-| model8 | 3407   | 50     | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  | 0.315 |
+| model8 | 3407   | 50     | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  | 0.361 |
 | final  | 3407   | 72     | 18    | Adam      | 1e-5          | 0.01  | 0.25 | 2.0  | 0.405 |
