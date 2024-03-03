@@ -16,6 +16,8 @@ from retinanet.eval import Evaluation
     
 from torch.utils.data import DataLoader
 
+from torchviz import make_dot
+
 def set_seed(seed_value):
     """Set seed for reproducibility."""
     np.random.seed(seed_value)
@@ -38,6 +40,7 @@ def main(args=None):
     parser.add_argument('--epochs', help='Number of epochs', type=int, default=72)
     parser.add_argument('--seed', help='Set the random seed for reproducibility', type=int, default=3407)
     parser.add_argument('--learning_rate', help='Set the learning rate for the optimizer', type=float, default=1e-4)
+    parser.add_argument('--draw_model', help='Draw the model or not, if draw then no train', type=bool, default=False)
 
     parser = parser.parse_args(args)
 
@@ -85,6 +88,29 @@ def main(args=None):
 
     loss_hist = collections.deque(maxlen=500)
     epoch_loss_list = []
+
+    # Draw the structure of model
+    if parser.draw_model:
+        # Get a batch of training data
+        # Get a batch of training data
+        data = next(iter(dataloader_train))
+        inputs = data['img']
+        labels = data['annot']
+
+        if torch.cuda.is_available():
+            inputs = inputs.cuda()
+            labels = labels.cuda()
+
+        # Run the model on the inputs
+        outputs = retinanet([inputs, labels])
+
+        # Generate the graph
+        dot = make_dot(outputs, params=dict(retinanet.named_parameters()))
+
+        # Save the graph
+        dot.format = 'png'
+        dot.render(filename='retinanet')
+        return
 
     print('Num training images: {}'.format(len(dataset_train)))
     for epoch_num in range(parser.epochs):

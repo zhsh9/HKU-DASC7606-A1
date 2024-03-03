@@ -289,29 +289,42 @@ Setting the `learning rate` is a crucial decision in machine learning and deep l
 ## model6
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 50 > log/train_depth18_seed3407_lr1e-4_epochs50.log
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.485
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.315
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.029
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.139
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.380
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.351
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.419
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.419
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.041
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.211
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.513
+$ python train.py --coco_path ./data --output_path ./model6 --depth 18 --seed 3407 --learning_rate 0.0001 --epochs 20 | tee log/train_depth18_seed3407_lr1e-4_epochs20.log
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.562
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.354
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.122
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.495
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.386
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.578
 epoch_loss_list:
-[1.5048140184147152, 1.2349607245776597, 1.073891547633203, 0.9884104395475913, 0.9092650648323805, 0.8510473793533844, 0.7926415143402543, 0.7423024437001605, 0.7050704459887086, 0.6359834200519277, 0.601689888164401, 0.5625115660950541, 0.5222883756294494, 0.4943551076136119, 0.46074235051371687, 0.4295510893364943, 0.4088266979440988, 0.3859253026193052, 0.36011789604933475, 0.337768921173933, 0.3190685137519686, 0.3075452483420473, 0.294035808542582, 0.2765762605796033, 0.266598670897404, 0.25850868145348577, 0.23976455894885512, 0.23222492147222396, 0.2262976766017625, 0.21554142084361355, 0.21301808039929102, 0.2040086076118228, 0.20186184613606123, 0.19718293041562823, 0.18562052696649953, 0.1839511906233154, 0.17953926523392066, 0.1694240303779769, 0.16724365827532148, 0.1666491238957667, 0.16078793057460544, 0.15555756054195305, 0.15137581216945042, 0.14921218024724434, 0.14209421578332723, 0.14212076386572486, 0.13625887766348446, 0.13747869416297684, 0.10357488010295916, 0.08243303156483507]
+[1.4186146195948592, 1.0810809980227252, 0.9426405721703383, 0.8578932251869225, 0.7786534885017891, 0.7206757530482031, 0.6638822823205567, 0.6155609383915118, 0.5721351678270524, 0.5387147602544525, 0.5031234409777433, 0.4656750471001183, 0.43533992793000353, 0.4116135801254647, 0.38483528913856724, 0.3696655480697106, 0.3465075497625498, 0.32951304744049087, 0.31531340801560387, 0.2939375856942607]
 ```
 
 ## model7
 
 ```console
-$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --learning_rate 0.001 --epochs 50 > log/train_depth18_seed3407_lr1e-3_epochs50_no7.log
+$ python train.py --coco_path ./data --output_path ./model7 --depth 18 --seed 3407 --learning_rate 0.001 --epochs 20 | tee log/train_depth18_seed3407_lr1e-3_epochs20.log
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.010
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.020
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.053
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.002
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.302
 epoch_loss_list:
-[2.7840606096222644, 6.339422031063733, 1.8914284717848922, 1.8781852498063891, 23.803518626398926, 2.40679901861769, 3.7329882541744728, 1.9388662739766864, 1.9974971193028248, 1.9923223498768694, 2.3484011270164507, 660.1918529949085, 1.871794019158431, 1.8948066125469885, 1.863816191596309, 1.863240913495304, 1.9853678333947038, 1.9914566110672913, 1.9906568462689092, 1.989665851935627, 1.9953255823512717, 2.0174371571991387, 2.0142035397488303, 2.0154955671058863, 2.01445742092264, 2.014155037290468, 2.0145122831262, 2.01502141520733, 2.0138096667415515, 2.013884313228562, 2.013926536431463, 2.013402830545358, 2.0131661203198545, 2.0142444190312556, 2.013492918389989, 2.0131272388490165, 2.012519365455222, 2.0126802190316946, 2.013397226887425, 2.0129589612089744, 2.011901627258053, 2.012777053465055, 2.0130519370629094, 2.0128408451014614, 2.013073424068023, 2.012129259039098, 2.0129746714914876, 2.0125938947275865, 2.0113711131839302, 2.010876358611377]
+[87.95857101913512, 14.982650478700483, 1.560555976852188, 1.536893064288173, 22.14822560812779, 56.4836165021489, 2.642567965576029, 2.061367801265923, 2.0526319881827813, 6.897480560334649, 192460.9973601208, 1.953764165
+186976, 1.940602258141116, 1.8743701384175482, 1.88869419881678, 455.1726897481506, 1.8737407679867557, 1.8823565633043529, 1.8701253193687266, 15.167173102908716]
 ```
 
 ## model8
@@ -334,7 +347,7 @@ epoch_loss_list:
 [1.3485985781381449, 1.0428863803115416, 0.9080038053372245, 0.8198696776755213, 0.7462012804457991, 0.6849284630972804, 0.6314117278258397, 0.5838938797640754, 0.5408082131853723, 0.5003792778772163, 0.47037841241044087, 0.4360208642837687, 0.4126990730324247, 0.3900142498974373, 0.3647483795749273, 0.34710889965603786, 0.3285140351531661, 0.3097159046291073, 0.300746954141522, 0.28417240203116234, 0.2706226208320577, 0.25768760743543623, 0.24772578569891768, 0.24061031865073354, 0.23440500140908782, 0.22438549321680146, 0.21360355310369372, 0.20982268031715878, 0.20265136179184234, 0.19518770426731763, 0.1902201386538928, 0.18584581637043712, 0.1828563255001241, 0.17607332579974877, 0.17221467088225964, 0.1696188291883111, 0.16682294164564254, 0.16123330928421925, 0.15749495586941356, 0.1559871606928421, 0.15146176567792483, 0.15084946997955032, 0.14413518245390608, 0.14543778893141823, 0.14053164449095082, 0.1371312429926791, 0.13400624088547008, 0.13404743663057334, 0.10965902876387548, 0.09319095793326833]
 ```
 
-## final model
+## final model (model6)
 
 depth18, epochs72, learning rate 1e-4, seed 3407:
 
@@ -375,6 +388,60 @@ DONE (t=0.38s).
 
 ```console
 $ python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 18 --set_name 'test' | tee log/test_model_final.log
-
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Num test images: 643
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 643/643 [03:16<00:00,  3.28it/s]
+Loading and preparing results...
+DONE (t=0.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.53s).
+Accumulating evaluation results...
+DONE (t=0.19s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.073
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.160
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.057
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.112
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.172
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.192
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.192
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.022
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.268
 ```
+
+![model6](./retinanet_graph.png)
+
+# Report
+
+## Codes
+
+### calc_iou
+
+The selected code is a Python function that calculates the Intersection over Union (IoU) of two bounding boxes. The IoU is a measure of the overlap between two bounding boxes. It's often used in object detection tasks to measure the accuracy of the predicted bounding boxes against the ground truth.
+
+The function [`calc_iou`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22calc_iou%22%5D "retinanet/losses.py") takes two arguments, [`a`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22a%22%5D "retinanet/losses.py") and [`b`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22b%22%5D "retinanet/losses.py"), which are PyTorch tensors representing the coordinates of two bounding boxes in the format [x1, y1, x2, y2].
+
+The function first calculates the width ([`iw`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22iw%22%5D "retinanet/losses.py")) and height ([`ih`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22ih%22%5D "retinanet/losses.py")) of the intersection of the two bounding boxes. The `torch.unsqueeze` function is used to add an extra dimension to the tensor `a[:, 2]` and `a[:, 3]` (the x_max and y_max of bounding box [`a`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22a%22%5D "retinanet/losses.py")) and `a[:, 0]` and `a[:, 1]` (the x_min and y_min of bounding box [`a`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22a%22%5D "retinanet/losses.py")). The `torch.min` and `torch.max` functions are used to find the coordinates of the intersection of the two bounding boxes.
+
+The `torch.clamp` function is then used to ensure that the intersection width and height are not less than zero. This is necessary because if the two bounding boxes do not overlap, the calculated intersection width and height could be negative.
+
+The intersection area is then calculated as the product of the intersection width and height.
+
+The area of bounding box [`b`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22b%22%5D "retinanet/losses.py") is calculated as the product of its width and height. The union area ([`ua`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22ua%22%5D "retinanet/losses.py")) of the two bounding boxes is calculated as the sum of the area of bounding box [`a`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22a%22%5D "retinanet/losses.py") and the area of bounding box [`b`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22b%22%5D "retinanet/losses.py"), minus the intersection area. The `torch.unsqueeze` function is used again to add an extra dimension to the area of bounding box [`a`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22a%22%5D "retinanet/losses.py") before adding it to the area of bounding box [`b`](command:_github.copilot.openSymbolInFile?%5B%22retinanet%2Flosses.py%22%2C%22b%22%5D "retinanet/losses.py").
+
+The `torch.clamp` function is used again to ensure that the union area is not less than a very small positive number (1e-8). This is to prevent division by zero in the next step.
+
+Finally, the IoU is calculated as the ratio of the intersection area to the union area, and this value is returned by the function.
+
+In summary, this function calculates the Intersection over Union (IoU) of two bounding boxes, which is a common metric in object detection tasks.
+
+
 
